@@ -247,6 +247,14 @@ header {
   }
 }
 
+@media only screen and (max-width: 450px) {
+  .main-nav .main-nav-logo {
+    background-size: 250px;
+    width: 250px;
+    height: 70px;
+  }
+}
+
 .main-nav-menu {
   display: inline-block;
   vertical-align: middle;
@@ -852,20 +860,6 @@ footer {
 
 .meta-entry .author {
   background: url("/static/img/edit.svg") no-repeat;
-}
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
-
-.sticky + .content {
-  padding-top: 60px;
-}
-
-#menumob {
-  display: none;
 }
 
 .b-content {
