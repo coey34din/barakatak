@@ -1109,4 +1109,83 @@ small {
   color: #69b5e2;
 }
 
+#back-to-top {
+  position: fixed;
+  bottom: 1.5rem;
+  right: 3rem;
+  z-index: 299;
+  opacity: 0;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#back-to-top:hover .back-to-top-text {
+  opacity: 1;
+}
+
+#back-to-top .show {
+  opacity: 1;
+}
+
+#back-to-top .back-to-top-icon {
+  position: relative;
+  display: block;
+  margin: auto;
+  width: 50px;
+  height: 50px;
+  text-align: center;
+  background-color: rgba(51, 51, 51, 0.7);
+  color: #ccc;
+  cursor: pointer;
+  border: 2px solid #ccc;
+  border-radius: 100px;
+  text-decoration: none;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#back-to-top .back-to-top-icon:before {
+  content: "<";
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  /*background-image: url("/static/img/icon-set-qq.png");
+			background-repeat: no-repeat;
+			background-position: -221px -85px;
+			background-size: 912px 595px;*/
+  width: 19px;
+  height: 12px;
+}
+
+#back-to-top .back-to-top-icon:hover {
+  background-color: rgba(0, 15, 1, 0.3);
+}
+
+#back-to-top .back-to-top-text {
+  display: block;
+  margin-top: 10px;
+  color: #ccc;
+  font-size: 1.1rem;
+  font-weight: 500;
+  opacity: 0;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+#back-to-top-Trigger {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1;
+  background: transparent;
+  cursor: pointer;
+}
+
+/***/
 /* --EndBack-To-Top-- */
