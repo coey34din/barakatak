@@ -1090,7 +1090,7 @@ small {
 /* Back-To-Top */
 #back-to-top {
   position: fixed;
-  bottom: 1.5rem;
+  bottom: 3.5rem;
   right: 3rem;
   z-index: 299;
   opacity: 0;
