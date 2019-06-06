@@ -131,7 +131,7 @@ header {
   top: 0;
   z-index: 300;
   width: 100%;
-  background-color: #22011b;
+  background-color: rgba(14, 0, 11, 0.932);
   padding: 0 3rem;
   display: -ms-inline-grid;
   display: inline-grid;
@@ -273,7 +273,7 @@ header {
 }
 
 .main-nav-menu .main-nav-menu-item:hover {
-  background-color: #2D002D;
+  background-color: #rgba 14, 0, 11, 0.932;
 }
 
 .main-nav-menu .main-nav-menu-item:hover .main-nav-menu-link {
