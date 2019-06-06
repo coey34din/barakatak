@@ -12,9 +12,10 @@
 	<main>
 		{{ layoutContent | safe }}
 	</main>
+	
 	{% include "components/mfooter.njk" %}
 	{% include "components/footer.njk" %}
-	
+
 	{% if (analytics.google) %}
     {% include "components/googleanalytics.njk" %}
     {% endif %}
