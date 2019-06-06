@@ -132,9 +132,9 @@ header {
   z-index: 300;
   height: 8.5rem;
   width: 100%;
-  background-color: rgba(8, 0, 7, 0.842);
+  background-color: rgba(8, 0, 7, 0.664);
+  padding: 0 3rem;
   text-align: center;
-  border-bottom: 5px solid rgba(45, 0, 45, 0.815);
 }
 
 .main-nav .main-nav-logo {
@@ -275,17 +275,18 @@ header {
 }
 
 .main-nav-menu .main-nav-menu-item:hover {
-  background-color: rgba(45, 0, 45, 0.815);
+  background-color: #2D002D;
 }
 
 .main-nav-menu .main-nav-menu-item:hover .main-nav-menu-link {
-  color: #fd868a;
+  color: #ffffff;
 }
 
 .main-nav-menu .main-nav-menu-link {
   display: inline-block;
-  font-size: 18px;
-  color: #fd868a;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #d2d2d2;
   padding: 0 1.5rem;
   line-height: 2rem;
   vertical-align: middle;
@@ -293,12 +294,6 @@ header {
   -webkit-transition: all 0.3s ease-in-out;
   transition: all 0.3s ease-in-out;
   text-decoration: none;
-  text-transform: uppercase;
-}
-
-.main-nav-menu a[data-current="current item"] {
-  font-weight: 700;
-  color: #ffe0e1;
 }
 
 @media only screen and (max-width: 768px) {
@@ -365,9 +360,9 @@ header {
   }
   .main-nav-menu .main-nav-menu-link {
     position: relative;
-    line-height: 3.5rem;
-    color: #fff;
-    padding-left: 4.5rem;
+    line-height: 5.5rem;
+    color: #ffffff;
+    padding-left: 6rem;
     white-space: nowrap;
     text-decoration: none;
     width: 100%;
