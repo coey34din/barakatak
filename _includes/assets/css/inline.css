@@ -169,8 +169,9 @@ header .head-title a {
   background-image: url("/static/img/logo3.png");
   background-repeat: no-repeat;
   background-position: 1px;
-  width: 60px;
-  height: 44px;
+  background-size: 224px;
+  width: 227px;
+  height: 60px;
   position: relative;
 }
 
