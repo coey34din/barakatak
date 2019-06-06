@@ -145,9 +145,9 @@ header {
   background-image: url("/static/img/logo3.png");
   background-repeat: no-repeat;
   background-position: 1px;
-  background-size: 200px;
-  width: 200px;
-  height: 57px;
+  background-size: 300px;
+  width: 300px;
+  height: 92px;
   position: relative;
   margin: 0 auto;
 }
@@ -270,7 +270,6 @@ header {
 
 .main-nav-menu a[data-current="current item"] {
   font-weight: 700;
-  text-transform: uppercase;
   color: #ffd1d2;
 }
 
@@ -284,11 +283,12 @@ header {
 
 .main-nav-menu .main-nav-menu-link {
   display: inline-block;
-  font-size: 1.4rem;
+  font-size: 18px;
   font-weight: 500;
+  text-transform: uppercase;
   color: #fd868a;
   padding: 0 1.5rem;
-  line-height: 1.5rem;
+  line-height: 2.5rem;
   vertical-align: middle;
   cursor: pointer;
   -webkit-transition: all 0.3s ease-in-out;
