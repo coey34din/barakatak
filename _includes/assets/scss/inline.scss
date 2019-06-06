@@ -284,14 +284,13 @@ header {
 }
 
 .main-nav-menu .main-nav-menu-item:hover .main-nav-menu-link {
-	color: #ffffff;
+	color: #fd868a;
 }
 
 .main-nav-menu .main-nav-menu-link {
 	display: inline-block;
 	font-size: 1.2rem;
-	font-weight: 500;
-	color: #d2d2d2;
+	color: #fd868a;
 	padding: 0 1.5rem;
 	line-height: 2rem;
 	vertical-align: middle;
@@ -306,7 +305,8 @@ header {
 }
 .main-nav-menu a[data-current="current item"] {
 	font-weight: 700;
-	text-decoration: underline;
+	color: white;
+
 }
 
 
