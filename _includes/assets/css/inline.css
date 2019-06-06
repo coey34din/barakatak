@@ -134,6 +134,8 @@ header {
   width: 100%;
   background-color: #22011b;
   padding: 0 3rem;
+  display: -ms-inline-grid;
+  display: inline-grid;
 }
 
 .main-nav .main-nav-logo {
@@ -184,11 +186,9 @@ header {
     left: 0;
     right: 0;
     top: 25px;
-    /*top: 50%;*/
-    /*-webkit-transform: translateY(-50%);*/
-    /*-ms-transform: translateY(-50%);*/
-    /*-o-transform: translateY(-50%);*/
-    /*transform: translateY(-50%);*/
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    transform: translateY(-50%);
     margin: auto;
   }
   .main-nav .mobile-menu-bttn {
@@ -249,6 +249,7 @@ header {
 .main-nav-menu {
   display: inline-block;
   vertical-align: middle;
+  margin: 0 auto;
 }
 
 .main-nav-menu .main-nav-menu-list {
