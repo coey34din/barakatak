@@ -103,36 +103,12 @@ ul {
 	list-style: none;
 }
 
-/* Header Logo (style as h2) */
+/* Header */
+
 header {
-	display: table;
-	width: 100%;
-	padding: 5px 15px;
-	background: url("/static/img/bg-menu.png") repeat;
+	display: table;	
 	position: absolute;
 	z-index: 1000;
-	}
-header .head-title{
-	width: 100%;
-	margin-top: 15px;
-	text-align: center;
-	display: table;
-
-}
-header .head-title .logo{
-	width:400px;
-	margin: 0 auto;
-
-}
-header .head-title a{
-	font-size: 24px;
-	font-weight: bold;
-	font-style: normal;
-	padding: 0;
-	margin: 0;
-	color: #000;
-	text-decoration: none;
-	text-shadow: 1px 1px 0px #fff;
 }
 .slider{
 	background: #0E0011;
