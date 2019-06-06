@@ -154,16 +154,17 @@ header .head-title a{
 
 .main-nav .main-nav-logo {
 	display: inline-block;
-	vertical-align: middle;
-	line-height: 6.5rem;
-	background-image:url("/static/img/logo3.png");
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: 250px;
+    vertical-align: middle;
+    line-height: 6.5rem;
+    background-image: url(/static/img/logo3.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 278px;
     width: 100%;
-    height: 70px;
-	position: relative;
-	margin-top: 15px;
+    height: 78px;
+    position: relative;
+    margin-top: 15px;
+    margin-bottom: 14px;
 }
 
 .main-nav .mobile-menu-bttn {
