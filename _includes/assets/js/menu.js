@@ -2,7 +2,7 @@
 $(document).ready(function () {
   
     window.breakpoints = [];
-    window.breakpoints['mobile'] = 1024;
+    window.breakpoints['mobile'] = 800;
     // window.breakpoints['tablet'] = 1234;
     // window.breakpoints['desktop'] = 1234;
     var $window = $(window),
