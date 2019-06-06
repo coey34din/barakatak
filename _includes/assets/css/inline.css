@@ -1111,10 +1111,10 @@ small {
   width: 50px;
   height: 50px;
   text-align: center;
-  background-color: rgba(14, 0, 11, 0.932);
-  color: #ccc;
+  background-color: rgba(46, 1, 36, 0.877);
+  color: #c8aacf;
   cursor: pointer;
-  border: 2px solid #ccc;
+  border: 2px solid #rgb 200, 170, 207;
   border-radius: 100px;
   text-decoration: none;
   -webkit-transition: all 0.3s ease;
@@ -1137,7 +1137,7 @@ small {
 }
 
 #back-to-top .back-to-top-icon:hover {
-  background-color: rgba(59, 1, 47, 0.932);
+  background-color: rgba(54, 1, 44, 0.904);
 }
 
 #back-to-top .back-to-top-text {
