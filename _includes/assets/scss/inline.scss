@@ -302,8 +302,12 @@ header {
 	-o-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 	text-decoration: none;
+	
 }
-
+.main-nav-menu a[data-current="current item"] {
+	font-weight: 700;
+	text-decoration: underline;
+}
 
 
 @media only screen and (max-width: 768px) {
