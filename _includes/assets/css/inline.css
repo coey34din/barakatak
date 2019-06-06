@@ -1122,7 +1122,7 @@ small {
 }
 
 #back-to-top .back-to-top-icon:before {
-  content: "<";
+  content: "";
   position: absolute;
   top: 0;
   bottom: 0;
