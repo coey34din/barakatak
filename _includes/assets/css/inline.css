@@ -249,9 +249,9 @@ header {
 
 @media only screen and (max-width: 450px) {
   .main-nav .main-nav-logo {
-    background-size: 250px;
-    width: 250px;
-    height: 70px;
+    background-size: 202px;
+    width: 202px;
+    height: 55px;
   }
 }
 
