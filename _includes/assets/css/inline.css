@@ -165,7 +165,7 @@ header .head-title a {
 .main-nav .main-nav-logo {
   display: inline-block;
   vertical-align: middle;
-  line-height: 6.5rem;
+  line-height: 5rem;
   background-image: url("/static/img/logo3.png");
   background-repeat: no-repeat;
   background-position: 1px;
@@ -330,8 +330,8 @@ header .head-title a {
     position: fixed;
     left: 0;
     top: 0;
-    padding-top: 6.5rem;
-    padding-bottom: 6.5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
     background-color: #22011b;
     height: 100%;
     width: 0;
@@ -439,7 +439,7 @@ header .head-title a {
       -ms-flex-align: center;
           align-items: center;
   float: right;
-  height: 6.5rem;
+  height: 5rem;
 }
 
 .main-nav-buttons .brand-bttn {
