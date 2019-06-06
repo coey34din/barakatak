@@ -121,7 +121,6 @@ header {
 	left: 0;
 	top: 0;
 	z-index: 300;
-	height: 6.5rem;
 	width: 100%;
 	background-color: #22011b;
 	padding: 0 3rem;
@@ -181,7 +180,7 @@ header {
 		-ms-transform: translateY(-50%);
 		-o-transform: translateY(-50%);
 		transform: translateY(-50%);
-		margin: auto;
+		margin: 15px auto 0 auto;
 	}
 	.main-nav .mobile-menu-bttn {
 		z-index: 301;
@@ -287,7 +286,7 @@ header {
 
 .main-nav-menu .main-nav-menu-link {
 	display: inline-block;
-	font-size: 18px;
+	font-size: 20px;
 	font-weight: 500;
 	text-transform: uppercase;
 	color: #fd868a;
