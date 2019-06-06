@@ -1024,8 +1024,6 @@ small {
     display: none;
   }
   .b-content {
-    margin: 0 auto;
-    margin-top: 0px !important;
     display: table;
     width: 100%;
   }
