@@ -156,7 +156,7 @@ header .head-title a {
   left: 0;
   top: 0;
   z-index: 300;
-  height: 6.5rem;
+  height: 5rem;
   width: 100%;
   background-color: #22011b;
   padding: 0 3rem;
@@ -256,19 +256,19 @@ header .head-title a {
   .main-nav .mobile-menu-bttn .line:nth-child(3) {
     top: 21px;
   }
-  .main-nav .mobile-menu-bttn.open .line:nth-child(1) {
-    top: 14px;
-    -webkit-transform: rotate(135deg);
-    transform: rotate(135deg);
-  }
-  .main-nav .mobile-menu-bttn.open .line:nth-child(2) {
+  .main-nav .mobile-menu-bttn .line:nth-child(2) {
     opacity: 0;
     left: -60px;
   }
-  .main-nav .mobile-menu-bttn.open .line:nth-child(3) {
+  .main-nav .mobile-menu-bttn .line:nth-child(3) {
     top: 14px;
     -webkit-transform: rotate(-135deg);
     transform: rotate(-135deg);
+  }
+  .main-nav.open .line:nth-child(1) {
+    top: 14px;
+    -webkit-transform: rotate(135deg);
+    transform: rotate(135deg);
   }
 }
 
