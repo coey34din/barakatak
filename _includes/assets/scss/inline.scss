@@ -124,8 +124,8 @@ header {
 	height: 8.5rem;
 	width: 100%;
 	background-color: rgba(8, 0, 7, 0.664);
-	padding: 0 3rem;
 	text-align: center;
+	border-bottom:5px solid rgba(45, 0, 45, 0.815);
 }
 
 .main-nav .main-nav-logo {
@@ -280,7 +280,7 @@ header {
 }
 
 .main-nav-menu .main-nav-menu-item:hover {
-	background-color: #2D002D;
+	background-color: rgba(45, 0, 45, 0.815);;
 }
 
 .main-nav-menu .main-nav-menu-item:hover .main-nav-menu-link {
