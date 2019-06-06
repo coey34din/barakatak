@@ -285,7 +285,7 @@ header {
 	color: #ffd1d2;
 }
 .main-nav-menu .main-nav-menu-item:hover {
-	background-color: #rgba(14, 0, 11, 0.932);
+	background-color: hsl(359, 100%, 91%);
 }
 
 .main-nav-menu .main-nav-menu-item:hover .main-nav-menu-link {
@@ -1121,7 +1121,7 @@ small{
 		background-color: rgba(105, 3, 83, 0.801);
 		color: rgb(200, 170, 207);;
 		cursor: pointer;
-		border: 2px solid #rgb(200, 170, 207);;
+		border: 2px solid rgb(200, 170, 207);
 		border-radius: 100px;
 		text-decoration: none;
 		-webkit-transition: all 0.3s ease;
