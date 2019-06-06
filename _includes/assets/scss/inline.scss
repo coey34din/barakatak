@@ -145,7 +145,7 @@ header .head-title a{
 	left: 0;
 	top: 0;
 	z-index: 300;
-	height: 6.5rem;
+	height: 8.5rem;
 	width: 100%;
 	background-color: #22011b;
 	padding: 0 3rem;
@@ -158,7 +158,7 @@ header .head-title a{
 	line-height: 6.5rem;
 	background-image:url("/static/img/logo3.png");
 	background-repeat: no-repeat;
-	background-position: 1px;
+	background-position: center;
 	background-size: 250px;
     width: 100%;
     height: 70px;
@@ -310,11 +310,11 @@ header .head-title a{
 
 .main-nav-menu .main-nav-menu-link {
 	display: inline-block;
-	font-size: 1.4rem;
+	font-size: 1.2rem;
 	font-weight: 500;
 	color: #d2d2d2;
 	padding: 0 2rem;
-	line-height: 6.5rem;
+	line-height: 2rem;
 	vertical-align: middle;
 	cursor: pointer;
 	-webkit-transition: all 0.3s ease-in-out;
