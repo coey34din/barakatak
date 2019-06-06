@@ -1278,9 +1278,9 @@ small {
   }
   .footer-site-map input[type=checkbox] + label::after {
     content: "";
-    background-image: url("../images/icon-set.png");
+    background-image: url("/static/img/icon-set.png");
     background-repeat: no-repeat;
-    background-position: -226px -165px;
+    background-position: 16px 16px;
     background-size: 707px 786px;
     width: 12px;
     height: 7px;
