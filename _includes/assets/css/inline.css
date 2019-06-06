@@ -135,6 +135,7 @@ header {
   padding: 0 3rem;
   display: -ms-inline-grid;
   display: inline-grid;
+  margin-bottom: 1px solid #AC07AA;
 }
 
 .main-nav .main-nav-logo {
@@ -869,7 +870,7 @@ footer {
 
 .b-content {
   margin: 0 auto;
-  margin-top: 115px;
+  margin-top: 151px;
   display: table;
   width: 100%;
 }
