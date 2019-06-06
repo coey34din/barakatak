@@ -107,9 +107,33 @@ ul {
 header {
 	display: table;
 	width: 100%;
+	padding: 5px 15px;
+	background: url("/static/img/bg-menu.png") repeat;
+	position: absolute;
 	z-index: 1000;
 	}
+header .head-title{
+	width: 100%;
+	margin-top: 15px;
+	text-align: center;
+	display: table;
 
+}
+header .head-title .logo{
+	width:400px;
+	margin: 0 auto;
+
+}
+header .head-title a{
+	font-size: 24px;
+	font-weight: bold;
+	font-style: normal;
+	padding: 0;
+	margin: 0;
+	color: #000;
+	text-decoration: none;
+	text-shadow: 1px 1px 0px #fff;
+}
 .slider{
 	background: #0E0011;
 	display: block;
@@ -157,8 +181,6 @@ header {
 		padding-left: calc(10px + env(safe-area-inset-left));
 		padding-right: calc(10px + constant(safe-area-inset-right));
 		padding-right: calc(10px + env(safe-area-inset-right));
-		height: 55px;
-		text-align: left;
 	}
 	.main-nav.open {
 		height: 100%;
@@ -179,26 +201,26 @@ header {
 		z-index: 300;
 		left: 0;
 		right: 0;
-		top: 0;
-		background-size: 158px;
-		width: 157px;
-		margin: auto;
+		top: 25px;
+		background-size: 200px;
+    	width: 200px;
 		/*top: 50%;*/
 		/*-webkit-transform: translateY(-50%);*/
 		/*-ms-transform: translateY(-50%);*/
 		/*-o-transform: translateY(-50%);*/
 		/*transform: translateY(-50%);*/
+		margin: auto;
 	}
 	.main-nav .mobile-menu-bttn {
 		z-index: 301;
 		display: inline-block;
 		width: 35px;
 		height: 35px;
-		background-color: #2d002d;
+		background-color: #2D002D;
 		border: 1px solid #660e66;
 		position: relative;
-		top: 11px;
-		left: 4px;
+		top: 38px;
+		left: 15px;
 		/* Burger Animation */
 		/** When The Menu Opened **/
 		/******/
@@ -1029,7 +1051,7 @@ small{
 	}
 	.b-content{
 		margin: 0 auto;
-    margin-top: 56px!important;
+    margin-top: 0px!important;
 		display: table;
 		width: 100%;
     }
