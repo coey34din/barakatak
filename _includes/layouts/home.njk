@@ -1,0 +1,32 @@
+---
+layout: layouts/base.njk
+section: home
+---
+<div class="slider">
+    {% include "components/slider.njk" %}	
+</div>
+<div  class="main-blok">
+    <div class="wrapper">
+        {% include "components/iklan.njk" %}	
+        
+        <div class="main-cont-left">
+            {{ layoutContent | safe }}
+        </div>
+        <div class="main-cont-right">
+            {% include "components/contentright.njk" %}            
+        </div>
+    </div>
+</div>
+<script>
+    $(function () {
+      // Slideshow 1
+        $("#slider1").responsiveSlides({
+            auto: true,
+            pager: true,
+            nav: true,
+            speed: 500,
+            maxwidth: 1200,
+            namespace: "centered-btns"
+        });
+    });
+</script>

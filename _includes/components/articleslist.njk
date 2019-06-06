@@ -1,0 +1,60 @@
+{% set semua = ['blog','artikel','profil','galeri','posts','post'] %}
+{% set bukan = ['blog','profil','galeri','posts','post'] %}
+{% set iya = ['artikel'] %}
+	{% for post in articleslist | reverse %}
+		{% if post.data.tags %}
+			{% for tag in post.data.tags %}
+		  		{% if tag in iya %}
+					<section aria-label="{{ title }}" class="gallery">
+					<!-- <article{% if post.url == url %} data-current="current item"{% endif %} class="gallery"> -->
+						<a href="{{ post.url | url }}">
+							{% if post.data.thumbnail %}
+								<img class="artimg" src="{{ url }}{{ post.data.thumbnail }}" alt="thumbnail">
+								{% else %}
+									<img class="artimg" src="{{ '/' | url }}static/img/no-image.png" alt="thumbnail">
+							{% endif %}						
+							<div class="listgalery">						
+								<h3>
+										{% if post.data.title %}								
+											{{ post.data.title }}
+										{% else %}
+											Untitled
+										{% endif %}
+									
+								</h3>
+								{% if post.data.summary %}
+									<p class="summ">
+										{{ post.data.summary }}
+									</p>
+								{% endif %}
+								<p class="meta-entry">
+									<time datetime="{{ post.date | machineDate }}">
+											<span class="post-date">                    
+												{{ post.date | readableDate }}
+											</span>
+									</time>
+									<span class="author">
+											by <strong>{{ metadata.author.name }}</strong>
+									</span>
+									
+								</p>
+							
+								{% if post.data.tags %}
+									<p class="tags">
+										{% for tag in post.data.tags %}
+											{% if tag not in semua %}
+												{% set tagUrl %}/tags/{{ tag }}/{% endset %}
+												<a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+											{%- endif -%}
+										{% endfor %}
+									</p>
+								{% endif %}						
+							</div>
+						</a>
+					<!-- </article> -->
+					</section>
+				{%- endif -%}
+			{% endfor %}
+		{% endif %}
+	{% endfor %}
+<!-- </section> -->

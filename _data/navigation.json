@@ -1,0 +1,24 @@
+{
+    "main": [
+        {
+            "label": "Home",
+            "url": "/"
+        },       
+        {
+            "label": "Artikel",
+            "url": "/artikel/"
+        },
+        {
+            "label": "Blog",
+            "url": "/blog/"
+        },
+        {
+            "label": "Galeri",
+            "url": "/galeri/"
+        },
+        {
+            "label": "Kontak Kami",
+            "url": "/contact/"
+        }
+    ]
+}

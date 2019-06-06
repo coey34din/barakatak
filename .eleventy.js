@@ -1,41 +1,118 @@
 const { DateTime } = require("luxon");
+const CleanCSS = require("clean-css");
+const UglifyJS = require("uglify-es");
+const htmlmin = require("html-minifier");
+const pluginRss = require("@11ty/eleventy-plugin-rss");
 
+module.exports = function(eleventyConfig) {
 
-module.exports = function(config) {
+eleventyConfig.addPlugin(pluginRss);
 
-  // A useful way to reference to the contect we are runing eleventy in
-  let env = process.env.ELEVENTY_ENV;
+eleventyConfig.addLayoutAlias("post", "layouts/post.njk");
+// Add a readable date formatter filter to Nunjucks
+eleventyConfig.addFilter("dateDisplay", require("./_includes/filters/dates.js"))
 
-  // Layout aliases can make templates more portable
-  config.addLayoutAlias('default', 'layouts/base.njk');
+// Add a HTML timestamp formatter filter to Nunjucks
+eleventyConfig.addFilter("htmlDateDisplay", require("./_includes/filters/timestamp.js"))
 
-  // Add some utiliuty filters
-  config.addFilter("squash", require("./src/filters/squash.js") );
-  config.addFilter("dateDisplay", (dateObj, format = "LLL d, y") => {
-    return DateTime.fromJSDate(dateObj, {
-      zone: "utc"
-    }).toFormat(format);
+eleventyConfig.addCollection("tagList", require("./_includes/helpers/getTagList.js"));
+eleventyConfig.addCollection("catList", require("./_includes/helpers/getCatList.js"));
+
+  // Date formatting (human readable)
+  eleventyConfig.addFilter("readableDate", dateObj => {
+    return DateTime.fromJSDate(dateObj).toFormat("dd LLL yyyy");
   });
 
-  // minify the html output
-  config.addTransform("htmlmin", require("./src/utils/minify-html.js"));
+  // Date formatting (machine readable)
+  eleventyConfig.addFilter("machineDate", dateObj => {
+    return DateTime.fromJSDate(dateObj).toFormat("yyyy-MM-dd");
+  });
 
+  eleventyConfig.addFilter('htmlDateString', (dateObj) => {
+    return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('yyyy-LL-dd');
+  });
 
-  // pass some assets right through
-  config.addPassthroughCopy("./src/site/images");
+  // Minify CSS
+  eleventyConfig.addFilter("cssmin", function(code) {
+    return new CleanCSS({}).minify(code).styles;
+  });
 
-  // make the seed target act like prod
-  env = (env=="seed") ? "prod" : env;
-  return {
-    dir: {
-      input: "src/site",
-      output: "dist",
-      data: `_data/${env}`
-    },
-    templateFormats : ["njk", "md"],
-    htmlTemplateEngine : "njk",
-    markdownTemplateEngine : "njk",
-    passthroughFileCopy: true
+  // Minify JS
+  eleventyConfig.addFilter("jsmin", function(code) {
+    let minified = UglifyJS.minify(code);
+    if (minified.error) {
+      console.log("UglifyJS error: ", minified.error);
+      return code;
+    }
+    return minified.code;
+  });
+
+  // Minify HTML output
+  eleventyConfig.addTransform("htmlmin", function(content, outputPath) {
+    if (outputPath.indexOf(".html") > -1) {
+      let minified = htmlmin.minify(content, {
+        useShortDoctype: true,
+        removeComments: true,
+        collapseWhitespace: true
+      });
+      return minified;
+    }
+    return content;
+  });
+
+  // only content in the `posts/` directory
+  eleventyConfig.addCollection("posts", function(collection) {
+    return collection.getAllSorted().filter(function(item) {
+      return item.inputPath.match(/^\.\/posts\//) !== null;
+    });
+  });
+
+  eleventyConfig.addLiquidFilter("makeUppercase", function(value) { 
+    return value.toUpperCase();
+  });
+
+  
+  // Don't process folders with static assets e.g. images
+  eleventyConfig.addPassthroughCopy("static/img");
+  eleventyConfig.addPassthroughCopy("admin");
+  eleventyConfig.addPassthroughCopy("_includes/assets/");
+  eleventyConfig.addPassthroughCopy("images/uploads/");
+  eleventyConfig.addPassthroughCopy("images/icons/");
+
+  /* Markdown Plugins */
+  let markdownIt = require("markdown-it");
+  let markdownItAnchor = require("markdown-it-anchor");
+  let options = {
+    html: true,
+    breaks: true,
+    linkify: true
+  };
+  let opts = {
+    permalink: false
   };
 
+  eleventyConfig.setLibrary("md", markdownIt(options)
+    .use(markdownItAnchor, opts)
+  );
+
+  return {
+    templateFormats: ["md", "njk", "html", "liquid"],
+
+    // If your site lives in a different subdirectory, change this.
+    // Leading or trailing slashes are all normalized away, so don’t worry about it.
+    // If you don’t have a subdirectory, use "" or "/" (they do the same thing)
+    // This is only used for URLs (it does not affect your file structure)
+    pathPrefix: "/",
+
+    markdownTemplateEngine: "liquid",
+    htmlTemplateEngine: "njk",
+    dataTemplateEngine: "njk",
+    passthroughFileCopy: true,
+    dir: {
+      input: ".",
+      includes: "_includes",
+      data: "_data",
+      output: "_site"
+    }
+  };
 };

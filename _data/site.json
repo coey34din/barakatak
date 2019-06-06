@@ -1,0 +1,13 @@
+{   "name": "DuniaMalam88.com",
+    "title": "Situs Dunia Hiburan Malam Indonesia",
+    "url": "https://www.duniamalam88.com",
+    "description": " Kanal referensi terlengkap yang menyuguhkan informasi tentang kesenangan-kesenangan dunia malam hari",
+    "logo": "/static/img/logo.png",
+    "feed": "feed.xml",
+    "privacy_email": "duniamalamqq@gmail.com",
+    "images": {
+        "favicon": "/static/img/favicon.ico",
+        "twitter": "/static/img/twitter.jpg",
+        "og": "/static/img/og.jpg"
+    }
+}

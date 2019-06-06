@@ -1,0 +1,41 @@
+---
+layout: layouts/base.njk
+section: post
+---
+<img class="b-content" src="{{ '/' | url }}static/img/banner-content1.jpg" alt="Post DuniaMalam88.com">
+<div  class="main-blok">
+    <div class="wrapper">
+        <article>
+        <h2>{{ title }}</h2>
+        <p class="meta-entry">
+        <time datetime="{{ date | machineDate }}">
+            <span class="post-date">                    
+                {{ date | readableDate }}
+            </span>
+        </time>            
+            <span class="author">
+                by <strong>{{ metadata.author.name }}</strong>
+            </span>                  
+    </p>
+
+        {{ layoutContent | safe }}
+
+{% set bukan = ['artikel','blog','profil','galeri','posts','post'] %}
+        {% if tags %}
+            <p>
+            {% for tag in tags %}
+                {% if tag not in bukan %}
+                {% set tagUrl %}/tags/{{ tag | urlencode }}/{% endset %}
+                <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+                {%- endif -%}
+            {% endfor %}
+            </p>
+        {% endif %}
+
+        </article>
+
+        <nav>
+                <a href="{{ '/blog/' | url }}">← Blog index</a>
+        </nav>
+    </div>
+</div>

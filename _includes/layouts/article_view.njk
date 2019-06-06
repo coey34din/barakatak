@@ -1,0 +1,43 @@
+---
+layout: layouts/base.njk
+section: artikel
+---
+<img class="b-content" src="{{ '/' | url }}static/img/banner-content.jpg" alt="Artikel DuniaMalam88.com">
+<div  class="main-blok">
+    <div class="wrapper">
+        <article>
+            <h1>{{ title }}</h1>
+            <p class="meta-entry">
+                <time datetime="{{ post.date | machineDate }}">
+                    <span class="post-date">                    
+                        {{ post.date | readableDate }}
+                    </span>
+                </time>
+                <span class="author">
+                    by <strong>{{ metadata.author.name }}</strong>
+                </span>
+                
+            </p>
+            <!--
+            This is for a single content that linked from majalahslist to majalah_view
+            -->
+            {{ layoutContent | safe }}
+                {% if tags %}
+                <p>
+                {% for tag in tags %}
+                    {%- if tag != "post" -%}
+                    {% set tagUrl %}/tags/{{ tag }}/{% endset %}
+                    <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+                    {%- endif -%}
+                {% endfor %}
+                </p>
+            {% endif %}
+
+
+        </article>
+
+        <nav>
+            <a href="{{ '/artikel/' | url }}">← Article index</a>
+        </nav>
+    </div>
+</div>
