@@ -158,7 +158,7 @@ header .head-title a {
   z-index: 300;
   height: 8.5rem;
   width: 100%;
-  background-color: #22011b;
+  background-color: rgba(24, 1, 19, 0.61);
   padding: 0 3rem;
   text-align: center;
 }
@@ -285,7 +285,6 @@ header .head-title a {
 .main-nav-menu .main-nav-menu-list {
   list-style-type: none;
   margin: 0;
-  padding-left: 4rem;
 }
 
 .main-nav-menu .main-nav-menu-item {
