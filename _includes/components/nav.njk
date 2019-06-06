@@ -10,7 +10,7 @@
 	<div class="main-nav-menu">
 		<!-- Main Nav Menu -->
 		<ul class="main-nav-menu-list">
-                {% for item in navigation.main %}
+                {%- for item in navigation.main -%}
                     <li class="main-nav-menu-item">
                         <a class="main-nav-menu-link link3" href="{{ item.url | safe }}" {% if page.url == item.url %} data-current="current item"{% endif %}>{{ item.label }}</a>
                     </li>
