@@ -31,3 +31,29 @@ $(document).ready(function () {
         $('.main-nav-menu, .main-nav, .mobile-menu-bttn').toggleClass("open");
     };
 });
+
+/** Back to top **/
+
+var oldScrollTop = 0;
+if ($('#back-to-top').length) {
+    var scrollTrigger = 200, // px
+        backToTop = function () {
+            var scrollTop = $(window).scrollTop();
+            if ((scrollTop < oldScrollTop) && scrollTop > scrollTrigger) {
+                $('#back-to-top').addClass('show');
+            } else {
+                $('#back-to-top').removeClass('show');
+            }
+        };
+    backToTop();
+    $(window).on('scroll', function () {
+        backToTop();
+        oldScrollTop = $(window).scrollTop();
+    });
+    $('#back-to-top-Trigger').on('click', function (e) {
+        e.preventDefault();
+        $('html,body').animate({
+            scrollTop: 0
+        }, 700);
+    });
+}
