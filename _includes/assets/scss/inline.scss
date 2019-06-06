@@ -125,6 +125,7 @@ header {
 	width: 100%;
 	background-color: #22011b;
 	padding: 0 3rem;
+	display:inline-grid;
 }
 
 .main-nav .main-nav-logo {
@@ -251,6 +252,7 @@ header {
 .main-nav-menu {
 	display: inline-block;
 	vertical-align: middle;
+	margin: 0 auto;
 }
 
 .main-nav-menu .main-nav-menu-list {
