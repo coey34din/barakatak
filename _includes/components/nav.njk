@@ -1,3 +1,6 @@
+<nav id="topmenu">
+
+</nav>
 <nav class="main-nav">
 	<a class="mobile-menu-bttn" href="javascript:void(0)">
 		<span class="line"></span>
@@ -10,11 +13,11 @@
 	<div class="main-nav-menu">
 		<!-- Main Nav Menu -->
 		<ul class="main-nav-menu-list">
-            <li class="main-nav-menu-item">
-                <li >
-                <a href="{{ item.url | safe }}" {% if page.url == item.url %} data-current="current item"{% endif %}>{{ item.label }}</a>
-                </li>
-            {%- endfor -%}
+                {% for item in navigation.main %}
+                   <li class="main-nav-menu-item">
+                    <a class="main-nav-menu-link link3" href="{{ item.url | safe }}" {% if page.url == item.url %} data-current="current item"{% endif %}>{{ item.label }}</a>
+                    </li>
+                {%- endfor -%}
 		</ul>
 				<!-- support mobile link -->
 	</div>
