@@ -1131,6 +1131,7 @@ small {
   margin: auto;
   background-image: url("/static/img/navigate-up-arrow.png");
   background-repeat: no-repeat;
+  background-size: 16px;
   background-position: center;
   width: 18px;
   height: 18px;
