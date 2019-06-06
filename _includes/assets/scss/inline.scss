@@ -201,6 +201,8 @@ header .head-title a{
 		left: 0;
 		right: 0;
 		top: 25px;
+		background-size: 200px;
+    	width: 200px;
 		/*top: 50%;*/
 		/*-webkit-transform: translateY(-50%);*/
 		/*-ms-transform: translateY(-50%);*/
@@ -216,8 +218,6 @@ header .head-title a{
 		background-color: #2D002D;
 		border: 1px solid #660e66;
 		position: relative;
-		background-size: 200px;
-    	width: 200px;
 		top: 38px;
 		left: 15px;
 		/* Burger Animation */
