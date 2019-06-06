@@ -1,0 +1,74 @@
+<!doctype html>
+<html {% if section %} data-current="{{ section }}"{% endif %} lang="id">
+
+	{% include "components/head.njk" %}
+
+	<body>
+		<div id="page">  
+			<div class="mh-head Sticky">
+				<span class="mh-btns-left">
+					<a class="bars-menu" href="#menu"></a>
+				</span>
+				<span class="mh-text">DUNIA MALAM</span>
+			</div>	
+			<header>	
+				{% include "components/header.njk" %}				
+				{% include "components/nav.njk" %}
+					
+				
+			</header>	
+			<main>
+				{{ layoutContent | safe }}
+			</main>
+			{% include "components/mfooter.njk" %}
+			{% include "components/footer.njk" %}
+
+			<nav id="menu">				
+				<ul>
+					<li class="log-menu">
+						<img  src="{{ '/' | url }}static/img/logo-img.png" alt="Logo Duniamalam88.com">
+						<p>DUNIA MALAM</p>
+					</li>
+					{%- for nav in collections.nav | sort(attribute="date") -%}
+					<li>
+						<a href="{{ nav.url | url }}"{% if nav.url == page.url %} data-current="current item"{% endif %}>{{ nav.data.navtitle }}</a>
+					</li>
+					{%- endfor -%}
+				</ul>
+			</nav>
+			
+		</div>
+
+	<script src="//cdnjs.cloudflare.com/ajax/libs/jQuery.mmenu/7.3.3/jquery.mmenu.all.js"></script>
+	<script src="{{ '/' | url }}_includes/assets/js/jquery.mhead.js"></script>
+	<script>
+    $(function() {
+
+        //	create a menu
+        $('#menu').mmenu();
+
+        //	fire the plugin
+        $('.mh-head').mhead({
+            hooks: {
+                'scrolledIn:before': function () {
+                    console.log('scrolledIn');
+                },
+                'scrolledOut:before': function () {
+                    console.log('scrolledOut');
+                }
+            }
+        });
+
+        //	for demo only
+        $('a[href^="#/"]').click(function() {
+            alert( 'Thank you for clicking, but that\'s a demo link.' );
+            return;
+        })
+    });
+</script>
+ 	{% if (analytics.google) %}
+    {% include "components/googleanalytics.njk" %}
+    {% endif %}
+
+	</body>
+</html>
