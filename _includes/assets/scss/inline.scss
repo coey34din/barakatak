@@ -1333,10 +1333,11 @@ small{
 	padding: 8px 5px 0px 5px;
 	margin: 0 5px;
 	border-radius: 32px;   
-	&:hover{background: $c-black}                 
+	&:hover{
+		background: transparent
+	}                 
 	svg{
 		width: 18px;
 		height: 18px;
-	}
-	
+	}	
 }
