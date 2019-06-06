@@ -1108,7 +1108,7 @@ small{
 	&:hover .back-to-top-text {
 		opacity: 1;
 	}
-	.show {
+	&.show {
 		opacity: 1;
 	}
 	.back-to-top-icon {
@@ -1175,8 +1175,6 @@ small{
 	background: transparent;
 	cursor: pointer;
 }
-#back-to-top.show {
-    opacity: 1;
-}
+
 /***/
 /* --EndBack-To-Top-- */
