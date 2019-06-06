@@ -148,7 +148,7 @@ header {
   width: 300px;
   height: 92px;
   position: relative;
-  margin: 0 auto;
+  margin: 15px auto 0 auto;
 }
 
 .main-nav .mobile-menu-bttn {
@@ -189,7 +189,7 @@ header {
     top: 53px;
     -webkit-transform: translateY(-50%);
     transform: translateY(-50%);
-    margin: 15px auto 0 auto;
+    margin: 0 auto;
   }
   .main-nav .mobile-menu-bttn {
     z-index: 301;
