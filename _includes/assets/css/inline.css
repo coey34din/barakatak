@@ -1045,6 +1045,9 @@ small {
   .gallery {
     width: 47.996964%;
   }
+  .gallery {
+    margin: 0 7px 7px;
+  }
   footer {
     text-align: center;
   }
