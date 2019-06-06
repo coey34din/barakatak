@@ -360,9 +360,9 @@ header {
   }
   .main-nav-menu .main-nav-menu-link {
     position: relative;
-    line-height: 5.5rem;
-    color: #ffffff;
-    padding-left: 6rem;
+    line-height: 3.5rem;
+    color: #fff;
+    padding-left: 4.5rem;
     white-space: nowrap;
     text-decoration: none;
     width: 100%;
