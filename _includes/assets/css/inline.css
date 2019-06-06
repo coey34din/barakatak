@@ -333,8 +333,8 @@ header {
     -webkit-transition: all 0.3s ease;
     transition: all 0.3s ease;
     width: 100%;
-    padding-top: 56px;
-    padding-bottom: 56px;
+    padding-top: 6.5rem;
+    padding-bottom: 6.5rem;
   }
   .main-nav-menu .main-nav-menu-list {
     padding-left: 0;
