@@ -289,7 +289,7 @@ header {
 
 .main-nav-menu .main-nav-menu-link {
 	display: inline-block;
-	font-size: 1.2rem;
+	font-size: 18px;
 	color: #fd868a;
 	padding: 0 1.5rem;
 	line-height: 2rem;
@@ -301,11 +301,11 @@ header {
 	-o-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 	text-decoration: none;
-	
+	text-transform: uppercase;
 }
 .main-nav-menu a[data-current="current item"] {
 	font-weight: 700;
-	color: white;
+	color: #ffe0e1;
 
 }
 
