@@ -1,65 +1,26 @@
 <div class="wrapper"> 
-<div class="footer-site-map">
-          {% set postslist = collections.blog %}
-          {% set articleslist = collections.artikel %} 
-          {% set galeryslist = collections.galeri %} 
-          <div class="site-map-group"> 
-               <input id="site-map-group-four" type="checkbox">               
-               <label class="site-map-group-title" for="site-map-group-four">                   
-                    <h3>BLOG TERBARU</h3>
-               </label>
-               <ul class="site-map-group-list">  
-               {% set a = 0 %}
-               {% for post in postslist | reverse %}
-                    {% if a < 6 %}
-                    {%set a = a + 1 %}
-                    <li {% if post.url == url %} data-current="current item"{% endif %}  class="site-map-group-item">
-                         <h2>
-                              <a href="{{ post.url | url }}">
-                                   {% if post.data.title %}                                             	
-                                        {{ post.data.title }}
-                                   {% else %}
-                                        Untitled
-                                   {% endif %}
-                              </a>
-                         </h2>
-                         <p class="meta-entry">
-                              <time datetime="{{ post.date | machineDate }}">
-                                   <span class="post-date">                    
-                                        {{ post.date | readableDate }}
-                                   </span>
-                              </time>
-                              <span class="author">
-                                   by <strong>{{ metadata.author.name }}</strong>
-                              </span>
-                         </p>
-                    </li>
-                    {%endif%}
-               {% endfor %}
-               </ul>
-          </div>
-
-
-          <div class="site-map-group">
-               <input id="site-map-group-four" type="checkbox"> 
-               <label class="site-map-group-title" for="site-map-group-four">                     
-                    <h3>ARTIKEL TERBARU</h3>
-               </label>      
-               <ul class="site-map-group-list">         
-               {% set b = 0 %}             
-               {% for post in articleslist | reverse %}
-                    {% if b < 6 %}
-                    {%set b = b + 1 %}                     
+     <div class="footer-site-map">
+               {% set postslist = collections.blog %}
+               {% set articleslist = collections.artikel %} 
+               {% set galeryslist = collections.galeri %} 
+               <div class="site-map-group"> 
+                    <input id="site-map-group-four" type="checkbox">               
+                    <label class="site-map-group-title" for="site-map-group-four">                   
+                         <h3>BLOG TERBARU</h3>
+                    </label>
+                    <ul class="site-map-group-list">  
+                    {% set a = 0 %}
+                    {% for post in postslist | reverse %}
+                         {% if a < 6 %}
+                         {%set a = a + 1 %}
                          <li {% if post.url == url %} data-current="current item"{% endif %}  class="site-map-group-item">
-                              <h2>
-                                   <a href="{{ post.url | url }}">
+                                   <a class="site-map-link"  href="{{ post.url | url }}">
                                         {% if post.data.title %}                                             	
                                              {{ post.data.title }}
                                         {% else %}
                                              Untitled
                                         {% endif %}
                                    </a>
-                              </h2>	
                               <p class="meta-entry">
                                    <time datetime="{{ post.date | machineDate }}">
                                         <span class="post-date">                    
@@ -70,75 +31,78 @@
                                         by <strong>{{ metadata.author.name }}</strong>
                                    </span>
                               </p>
-                         </li>                    
-                    {%endif%}
-               {% endfor %} 
-               </ul>                   
-          </div>
-          <div class="site-map-group">
-               <input id="site-map-group-four" type="checkbox">  
-               <label class="site-map-group-title" for="site-map-group-four">                    
-                    <h3>GALERI TERBARU</h3>
-               </label>  
-               <ul class="site-map-group-list">  
-               {% set c = 0 %}            
-               {% for post in galeryslist | reverse %}
-                    {% if c < 6 %}
-                    {%set c = c + 1 %}
-                    <li {% if post.url == url %} data-current="current item"{% endif %}  class="site-map-group-item">
-                         <h2>
-                              <a href="{{ post.url | url }}">
-                                   {% if post.data.title %}                                             	
-                                        {{ post.data.title }}
-                                   {% else %}
-                                        Untitled
-                                   {% endif %}
-                              </a>
-                         </h2>
-                         <p class="meta-entry">
-                              <time datetime="{{ post.date | machineDate }}">
-                                   <span class="post-date">                    
-                                        {{ post.date | readableDate }}
+                         </li>
+                         {%endif%}
+                    {% endfor %}
+                    </ul>
+               </div>
+
+
+               <div class="site-map-group">
+                    <input id="site-map-group-four" type="checkbox"> 
+                    <label class="site-map-group-title" for="site-map-group-four">                     
+                         <h3>ARTIKEL TERBARU</h3>
+                    </label>      
+                    <ul class="site-map-group-list">         
+                    {% set b = 0 %}             
+                    {% for post in articleslist | reverse %}
+                         {% if b < 6 %}
+                         {%set b = b + 1 %}                     
+                              <li {% if post.url == url %} data-current="current item"{% endif %}  class="site-map-group-item">
+                                        <a class="site-map-link"  href="{{ post.url | url }}">
+                                             {% if post.data.title %}                                             	
+                                                  {{ post.data.title }}
+                                             {% else %}
+                                                  Untitled
+                                             {% endif %}
+                                        </a>
+                                   <p class="meta-entry">
+                                        <time datetime="{{ post.date | machineDate }}">
+                                             <span class="post-date">                    
+                                                  {{ post.date | readableDate }}
+                                             </span>
+                                        </time>
+                                        <span class="author">
+                                             by <strong>{{ metadata.author.name }}</strong>
+                                        </span>
+                                   </p>
+                              </li>                    
+                         {%endif%}
+                    {% endfor %} 
+                    </ul>                   
+               </div>
+               <div class="site-map-group">
+                    <input id="site-map-group-four" type="checkbox">  
+                    <label class="site-map-group-title" for="site-map-group-four">                    
+                         <h3>GALERI TERBARU</h3>
+                    </label>  
+                    <ul class="site-map-group-list">  
+                    {% set c = 0 %}            
+                    {% for post in galeryslist | reverse %}
+                         {% if c < 6 %}
+                         {%set c = c + 1 %}
+                         <li {% if post.url == url %} data-current="current item"{% endif %}  class="site-map-group-item">
+                                   <a class="site-map-link" href="{{ post.url | url }}">
+                                        {% if post.data.title %}                                             	
+                                             {{ post.data.title }}
+                                        {% else %}
+                                             Untitled
+                                        {% endif %}
+                                   </a>
+                              <p class="meta-entry">
+                                   <time datetime="{{ post.date | machineDate }}">
+                                        <span class="post-date">                    
+                                             {{ post.date | readableDate }}
+                                        </span>
+                                   </time>
+                                   <span class="author">
+                                        by <strong>{{ metadata.author.name }}</strong>
                                    </span>
-                              </time>
-                              <span class="author">
-                                   by <strong>{{ metadata.author.name }}</strong>
-                              </span>
-                         </p>
-                    </li>
-                    {%endif%}
-               {% endfor %}       
-               </ul>           
-          </div>               
-</div>
-
-<div class="footer-site-map">
-            <!--site-map-groups-->
-     <div class="site-map-group">
-          <input id="site-map-group-four" type="checkbox"> 
-          <label class="site-map-group-title" for="site-map-group-four">
-          <a href="https://www.dewa88.com/banking/">Secure Banking</a>
-          </label>
-     <ul class="site-map-group-list">
-     <li class="site-map-group-item"><a class="site-map-link" href="https://www.dewa88.com/banking/deposit/">Deposit</a></li>
-     <li class="site-map-group-item"><a class="site-map-link" href="https://www.dewa88.com/banking/withdrawal/">Withdrawal</a></li>
-     <li class="site-map-group-item"><a class="site-map-link" href="https://www.dewa88.com/banking/deposit/how-to-deposit/">How to Deposit</a></li>
-     <li class="site-map-group-item"><a class="site-map-link" href="https://www.dewa88.com/banking/bonus-policy/">Bonus Policy</a></li>
-     </ul>
-     </div>
-     <div class="site-map-group">
-     <input id="site-map-group-five" type="checkbox"> 
-          <label class="site-map-group-title" for="site-map-group-five">
-          <a href="https://www.dewa88.com/security-and-privacy/">Security &amp; Privacy</a>
-     </label>
-     <ul class="site-map-group-list">
-          <li class="site-map-group-item"><a class="site-map-link" href="#">Privacy Policy</a></li>
-          <li class="site-map-group-item"><a class="site-map-link" href="#">User Agreement</a></li>
-          <li class="site-map-group-item"><a class="site-map-link" href="#">Responsible Gaming</a></li>
-          <li class="site-map-group-item"><a class="site-map-link" href="#">Fair Play</a></li>
-          <li class="site-map-group-item"><a class="site-map-link" href="#"></a></li>
-     </ul>
+                              </p>
+                         </li>
+                         {%endif%}
+                    {% endfor %}       
+                    </ul>           
+               </div>               
      </div>
 </div>
-
- </div>
