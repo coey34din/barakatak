@@ -1,12 +1,12 @@
+<div class="wrapper"> 
 <section class="footer-site-map">
-     <div class="wrapper"> 
           {% set postslist = collections.blog %}
           {% set articleslist = collections.artikel %} 
           {% set galeryslist = collections.galeri %} 
           <div class="site-map-group"> 
                <input id="site-map-group-four" type="checkbox">               
                <label class="site-map-group-title" for="site-map-group-four">                   
-                    <a hreff""><h3>BLOG TERBARU</a></h3>
+                    <h3>BLOG TERBARU</h3>
                </label>
                <ul class="site-map-group-list">  
                {% set a = 0 %}
@@ -43,14 +43,13 @@
           <div class="site-map-group">
                <input id="site-map-group-four" type="checkbox"> 
                <label class="site-map-group-title" for="site-map-group-four">                     
-                    <a hreff""><h3>ARTIKEL TERBARU</a></h3>
+                    <h3>ARTIKEL TERBARU</h3>
                </label>      
                <ul class="site-map-group-list">         
                {% set b = 0 %}             
                {% for post in articleslist | reverse %}
                     {% if b < 6 %}
-                    {%set b = b + 1 %}
-                     
+                    {%set b = b + 1 %}                     
                          <li {% if post.url == url %} data-current="current item"{% endif %}  class="site-map-group-item">
                               <h2>
                                    <a href="{{ post.url | url }}">
@@ -79,7 +78,7 @@
           <div class="site-map-group">
                <input id="site-map-group-four" type="checkbox">  
                <label class="site-map-group-title" for="site-map-group-four">                    
-                    <a hreff""><h3>GALERI TERBARU</a></h3>
+                    <h3>GALERI TERBARU</h3>
                </label>  
                <ul class="site-map-group-list">  
                {% set c = 0 %}            
@@ -111,5 +110,5 @@
                {% endfor %}       
                </ul>           
           </div>               
-     </div>
 </section>
+ </div>
