@@ -486,7 +486,7 @@ header {
 .gallery{
     width: 23.9996434%;
     display: inline-table;
-    margin: 20px
+    margin: 20px;
     line-height: 1.2;
     border: 1px solid #490157ce;
     border-radius: 5px;
@@ -500,7 +500,7 @@ header {
         border-radius: 15px;
         margin-bottom: 0px;
         padding: 10px;
-        height: 155px;;
+        height: 155px;
         background: transparent;
     }
 }
@@ -1051,7 +1051,12 @@ small{
         }
     }
     .gallery{
-        width: 47.4964%;
+        width:  44.226964%;
+    }
+    .box-footer{
+        aside{
+            width: 100%;
+        }
     }
     footer{
         text-align: center;
