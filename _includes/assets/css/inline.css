@@ -455,7 +455,7 @@ header {
 /* end menu */
 /* gallery */
 .gallery {
-  width: 21.599643%;
+  width: 23.289643%;
   display: inline-table;
   margin: 10px;
   line-height: 1.2;
@@ -1039,7 +1039,7 @@ small {
     width: 31.48555%;
   }
   .gallery {
-    width: 44.226964%;
+    width: 47.326964%;
   }
   footer {
     text-align: center;
@@ -1063,7 +1063,7 @@ small {
     width: 30.88555%;
   }
   .gallery {
-    width: 100%;
+    width: 95%;
   }
   .gallery img {
     height: auto;
