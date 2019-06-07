@@ -1,6 +1,7 @@
 {% set semua = ['blog','artikel','profil','galeri','posts','post'] %}
 {% set bukan = ['artikel','profil','galeri','posts','post'] %}
 {% set iya = ['blog'] %}
+<div class="row">
 	{% for post in postslist | reverse %}
 		{% if post.data.tags %}
 			{% for tag in post.data.tags %}
@@ -42,3 +43,4 @@
 			{% endfor %}
 		{% endif %}
 	{% endfor %}
+</div>
