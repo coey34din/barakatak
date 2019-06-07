@@ -1,100 +1,106 @@
-<section class="m-footer">
-<div class="wrapper"> 
-     {% set postslist = collections.blog %}
-     {% set articleslist = collections.artikel %} 
-     {% set galeryslist = collections.galeri %} 
-     <div class="box-footer">
-          <h3>BLOG TERBARU</h3>
-
-          {% set a = 0 %}
-          {% for post in postslist | reverse %}
-               {% if a < 6 %}
-               {%set a = a + 1 %}
-               <aside {% if post.url == url %} data-current="current item"{% endif %}>
-                    <h3>
-                         <a href="{{ post.url | url }}">
-                              {% if post.data.title %}                                             	
-                                   {{ post.data.title }}
-                              {% else %}
-                                   Untitled
-                              {% endif %}
-                         </a>
-                    </h3>
-                    <p class="meta-entry">
-                         <time datetime="{{ post.date | machineDate }}">
-                              <span class="post-date">                    
-                                   {{ post.date | readableDate }}
+<section class="footer-site-map">
+     <div class="wrapper"> 
+          {% set postslist = collections.blog %}
+          {% set articleslist = collections.artikel %} 
+          {% set galeryslist = collections.galeri %} 
+          <div class="site-map-group">               
+               <label class="site-map-group-title" for="site-map-group-four">
+                    <h3>BLOG TERBARU</h3>
+               </label>
+               {% set a = 0 %}
+               {% for post in postslist | reverse %}
+                    {% if a < 6 %}
+                    {%set a = a + 1 %}
+                    <aside {% if post.url == url %} data-current="current item"{% endif %}  class="site-map-group-item">
+                         <h3>
+                              <a href="{{ post.url | url }}">
+                                   {% if post.data.title %}                                             	
+                                        {{ post.data.title }}
+                                   {% else %}
+                                        Untitled
+                                   {% endif %}
+                              </a>
+                         </h3>
+                         <p class="meta-entry">
+                              <time datetime="{{ post.date | machineDate }}">
+                                   <span class="post-date">                    
+                                        {{ post.date | readableDate }}
+                                   </span>
+                              </time>
+                              <span class="author">
+                                   by <strong>{{ metadata.author.name }}</strong>
                               </span>
-                         </time>
-                         <span class="author">
-                              by <strong>{{ metadata.author.name }}</strong>
-                         </span>
-                    </p>
-               </aside>
-               {%endif%}
-          {% endfor %}
+                         </p>
+                    </aside>
+                    {%endif%}
+               {% endfor %}
+          </div>
+
+
+          <div class="site-map-group">
+               <label class="site-map-group-title" for="site-map-group-four">
+                    <h3>ARTIKEL TERBARU</h3>  
+               </label>               
+               {% set b = 0 %}             
+               {% for post in articleslist | reverse %}
+                    {% if b < 6 %}
+                    {%set b = b + 1 %}
+                    <aside {% if post.url == url %} data-current="current item"{% endif %}  class="site-map-group-item">
+                         <h3>
+                              <a href="{{ post.url | url }}">
+                                   {% if post.data.title %}                                             	
+                                        {{ post.data.title }}
+                                   {% else %}
+                                        Untitled
+                                   {% endif %}
+                              </a>
+                         </h3>	
+                         <p class="meta-entry">
+                              <time datetime="{{ post.date | machineDate }}">
+                                   <span class="post-date">                    
+                                        {{ post.date | readableDate }}
+                                   </span>
+                              </time>
+                              <span class="author">
+                                   by <strong>{{ metadata.author.name }}</strong>
+                              </span>
+                         </p>
+                    </aside>
+                    {%endif%}
+               {% endfor %}                    
+          </div>
+          <div class="site-map-group">
+               <label class="site-map-group-title" for="site-map-group-four">
+                    <h3>GALERI TERBARU</h3>   
+               </label>  
+               
+               {% set c = 0 %}            
+               {% for post in galeryslist | reverse %}
+                    {% if c < 6 %}
+                    {%set c = c + 1 %}
+                    <aside {% if post.url == url %} data-current="current item"{% endif %}  class="site-map-group-item">
+                         <h3>
+                              <a href="{{ post.url | url }}">
+                                   {% if post.data.title %}                                             	
+                                        {{ post.data.title }}
+                                   {% else %}
+                                        Untitled
+                                   {% endif %}
+                              </a>
+                         </h3>
+                         <p class="meta-entry">
+                              <time datetime="{{ post.date | machineDate }}">
+                                   <span class="post-date">                    
+                                        {{ post.date | readableDate }}
+                                   </span>
+                              </time>
+                              <span class="author">
+                                   by <strong>{{ metadata.author.name }}</strong>
+                              </span>
+                         </p>
+                    </aside>
+                    {%endif%}
+               {% endfor %}                  
+          </div>               
      </div>
-
-
-     <div class="box-footer">
-          <h3>ARTIKEL TERBARU</h3>  
-          {% set b = 0 %}             
-          {% for post in articleslist | reverse %}
-               {% if b < 6 %}
-               {%set b = b + 1 %}
-               <aside {% if post.url == url %} data-current="current item"{% endif %}>
-                    <h3>
-                         <a href="{{ post.url | url }}">
-                              {% if post.data.title %}                                             	
-                                   {{ post.data.title }}
-                              {% else %}
-                                   Untitled
-                              {% endif %}
-                         </a>
-                    </h3>	
-                    <p class="meta-entry">
-                         <time datetime="{{ post.date | machineDate }}">
-                              <span class="post-date">                    
-                                   {{ post.date | readableDate }}
-                              </span>
-                         </time>
-                         <span class="author">
-                              by <strong>{{ metadata.author.name }}</strong>
-                         </span>
-                    </p>
-               </aside>
-               {%endif%}
-          {% endfor %}                    
-     </div>
-     <div class="box-footer">
-          <h3>GALERI TERBARU</h3>   
-          {% set c = 0 %}            
-          {% for post in galeryslist | reverse %}
-               {% if c < 6 %}
-               {%set c = c + 1 %}
-               <aside {% if post.url == url %} data-current="current item"{% endif %}>
-                    <h3>
-                         <a href="{{ post.url | url }}">
-                              {% if post.data.title %}                                             	
-                                   {{ post.data.title }}
-                              {% else %}
-                                   Untitled
-                              {% endif %}
-                         </a>
-                    </h3>
-                    <p class="meta-entry">
-                         <time datetime="{{ post.date | machineDate }}">
-                              <span class="post-date">                    
-                                   {{ post.date | readableDate }}
-                              </span>
-                         </time>
-                         <span class="author">
-                              by <strong>{{ metadata.author.name }}</strong>
-                         </span>
-                    </p>
-               </aside>
-               {%endif%}
-          {% endfor %}                  
-     </div>               
-</div>
 </section>
