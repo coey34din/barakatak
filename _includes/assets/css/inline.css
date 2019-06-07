@@ -1234,7 +1234,7 @@ small {
   color: #eed8d9;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 850px) {
   .footer-site-map {
     -moz-flex-direction: column;
     -ms-flex-direction: column;
