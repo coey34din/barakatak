@@ -89,11 +89,6 @@ p img {
   background: url("/static/img/bg1.png") repeat-x top;
 }
 
-.main-blok :first-child,
-.main-blok > article :first-child {
-  margin-top: 0;
-}
-
 pre {
   font-size: 14px;
   direction: ltr;
@@ -460,7 +455,7 @@ header {
 /* end menu */
 /* gallery */
 .gallery {
-  width: 23.9996434%;
+  width: 21.599643%;
   display: inline-table;
   margin: 20px;
   line-height: 1.2;
