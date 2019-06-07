@@ -1200,6 +1200,9 @@ small {
 
 .footer-site-map .site-map-group-title h3 {
   font-size: 16px;
+  margin: 0;
+  padding: 0;
+  line-height: 1;
 }
 
 .footer-site-map .site-map-group-title:hover {
