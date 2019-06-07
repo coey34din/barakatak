@@ -7,11 +7,12 @@
                <label class="site-map-group-title" for="site-map-group-four">
                     <h3>BLOG TERBARU</h3>
                </label>
+               <ul class="site-map-group-list">  
                {% set a = 0 %}
                {% for post in postslist | reverse %}
                     {% if a < 6 %}
                     {%set a = a + 1 %}
-                    <aside {% if post.url == url %} data-current="current item"{% endif %}  class="site-map-group-item">
+                    <li {% if post.url == url %} data-current="current item"{% endif %}  class="site-map-group-item">
                          <h3>
                               <a href="{{ post.url | url }}">
                                    {% if post.data.title %}                                             	
@@ -31,9 +32,10 @@
                                    by <strong>{{ metadata.author.name }}</strong>
                               </span>
                          </p>
-                    </aside>
+                    </li>
                     {%endif%}
                {% endfor %}
+               </ul>
           </div>
 
 
@@ -76,12 +78,12 @@
                <label class="site-map-group-title" for="site-map-group-four">
                     <h3>GALERI TERBARU</h3>   
                </label>  
-               
+                <ul class="site-map-group-list">  
                {% set c = 0 %}            
                {% for post in galeryslist | reverse %}
                     {% if c < 6 %}
                     {%set c = c + 1 %}
-                    <aside {% if post.url == url %} data-current="current item"{% endif %}  class="site-map-group-item">
+                    <li {% if post.url == url %} data-current="current item"{% endif %}  class="site-map-group-item">
                          <h3>
                               <a href="{{ post.url | url }}">
                                    {% if post.data.title %}                                             	
@@ -101,9 +103,10 @@
                                    by <strong>{{ metadata.author.name }}</strong>
                               </span>
                          </p>
-                    </aside>
+                    </li>
                     {%endif%}
-               {% endfor %}                  
+               {% endfor %}       
+               </ul>           
           </div>               
      </div>
 </section>
