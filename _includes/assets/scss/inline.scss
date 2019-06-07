@@ -484,9 +484,9 @@ header {
 /* end menu */
 /* gallery */
 .gallery{
-    width: 23.69696434%;
+    width: 23.9996434%;
     display: inline-table;
-    margin: 0 20px 20px 20px;
+    margin: 20px
     line-height: 1.2;
     border: 1px solid #490157ce;
     border-radius: 5px;
@@ -666,28 +666,28 @@ header {
     .centered-btns_tabs a,
     .transparent-btns_tabs a,
     .large-btns_tabs a {
-    text-indent: -9999px;
-    overflow: hidden;
-    -webkit-border-radius: 15px;
-    -moz-border-radius: 15px;
-    border-radius: 15px;
-    background: #ccc;
-    background: rgba(0,0,0, .2);
-    display: inline-block;
-    _display: block;
-    *display: block;
-    -webkit-box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);
-    -moz-box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);
-    box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);
-    width: 9px;
-    height: 9px;
+        text-indent: -9999px;
+        overflow: hidden;
+        -webkit-border-radius: 15px;
+        -moz-border-radius: 15px;
+        border-radius: 15px;
+        background: #ccc;
+        background: rgba(0,0,0, .2);
+        display: inline-block;
+        _display: block;
+        *display: block;
+        -webkit-box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);
+        -moz-box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);
+        box-shadow: inset 0 0 2px 0 rgba(0,0,0,.3);
+        width: 9px;
+        height: 9px;
     }
     
     .centered-btns_here a,
     .transparent-btns_here a,
     .large-btns_here a {
-    background: #222;
-    background: rgba(0,0,0, .8);
+        background: #222;
+        background: rgba(0,0,0, .8);
     }
 
 .iklan{
@@ -1051,7 +1051,7 @@ small{
         }
     }
     .gallery{
-        width: 47.996964%;
+        width: 47.4964%;
     }
     footer{
         text-align: center;
@@ -1078,8 +1078,6 @@ small{
     }
     .gallery{
         width: 100%;
-        margin-right: 0;
-        margin-bottom: 15px;
     }
     .gallery img{
         height: auto;
