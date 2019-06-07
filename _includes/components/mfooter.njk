@@ -5,7 +5,7 @@
           {% set galeryslist = collections.galeri %} 
           <div class="site-map-group">               
                <label class="site-map-group-title" for="site-map-group-four">
-                    <h3>BLOG TERBARU</h3>
+                    <a hreff""><h3>BLOG TERBARU</a></h3>
                </label>
                <ul class="site-map-group-list">  
                {% set a = 0 %}
@@ -13,7 +13,7 @@
                     {% if a < 6 %}
                     {%set a = a + 1 %}
                     <li {% if post.url == url %} data-current="current item"{% endif %}  class="site-map-group-item">
-                         <h3>
+                         <h2>
                               <a href="{{ post.url | url }}">
                                    {% if post.data.title %}                                             	
                                         {{ post.data.title }}
@@ -21,7 +21,7 @@
                                         Untitled
                                    {% endif %}
                               </a>
-                         </h3>
+                         </h2>
                          <p class="meta-entry">
                               <time datetime="{{ post.date | machineDate }}">
                                    <span class="post-date">                    
@@ -41,7 +41,7 @@
 
           <div class="site-map-group">
                <label class="site-map-group-title" for="site-map-group-four">
-                    <h3>ARTIKEL TERBARU</h3>  
+                    <h3>ARTIKEL TERBARU</a></h3>
                </label>      
                <ul class="site-map-group-list">         
                {% set b = 0 %}             
@@ -50,7 +50,7 @@
                     {%set b = b + 1 %}
                      
                          <li {% if post.url == url %} data-current="current item"{% endif %}  class="site-map-group-item">
-                              <h3>
+                              <h2>
                                    <a href="{{ post.url | url }}">
                                         {% if post.data.title %}                                             	
                                              {{ post.data.title }}
@@ -58,7 +58,7 @@
                                              Untitled
                                         {% endif %}
                                    </a>
-                              </h3>	
+                              </h2>	
                               <p class="meta-entry">
                                    <time datetime="{{ post.date | machineDate }}">
                                         <span class="post-date">                    
@@ -76,7 +76,7 @@
           </div>
           <div class="site-map-group">
                <label class="site-map-group-title" for="site-map-group-four">
-                    <h3>GALERI TERBARU</h3>   
+                    <a hreff""><h3>GALERI TERBARU</a></h3>
                </label>  
                 <ul class="site-map-group-list">  
                {% set c = 0 %}            
@@ -84,7 +84,7 @@
                     {% if c < 6 %}
                     {%set c = c + 1 %}
                     <li {% if post.url == url %} data-current="current item"{% endif %}  class="site-map-group-item">
-                         <h3>
+                         <h2>
                               <a href="{{ post.url | url }}">
                                    {% if post.data.title %}                                             	
                                         {{ post.data.title }}
@@ -92,7 +92,7 @@
                                         Untitled
                                    {% endif %}
                               </a>
-                         </h3>
+                         </h2>
                          <p class="meta-entry">
                               <time datetime="{{ post.date | machineDate }}">
                                    <span class="post-date">                    
