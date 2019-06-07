@@ -48,6 +48,9 @@ a:hover {
     margin: 0 auto;
     position: relative;
 }
+.row{
+    margin: 0 -20px;
+}
 .wrapper article img{
     width: 100%;
 }
@@ -483,8 +486,7 @@ header {
 .gallery{
     width: 23.69696434%;
     display: inline-table;
-    margin-right: 20px;
-    margin-bottom: 20px;
+    margin: 0 20px 20px 20px;
     line-height: 1.2;
     border: 1px solid #490157ce;
     border-radius: 5px;
@@ -492,50 +494,49 @@ header {
     padding: 0;
     background: #220123ab;
     vertical-align: top;
+    img{
+        width: 100%;
+        border:0;
+        border-radius: 15px;
+        margin-bottom: 0px;
+        padding: 10px;
+        height: 155px;;
+        background: transparent;
+    }
 }
-.gallery:nth-child(4n+1){
-    margin-right: 0;
-}
-.gallery img{
-    width: 100%;
-    border:0;
-    border-radius: 15px;
-    margin-bottom: 0px;
-    padding: 10px;
-    height: 155px;;
-    background: transparent;
-}
+
 .listgalery {
     padding: 10px;
     font-size: 14px;
     padding-top: 0;
+    .date{
+        margin: 0;
+        border-top: 1px solid #480157;
+    }
+    .summ{
+        height: 65px;
+        overflow: hidden;
+        border-bottom: 1px solid #4f034e;
+        margin: 0;
+        padding-bottom: 5px;
+        margin-bottom: 7px;
+        text-align: left;
+    
+    }
+    .tags{
+        margin-top: 0;
+        height: 36px;
+        text-align: left;	
+    }
+    h3{
+        font-size: 16px;
+        height: 60px;
+        overflow: hidden;
+        text-align: left;
+        margin-bottom: 0;
+    }
 }
-.listgalery .date{
-    margin: 0;
-    border-top: 1px solid #480157;
-}
-.listgalery .summ{
-    height: 65px;
-    overflow: hidden;
-    border-bottom: 1px solid #4f034e;
-    margin: 0;
-    padding-bottom: 5px;
-    margin-bottom: 7px;
-    text-align: left;
 
-}
-.listgalery .tags{
-    margin-top: 0;
-    height: 36px;
-    text-align: left;	
-}
-.listgalery h3{
-    font-size: 16px;
-    height: 60px;
-    overflow: hidden;
-    text-align: left;
-    margin-bottom: 0;
-}
 /* banner */
 .promo{
     width: 100%;

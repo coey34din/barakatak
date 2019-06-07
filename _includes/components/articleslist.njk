@@ -1,10 +1,11 @@
 {% set semua = ['blog','artikel','profil','galeri','posts','post'] %}
 {% set bukan = ['blog','profil','galeri','posts','post'] %}
 {% set iya = ['artikel'] %}
+<div class="row">
 	{% for post in articleslist | reverse %}
 		{% if post.data.tags %}
 			{% for tag in post.data.tags %}
-		  		{% if tag in iya %}
+				{% if tag in iya %}
 					<section aria-label="{{ title }}" class="gallery">
 					<a href="{{ post.url | url }}">
 							{% if post.data.thumbnail %}
@@ -44,3 +45,4 @@
 			{% endfor %}
 		{% endif %}
 	{% endfor %}
+<div>

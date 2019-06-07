@@ -56,6 +56,10 @@ a:hover {
   position: relative;
 }
 
+.row {
+  margin: 0 -20px;
+}
+
 .wrapper article img {
   width: 100%;
 }
@@ -458,8 +462,7 @@ header {
 .gallery {
   width: 23.69696434%;
   display: inline-table;
-  margin-right: 20px;
-  margin-bottom: 20px;
+  margin: 0 20px 20px 20px;
   line-height: 1.2;
   border: 1px solid #490157ce;
   border-radius: 5px;
@@ -467,10 +470,6 @@ header {
   padding: 0;
   background: #220123ab;
   vertical-align: top;
-}
-
-.gallery:nth-child(4n+1) {
-  margin-right: 0;
 }
 
 .gallery img {
