@@ -57,7 +57,7 @@ a:hover {
 }
 
 .row {
-  margin: 0 -20px;
+  margin: 0 -10px;
 }
 
 .wrapper article img {
@@ -131,7 +131,7 @@ header {
   z-index: 300;
   width: 100%;
   background-color: rgba(14, 0, 11, 0.932);
-  padding: 0 3rem;
+  padding: 0;
   display: -ms-inline-grid;
   display: inline-grid;
   margin-bottom: 1px solid #AC07AA;
@@ -457,7 +457,7 @@ header {
 .gallery {
   width: 21.599643%;
   display: inline-table;
-  margin: 20px;
+  margin: 10px;
   line-height: 1.2;
   border: 1px solid #490157ce;
   border-radius: 5px;
