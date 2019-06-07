@@ -3,9 +3,9 @@
           {% set postslist = collections.blog %}
           {% set articleslist = collections.artikel %} 
           {% set galeryslist = collections.galeri %} 
-          <div class="site-map-group">               
-               <label class="site-map-group-title" for="site-map-group-four">
-                    <input id="site-map-group-four" type="checkbox">  
+          <div class="site-map-group"> 
+               <input id="site-map-group-four" type="checkbox">               
+               <label class="site-map-group-title" for="site-map-group-four">                   
                     <a hreff""><h3>BLOG TERBARU</a></h3>
                </label>
                <ul class="site-map-group-list">  
@@ -41,8 +41,8 @@
 
 
           <div class="site-map-group">
-               <label class="site-map-group-title" for="site-map-group-four">
-                    <input id="site-map-group-four" type="checkbox">  
+               <input id="site-map-group-four" type="checkbox"> 
+               <label class="site-map-group-title" for="site-map-group-four">                     
                     <a hreff""><h3>ARTIKEL TERBARU</a></h3>
                </label>      
                <ul class="site-map-group-list">         
@@ -77,11 +77,11 @@
                </ul>                   
           </div>
           <div class="site-map-group">
-               <label class="site-map-group-title" for="site-map-group-four">
-                    <input id="site-map-group-four" type="checkbox">  
+               <input id="site-map-group-four" type="checkbox">  
+               <label class="site-map-group-title" for="site-map-group-four">                    
                     <a hreff""><h3>GALERI TERBARU</a></h3>
                </label>  
-                <ul class="site-map-group-list">  
+               <ul class="site-map-group-list">  
                {% set c = 0 %}            
                {% for post in galeryslist | reverse %}
                     {% if c < 6 %}
