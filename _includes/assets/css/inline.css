@@ -1250,7 +1250,7 @@ small {
     border-bottom: 1px solid #360142;
   }
   .footer-site-map .site-map-group-title {
-    color: #e4dcdc;
+    color: #e6d0e4;
     margin: 0;
     cursor: pointer;
     line-height: 5rem;
@@ -1258,7 +1258,7 @@ small {
     font-size: 1.3rem;
   }
   .footer-site-map .site-map-group-title:hover {
-    color: #d2d2d2;
+    color: #ffffff;
   }
   .footer-site-map .site-map-group-list {
     max-height: 0;
