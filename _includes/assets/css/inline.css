@@ -1342,6 +1342,9 @@ a[rel="tag"]:last-child {
   display: table;
   margin: 0 auto;
   font-size: 16px;
+  border-radius: 100px;
+  width: 60px;
+  height: 60px;
 }
 
 .tagc a {
