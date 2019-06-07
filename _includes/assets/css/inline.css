@@ -1329,3 +1329,11 @@ small {
   width: 18px;
   height: 18px;
 }
+
+.tagc {
+  margin: 20px 0;
+}
+
+.tagc a {
+  margin-bottom: 5px;
+}

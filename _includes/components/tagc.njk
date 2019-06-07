@@ -1,4 +1,6 @@
-{% for tag in collections.tagList %}
-  {% set tagUrl %}/tags/{{ tag | urlencode }}/{% endset %}
-  <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
-{% endfor %}
+<div class="tagc">
+    {% for tag in collections.tagList %}
+    {% set tagUrl %}/tags/{{ tag | urlencode }}/{% endset %}
+    <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
+    {% endfor %}
+</div>
