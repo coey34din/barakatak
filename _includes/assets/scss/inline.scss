@@ -1189,7 +1189,7 @@ small{
 	-ms-justify-content: space-around;
 	-ms-flex-pack: space-around;
 	justify-content: space-around;
-	padding: 3rem 0;
+	padding: 1rem 0;
 	/*** Open the Accordion in Mobile view */
 }
 
@@ -1221,7 +1221,7 @@ small{
         font-size: 16px;
         margin: 0;
         padding: 0;
-        line-height: 1;
+        line-height: 2;
     }
 }
 
@@ -1256,7 +1256,7 @@ small{
 	color: #eed8d9;
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (max-width: 760px) {
 	.footer-site-map {
 		-webkit-flex-direction: column;
 		-moz-flex-direction: column;
