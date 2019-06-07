@@ -11,25 +11,6 @@ section: home
         
         <div class="main-cont-left">
             {{ layoutContent | safe }}
-            <?php
-                $API    = 'isi dengan api';
-                $idchannel  = 'isi dengan id channel';
-                $max = 10;
-
-                $list = json_decode(file_get_contents('https://www.googleapis.com/youtube/v3/search?order=date&part=snippet&channelId='.$idchannel.'&maxResults='.$max.'&key='.$API.''));
-
-                foreach($list->items as $item){
-                    //Embed video
-                    if(isset($item->id->videoId)){
-                        echo '<div>
-                        <h2>'. $item->snippet->title .'</h2>
-                <h2>'. $item->snippet->description .'</h2>
-                                <iframe width="300" height="300" src="https://www.youtube.com/embed/'.$item->id->videoId.'" frameborder="0" allowfullscreen></iframe>
-                    
-                            </div>';
-                    }
-                }
-            ?>
         </div>
         <div class="main-cont-right">
             {% include "components/contentright.njk" %}            
