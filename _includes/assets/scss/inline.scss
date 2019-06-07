@@ -754,34 +754,7 @@ article {
     margin-bottom: .5em;
 }
 
-/* Post Tags */
-a[rel="tag"],
-a[rel="tag"]:visited {
-    display: inline-block;
-    vertical-align: text-top;
-    text-transform: uppercase;
-    letter-spacing: .1em;
-    font-size: .620em;
-    font-style: italic;
-    padding: 0 5px;
-    line-height: 1.8em;
-    height: 2em;
-    border-radius: 15px;
-    text-decoration: none;
-    margin-bottom: 2px;
-    border: 1px solid #d166cf;
-    background: transparent;
-    color: #d166cf;
-}
 
-a[rel="tag"]:hover {
-    background-color: #d166cf;
-    color: #350135;
-}
-
-a[rel="tag"]:last-child {
-    margin-right: 0;
-}
 
 /* Contact Form */
 form {
@@ -1360,10 +1333,39 @@ small{
     }	
 }
 
+/* Post Tags */
+a[rel="tag"],
+a[rel="tag"]:visited {
+    display: inline-block;
+    vertical-align: text-top;
+    text-transform: uppercase;
+    letter-spacing: .1em;
+    font-size: .620em;
+    font-style: italic;
+    padding: 0 8px;
+    line-height: 1.8em;
+    height: 2em;
+    border-radius: 15px;
+    text-decoration: none;
+    margin-bottom: 2px;
+    border: 1px solid #d166cf;
+    background: transparent;
+    color: #d166cf;
+}
+
+a[rel="tag"]:hover {
+    background-color: #d166cf;
+    color: #350135;
+}
+
+a[rel="tag"]:last-child {
+    margin-right: 0;
+}
 .tagc{
     margin-top: 20px;
     display: table;
     width: 100%;
+    text-align: center;
     a{
         margin-bottom: 5px;
     }
