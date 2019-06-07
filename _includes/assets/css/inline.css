@@ -1335,8 +1335,15 @@ a[rel="tag"]:last-child {
   display: table;
   width: 100%;
   text-align: center;
+  position: relative;
+}
+
+.tagc h3 {
+  display: table;
+  margin: 0 auto;
+  font-size: 16px;
 }
 
 .tagc a {
-  margin-bottom: 5px;
+  margin: 2.5px;
 }
