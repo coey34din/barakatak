@@ -2,15 +2,15 @@
 title: Jangan Lakukan 5 Hal Ini Saat Party Di Diskotik
 date: 2019-06-05T00:33:24.484Z
 modified_date: 2019-06-05T00:33:25.085Z
-description: >-
-  Party di diskotik terbilang sebagai sesuatu yang sangat menyenangkan. Tapi
-  kamu juga harus tahu bahwa ada beberapa hal yang sebaiknya kamu hindari.
+description: Party di diskotik terbilang sebagai sesuatu yang sangat menyenangkan. Tapi  kamu juga harus tahu bahwa ada beberapa hal yang sebaiknya kamu hindari.
 category:
   - Artikel
 tags:
   - artikel
+  - tips
 keywords:
   - dunia malam
+  - tips clubbing
 article_image: /images/uploads/jangan-lakukan-5-hal-ini-saat-party-di-diskotik-2.jpg
 thumbnail: /images/uploads/jangan-lakukan-5-hal-ini-saat-party-di-diskotik-2-010.jpg
 ---

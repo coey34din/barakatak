@@ -6,8 +6,7 @@
 			{% for tag in post.data.tags %}
 		  		{% if tag in iya %}
 					<section aria-label="{{ title }}" class="gallery">
-					<!-- <article{% if post.url == url %} data-current="current item"{% endif %} class="gallery"> -->
-						<a href="{{ post.url | url }}">
+					<a href="{{ post.url | url }}">
 							{% if post.data.thumbnail %}
 								<img class="artimg" src="{{ url }}{{ post.data.thumbnail }}" alt="thumbnail">
 								{% else %}
@@ -22,9 +21,9 @@
 										{% endif %}
 									
 								</h3>
-								{% if post.data.summary %}
+								{% if post.data.description %}
 									<p class="summ">
-										{{ post.data.summary }}
+										{{ post.data.description }}
 									</p>
 								{% endif %}
 								<p class="meta-entry">
@@ -38,23 +37,10 @@
 									</span>
 									
 								</p>
-							
-								{% if post.data.tags %}
-									<p class="tags">
-										{% for tag in post.data.tags %}
-											{% if tag not in semua %}
-												{% set tagUrl %}/tags/{{ tag }}/{% endset %}
-												<a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
-											{%- endif -%}
-										{% endfor %}
-									</p>
-								{% endif %}						
 							</div>
 						</a>
-					<!-- </article> -->
 					</section>
 				{%- endif -%}
 			{% endfor %}
 		{% endif %}
 	{% endfor %}
-<!-- </section> -->

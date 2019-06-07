@@ -37,7 +37,7 @@ Gadis asal Aljazair ini memang memiliki pesona yang sangat luar biasa. Kecantika
 
 Dengan sosoknya yang sangat rupawan dan istimewa, tentu Zaskia kerap kali dimanjakan oleh para kliennya. Selain itu, ini juga tak mustahil terjadi mengingat dirinya pun adalah sosok yang digilai oleh orang-orang yang memiliki uang banyak. Sebetulnya tidak hanya Zaskia Dehar saja, ada banyak sekali remaja yang menetap di negara-negara besar, seperti Prancis misalnya. Mereka memoles parasnya dengan begitu rupawan dan memiliki tubuh yang aduhai. Dari sinilah beberapa ada yang memanfaatkan hal tersebut untuk mendapatkan banyak uang dalam waktu singkat.
 
-Usut punya usut, Zaskia Dehar ternyata adalah seorang pramunikmati yang cukup terkenal di salah satu wilayah yang ada di kota besar Champs Elysee, yak heran jika dia memang cukup populer didalamnya. Untuk bisa menggunakan jasanya, maka tarif minimal yang harus dikeluarkan adalah dua ribu Euro. Jumlah yang cukup mahal tentunya untuk menggunakan jasa dari wanita yang satu ini. 
+Usut punya usut, Zaskia Dehar ternyata adalah seorang pramunikmat yang cukup terkenal di salah satu wilayah yang ada di kota besar Champs Elysee, yak heran jika dia memang cukup populer didalamnya. Untuk bisa menggunakan jasanya, maka tarif minimal yang harus dikeluarkan adalah dua ribu Euro. Jumlah yang cukup mahal tentunya untuk menggunakan jasa dari wanita yang satu ini. 
 
 
 
