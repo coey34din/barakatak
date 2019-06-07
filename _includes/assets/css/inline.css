@@ -1331,7 +1331,9 @@ small {
 }
 
 .tagc {
-  margin: 20px 0;
+  margin-top: 20px;
+  display: table;
+  width: 100%;
 }
 
 .tagc a {
