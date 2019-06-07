@@ -1158,6 +1158,23 @@ small {
 /***/
 /* --EndBack-To-Top-- */
 /*** Open the Accordion in Mobile view */
+.footer-site-map {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -moz-flex-direction: row;
+  -ms-flex-direction: row;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+          flex-direction: row;
+  -moz-justify-content: space-around;
+  -ms-justify-content: space-around;
+  -ms-flex-pack: space-around;
+  justify-content: space-around;
+  padding: 3rem 0;
+  /*** Open the Accordion in Mobile view */
+}
+
 .footer-site-map a {
   text-decoration: none;
 }
@@ -1210,7 +1227,7 @@ small {
   color: #ffffff;
 }
 
-@media only screen and (max-width: 760px) {
+@media only screen and (max-width: 1024px) {
   .footer-site-map {
     -moz-flex-direction: column;
     -ms-flex-direction: column;
@@ -1267,14 +1284,6 @@ small {
     -webkit-transition: all 0.3s linear;
     transition: all 0.3s linear;
   }
-  .footer-site-map .site-map-link {
-    color: #d2d2d2;
-    line-height: 2;
-  }
-  .footer-site-map .site-map-link:hover {
-    color: #d2d2d2;
-    text-decoration: underline;
-  }
   .footer-site-map input[type=checkbox] + label::after {
     content: "";
     background-image: url("../images/icon-set.png");
@@ -1287,6 +1296,14 @@ small {
   .footer-site-map input[type=checkbox]:checked + label::after {
     -webkit-transform: rotate(180deg);
     transform: rotate(180deg);
+  }
+  .footer-site-map .site-map-link {
+    color: #d2d2d2;
+    line-height: 2;
+  }
+  .footer-site-map .site-map-link:hover {
+    color: #d2d2d2;
+    text-decoration: underline;
   }
 }
 

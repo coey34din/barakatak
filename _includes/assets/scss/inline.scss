@@ -1174,135 +1174,149 @@ small{
 /* --EndBack-To-Top-- */
 
 /*** Open the Accordion in Mobile view */
-
-.footer-site-map{
-    a {
-        text-decoration: none;
-    }
-    .site-map-group {
-        position: relative;
-    }
-    input {
-        position: absolute;
-        opacity: 0;
-        z-index: -1;
-    }
-    .site-map-group-title {
-        display: block;
-        font-size: 1.4rem;
-        color: #666666;
-        font-weight: 600;
-        margin: 0;
-        -webkit-transition: all 0.3s ease-in-out;
-        -moz-transition: all 0.3s ease-in-out;
-        -ms-transition: all 0.3s ease-in-out;
-        -o-transition: all 0.3s ease-in-out;
-        transition: all 0.3s ease-in-out;
-        &:hover {
-            color: #ffffff;
-        }
-        
-    }
-    .site-map-group-list {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-    }
-    .site-map-group-item {
-        margin: 0;
-    }
-    .site-map-link {
-        display: block;
-        font-size: 1.22rem;
-        color: #666666;
-        font-weight: 500;
-        cursor: pointer;
-        -webkit-transition: all 0.3s ease-in-out;
-        -moz-transition: all 0.3s ease-in-out;
-        -ms-transition: all 0.3s ease-in-out;
-        -o-transition: all 0.3s ease-in-out;
-        transition: all 0.3s ease-in-out;
-    }
-    .site-map-link:hover {
-        color: #ffffff;
-    }
+.footer-site-map {
+	display: -webkit-box;
+	display: -moz-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
+	display: flex;
+	-webkit-flex-direction: row;
+	-moz-flex-direction: row;
+	-ms-flex-direction: row;
+	flex-direction: row;
+	-webkit-justify-content: space-around;
+	-moz-justify-content: space-around;
+	-ms-justify-content: space-around;
+	-ms-flex-pack: space-around;
+	justify-content: space-around;
+	padding: 3rem 0;
+	/*** Open the Accordion in Mobile view */
 }
 
+.footer-site-map a {
+	text-decoration: none;
+}
 
-@media only screen and (max-width: 760px) {
-    .footer-site-map {
-        -webkit-flex-direction: column;
-        -moz-flex-direction: column;
-        -ms-flex-direction: column;
-        flex-direction: column;
-        padding: 1.5rem 0;
-        /* :checked  - open the site map group list */
-        /*** Animation Opening the Accordion **/
-        /******************/
-        .site-map-group {
-            width: 100%;
-            border-bottom: 1px solid #181818;
-        }
-        .site-map-group-title {
-            color: #d2d2d2;
-            margin: 0;
-            cursor: pointer;
-            line-height: 5rem;
-            padding-left: 1rem;
-            font-size: 1.3rem;
-            &:hover {
-                color: #d2d2d2;
-            }
-        }
-        .site-map-group-list {
-            max-height: 0;
-            overflow: hidden;
-            margin: 0;
-            padding: 0 1rem;
-            background-color: #181818;
-            -webkit-transition: all 0.3s ease-out;
-            -moz-transition: all 0.3s ease-out;
-            -ms-transition: all 0.3s ease-out;
-            -o-transition: all 0.3s ease-out;
-            transition: all 0.3s ease-out;
-        }
-        input:checked~.site-map-group-list {
-            max-height: 500px;
-            opacity: 1;
-            padding: 1rem;
-            -webkit-transition: all 0.3s ease-in;
-            -moz-transition: all 0.3s ease-in;
-            -ms-transition: all 0.3s ease-in;
-            -o-transition: all 0.3s ease-in;
-            transition: all 0.3s ease-in;
-        }
-        label:after {
-            position: absolute;
-            right: 20px;
-            top: 25px;
-            display: block;
-            width: 10px;
-            height: 10px;
-            line-height: 10px;
-            font-size: 2rem;
-            font-weight: 300;
-            text-align: center;
-            -webkit-transition: all 0.3s linear;
-            -moz-transition: all 0.3s linear;
-            -ms-transition: all 0.3s linear;
-            -o-transition: all 0.3s linear;
-            transition: all 0.3s linear;
-        }       
-        .site-map-link {
-            color: #d2d2d2;
-            line-height: 2;
-        }
-        .site-map-link:hover {
-            color: #d2d2d2;
-            text-decoration: underline;
-        }
-    }
-    .footer-site-map input[type=checkbox]+label::after {
+.footer-site-map .site-map-group {
+	position: relative;
+}
+
+.footer-site-map input {
+	position: absolute;
+	opacity: 0;
+	z-index: -1;
+}
+
+.footer-site-map .site-map-group-title {
+	display: block;
+	font-size: 1.4rem;
+	color: #666666;
+	font-weight: 600;
+	margin: 0;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.footer-site-map .site-map-group-title:hover {
+	color: #ffffff;
+}
+
+.footer-site-map .site-map-group-list {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+.footer-site-map .site-map-group-item {
+	margin: 0;
+}
+
+.footer-site-map .site-map-link {
+	display: block;
+	font-size: 1.22rem;
+	color: #666666;
+	font-weight: 500;
+	cursor: pointer;
+	-webkit-transition: all 0.3s ease-in-out;
+	-moz-transition: all 0.3s ease-in-out;
+	-ms-transition: all 0.3s ease-in-out;
+	-o-transition: all 0.3s ease-in-out;
+	transition: all 0.3s ease-in-out;
+}
+
+.footer-site-map .site-map-link:hover {
+	color: #ffffff;
+}
+
+@media only screen and (max-width: 1024px) {
+	.footer-site-map {
+		-webkit-flex-direction: column;
+		-moz-flex-direction: column;
+		-ms-flex-direction: column;
+		flex-direction: column;
+		padding: 1.5rem 0;
+		/* :checked  - open the site map group list */
+		/*** Animation Opening the Accordion **/
+		/******************/
+	}
+	.footer-site-map .site-map-group {
+		width: 100%;
+		border-bottom: 1px solid #181818;
+	}
+	.footer-site-map .site-map-group-title {
+		color: #d2d2d2;
+		margin: 0;
+		cursor: pointer;
+		line-height: 5rem;
+		padding-left: 1rem;
+		font-size: 1.3rem;
+	}
+	.footer-site-map .site-map-group-title:hover {
+		color: #d2d2d2;
+	}
+	.footer-site-map .site-map-group-list {
+		max-height: 0;
+		overflow: hidden;
+		margin: 0;
+		padding: 0 1rem;
+		background-color: #181818;
+		-webkit-transition: all 0.3s ease-out;
+		-moz-transition: all 0.3s ease-out;
+		-ms-transition: all 0.3s ease-out;
+		-o-transition: all 0.3s ease-out;
+		transition: all 0.3s ease-out;
+	}
+	.footer-site-map input:checked~.site-map-group-list {
+		max-height: 500px;
+		opacity: 1;
+		padding: 1rem;
+		-webkit-transition: all 0.3s ease-in;
+		-moz-transition: all 0.3s ease-in;
+		-ms-transition: all 0.3s ease-in;
+		-o-transition: all 0.3s ease-in;
+		transition: all 0.3s ease-in;
+	}
+	.footer-site-map label:after {
+		position: absolute;
+		right: 20px;
+		top: 25px;
+		display: block;
+		width: 10px;
+		height: 10px;
+		line-height: 10px;
+		font-size: 2rem;
+		font-weight: 300;
+		text-align: center;
+		-webkit-transition: all 0.3s linear;
+		-moz-transition: all 0.3s linear;
+		-ms-transition: all 0.3s linear;
+		-o-transition: all 0.3s linear;
+		transition: all 0.3s linear;
+	}
+	.footer-site-map input[type=checkbox]+label::after {
 		content: "";
 		background-image:url("../images/icon-set.png");
 		background-repeat: no-repeat;
@@ -1316,6 +1330,14 @@ small{
 		-ms-transform: rotate(180deg);
 		-o-transform: rotate(180deg);
 		transform: rotate(180deg);
+	}
+	.footer-site-map .site-map-link {
+		color: #d2d2d2;
+		line-height: 2;
+	}
+	.footer-site-map .site-map-link:hover {
+		color: #d2d2d2;
+		text-decoration: underline;
 	}
 }
 .btn-share{ 
