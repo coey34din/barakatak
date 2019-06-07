@@ -1236,8 +1236,8 @@ small{
 
 .footer-site-map .site-map-link {
 	display: block;
-	font-size: 1.22rem;
-	color: #666666;
+	font-size: 14px;
+	color: #fd868a;
 	font-weight: 500;
 	cursor: pointer;
 	-webkit-transition: all 0.3s ease-in-out;
@@ -1248,7 +1248,7 @@ small{
 }
 
 .footer-site-map .site-map-link:hover {
-	color: #ffffff;
+	color: #eed8d9;
 }
 
 @media only screen and (max-width: 1024px) {
@@ -1267,7 +1267,7 @@ small{
 		border-bottom: 1px solid #360142;
 	}
 	.footer-site-map .site-map-group-title {
-		color: #d2d2d2;
+		color: #e4dcdc;
 		margin: 0;
 		cursor: pointer;
 		line-height: 5rem;
@@ -1332,11 +1332,11 @@ small{
 		transform: rotate(180deg);
 	}
 	.footer-site-map .site-map-link {
-		color: #d2d2d2;
+		color: #fd868a;
 		line-height: 2;
 	}
 	.footer-site-map .site-map-link:hover {
-		color: #d2d2d2;
+		color: #fde8e9;
 		text-decoration: underline;
 	}
 }
