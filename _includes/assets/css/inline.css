@@ -940,6 +940,7 @@ section article .tag {
 
 small {
   margin-bottom: 15px;
+  margin-left: 15px;
   color: #f85051;
   width: auto;
   float: left;
