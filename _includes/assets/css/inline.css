@@ -1288,10 +1288,10 @@ small {
     content: "";
     background-image: url("/static/img/icon-set.png");
     background-repeat: no-repeat;
-    background-position: -2px -2px;
-    background-size: 10px;
-    width: 12px;
-    height: 7px;
+    background-position: 0px -67px;
+    background-size: 13px;
+    width: 13px;
+    height: 11px;
   }
   .footer-site-map input[type=checkbox]:checked + label::after {
     -webkit-transform: rotate(180deg);
