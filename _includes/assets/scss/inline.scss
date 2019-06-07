@@ -1217,11 +1217,12 @@ small{
 	-ms-transition: all 0.3s ease-in-out;
 	-o-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
+    cursor: pointer;
     h3{
         font-size: 16px;
         margin: 0;
         padding: 0;
-        line-height: 2;
+        line-height: 3;
     }
 }
 
