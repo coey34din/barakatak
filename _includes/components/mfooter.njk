@@ -40,34 +40,37 @@
           <div class="site-map-group">
                <label class="site-map-group-title" for="site-map-group-four">
                     <h3>ARTIKEL TERBARU</h3>  
-               </label>               
+               </label>      
+               <ul class="site-map-group-list">         
                {% set b = 0 %}             
                {% for post in articleslist | reverse %}
                     {% if b < 6 %}
                     {%set b = b + 1 %}
-                    <aside {% if post.url == url %} data-current="current item"{% endif %}  class="site-map-group-item">
-                         <h3>
-                              <a href="{{ post.url | url }}">
-                                   {% if post.data.title %}                                             	
-                                        {{ post.data.title }}
-                                   {% else %}
-                                        Untitled
-                                   {% endif %}
-                              </a>
-                         </h3>	
-                         <p class="meta-entry">
-                              <time datetime="{{ post.date | machineDate }}">
-                                   <span class="post-date">                    
-                                        {{ post.date | readableDate }}
+                     
+                         <li {% if post.url == url %} data-current="current item"{% endif %}  class="site-map-group-item">
+                              <h3>
+                                   <a href="{{ post.url | url }}">
+                                        {% if post.data.title %}                                             	
+                                             {{ post.data.title }}
+                                        {% else %}
+                                             Untitled
+                                        {% endif %}
+                                   </a>
+                              </h3>	
+                              <p class="meta-entry">
+                                   <time datetime="{{ post.date | machineDate }}">
+                                        <span class="post-date">                    
+                                             {{ post.date | readableDate }}
+                                        </span>
+                                   </time>
+                                   <span class="author">
+                                        by <strong>{{ metadata.author.name }}</strong>
                                    </span>
-                              </time>
-                              <span class="author">
-                                   by <strong>{{ metadata.author.name }}</strong>
-                              </span>
-                         </p>
-                    </aside>
+                              </p>
+                         </li>                    
                     {%endif%}
-               {% endfor %}                    
+               {% endfor %} 
+               </ul>                   
           </div>
           <div class="site-map-group">
                <label class="site-map-group-title" for="site-map-group-four">
