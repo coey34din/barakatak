@@ -6,9 +6,9 @@
                 <section aria-label="{{ title }}" class="gallery">
                 <a href="{{ post.url | url }}">	
                 {% if post.data.thumbnail %}
-                    <img class="gallery" src="{{ url }}{{ post.data.thumbnail }}" alt="thumbnail">
+                    <img src="{{ url }}{{ post.data.thumbnail }}" alt="thumbnail">
                 {% else %}
-                    <img class="gallery" src="{{ '/' | url }}static/img/no-image.png" alt="thumbnail">
+                    <img src="{{ '/' | url }}static/img/no-image.png" alt="thumbnail">
                 {% endif %}						
                 <div class="listgalery">
                     <h3>
