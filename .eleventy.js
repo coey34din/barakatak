@@ -61,11 +61,30 @@ eleventyConfig.addCollection("catList", require("./_includes/helpers/getCatList.
   });
 
   // only content in the `posts/` directory
-  eleventyConfig.addCollection("posts", function(collection) {
+  eleventyConfig.addCollection("artikeld", function(collection) {
     return collection.getAllSorted().filter(function(item) {
-      return item.inputPath.match(/^\.\/posts\//) !== null;
+      return item.inputPath.match(/^\.\/artikeld\//) !== null;
     });
   });
+
+  eleventyConfig.addCollection("blogd", function(collection) {
+    return collection.getAllSorted().filter(function(item) {
+      return item.inputPath.match(/^\.\/blogd\//) !== null;
+    });
+  });
+
+  eleventyConfig.addCollection("galerid", function(collection) {
+    return collection.getAllSorted().filter(function(item) {
+      return item.inputPath.match(/^\.\/galerid\//) !== null;
+    });
+  });
+
+  eleventyConfig.addCollection("videos", function(collection) {
+    return collection.getAllSorted().filter(function(item) {
+      return item.inputPath.match(/^\.\/videos\//) !== null;
+    });
+  });
+
 
   eleventyConfig.addLiquidFilter("makeUppercase", function(value) { 
     return value.toUpperCase();

@@ -13,7 +13,7 @@ collections:
   # Our blog posts
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Blog" # Used in the UI
-    folder: "posts" # The path to the folder where the documents are stored
+    folder: "blogd" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
@@ -21,7 +21,7 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Modified Date", name: "modified_date", widget: "datetime" }
       - { label: "Description/Summary", name: "description", widget: "text" }
-      - { label: "Category", name: "category", widget: "select", multiple: true, options: ["Artikel","Blog","Galeri"], default: ["Blog"] }      
+      - { label: "Category", name: "category", widget: "select", multiple: true, options: ["Artikel","Blog","Galeri","Video"], default: ["Blog"] }      
       - { label: "Tags", name: "tags", widget: "list", default: ["blog"] }
       - { label: "Keywords", name: "keywords", widget: "list", default: ["dunia malam"] }
       - { label: "Article Image", name: "article_image", widget: "image" , required: false}
@@ -31,7 +31,7 @@ collections:
   # Our artikel posts
   - name: "artikel" # Used in routes, e.g., /admin/collections/blog
     label: "Artikel" # Used in the UI
-    folder: "posts" # The path to the folder where the documents are stored
+    folder: "artikeld" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
@@ -39,7 +39,7 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Modified Date", name: "modified_date", widget: "datetime" }
       - { label: "Description/Summary", name: "description", widget: "text" }
-      - { label: "Category", name: "category", widget: "select", multiple: true, options: ["Artikel","Blog","Galeri"], default: ["Artikel"] }      
+      - { label: "Category", name: "category", widget: "select", multiple: true, options: ["Artikel","Blog","Galeri","Video"], default: ["Artikel"] }      
       - { label: "Tags", name: "tags", widget: "list", default: ["artikel"] }
       - { label: "Keywords", name: "keywords", widget: "list", default: ["dunia malam"] }
       - { label: "Article Image", name: "article_image", widget: "image" , required: false}
@@ -50,7 +50,7 @@ collections:
   # Our galeri posts
   - name: "galeri" # Used in routes, e.g., /admin/collections/blog
     label: "Galeri" # Used in the UI
-    folder: "posts" # The path to the folder where the documents are stored
+    folder: "galerid" # The path to the folder where the documents are stored
     create: true # Allow users to create new documents in this collection
     slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
     fields: # The fields for each document, usually in front matter
@@ -58,13 +58,30 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Modified Date", name: "modified_date", widget: "datetime" }
       - { label: "Description/Summary", name: "description", widget: "text" }
-      - { label: "Category", name: "category", widget: "select", multiple: true, options: ["Artikel","Blog","Galeri"], default: ["Galeri"] }      
-      - { label: "Tags", name: "tags", widget: "list", default: ["galeri","profil"] }
+      - { label: "Category", name: "category", widget: "select", multiple: true, options: ["Artikel","Blog","Galeri","Video"], default: ["Galeri"] }      
+      - { label: "Tags", name: "tags", widget: "list", default: ["galeri"] }
       - { label: "Keywords", name: "keywords", widget: "list", default: ["dunia malam"] }
       - { label: "Article Image", name: "article_image", widget: "image" , required: false}
       - { label: "Featured/Thumbnail", name: "thumbnail", widget: "image", required: false}
       - { label: "Body", name: "body", widget: "markdown" } 
 
+# Our galeri posts
+  - name: "video" # Used in routes, e.g., /admin/collections/blog
+    label: "Video" # Used in the UI
+    folder: "videos" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Modified Date", name: "modified_date", widget: "datetime" }
+      - { label: "Description/Summary", name: "description", widget: "text" }
+      - { label: "Category", name: "category", widget: "select", multiple: true, options: ["Artikel","Blog","Galeri","Video"], default: ["Video"] }      
+      - { label: "Tags", name: "tags", widget: "list", default: ["video"] }
+      - { label: "Keywords", name: "keywords", widget: "list", default: ["dunia malam"] }
+      - { label: "Article Image", name: "article_image", widget: "image" , required: false}
+      - { label: "Featured/Thumbnail", name: "thumbnail", widget: "image", required: false}
+      - { label: "Body", name: "body", widget: "markdown" } 
 
 # Our pages e.g. About
   - name: "pages"

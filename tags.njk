@@ -11,6 +11,7 @@ pagination:
     - postslist
     - artikel
     - blog
+    - video
     - galeri
     - profil
     - tagList
@@ -26,8 +27,5 @@ renderData:
 
         {% set postslist = collections[ tag ] %}
         {% include "components/tagslist.njk" %}
-        <nav>
-            <a href="{{ '/blog/' | url }}">← Blog index</a>
-        </nav>
     </div>
 </div>

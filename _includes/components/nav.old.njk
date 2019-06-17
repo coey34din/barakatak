@@ -1,9 +1,0 @@
-<nav id="topmenu">
-<ul>
-{% for item in navigation.main %}
-    <li>
-    <a href="{{ item.url | safe }}" {% if page.url == item.url %} data-current="current item"{% endif %}>{{ item.label }}</a>
-    </li>
-{%- endfor -%}
-</ul>
-</nav>

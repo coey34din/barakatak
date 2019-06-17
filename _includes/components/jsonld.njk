@@ -1,5 +1,5 @@
     {%- set absolutePageUrl %}{{ page.url | url | absoluteUrl(site.url) }}{% endset -%}
-    {% set isPost = layout == 'post' %}
+    {% set isPost = section == 'post' %}
     <script type="application/ld+json">
     {
         "@context": "http://schema.org",
@@ -9,13 +9,13 @@
         "@type":"WebSite",
         {% endif -%}
         "url":"{{ absolutePageUrl }}",
-        {% if image -%}
-        "image":"{{ image | imageUrl(page) | absoluteUrl(site.url) }}",
+        {% if thumbnail -%}
+        "image":"{{ thumbnail | absoluteUrl(site.url) }}",
         {% else -%}
         "image": "{{ site.logo }}"
         {% endif -%}
-        "headline":"{{renderData.title or title or site.title}}",
-        "description": "{{renderData.description or description or site.description}}",
+        "headline":"{{title or site.title}}",
+        "description": "{{description or site.description}}",
         "author": {
             "@type": "Person",
             "name": "{{ author.name }}",

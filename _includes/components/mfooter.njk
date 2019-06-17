@@ -6,9 +6,7 @@
                {% set galeryslist = collections.galeri %} 
                <div class="site-map-group"> 
                     <input id="group-satu" type="checkbox">               
-                    <label class="site-map-group-title" for="group-satu">                   
-                         <h3>BLOG TERBARU</h3>
-                    </label>
+                    <label class="site-map-group-title" for="group-satu">BLOG TERBARU</label>
                     <ul class="site-map-group-list">  
                     {% set a = 0 %}
                     {% for post in postslist | reverse %}
@@ -41,9 +39,7 @@
 
                <div class="site-map-group">
                     <input id="group-dua" type="checkbox"> 
-                    <label class="site-map-group-title" for="group-dua">                     
-                         <h3>ARTIKEL TERBARU</h3>
-                    </label>      
+                    <label class="site-map-group-title" for="group-dua">ARTIKEL TERBARU</label>
                     <ul class="site-map-group-list">         
                     {% set b = 0 %}             
                     {% for post in articleslist | reverse %}
@@ -74,9 +70,7 @@
                </div>
                <div class="site-map-group">
                     <input id="group-tiga" type="checkbox">  
-                    <label class="site-map-group-title" for="group-tiga">                    
-                         <h3>GALERI TERBARU</h3>
-                    </label>  
+                    <label class="site-map-group-title" for="group-tiga">GALERI TERBARU</label>  
                     <ul class="site-map-group-list">  
                     {% set c = 0 %}            
                     {% for post in galeryslist | reverse %}

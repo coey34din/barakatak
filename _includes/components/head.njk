@@ -1,51 +1,50 @@
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>{% if title %}{{ title }}{% elif tag %}Post tagged "{{ tag | urlencode }}"{% else %}{{ site.title }}{% endif %}</title>
-    <link rel="profile" href="https://gmpg.org/xfn/11">
-    <meta name="description" content="{% if description %}{{ description }}{% elif tag %}{{ site.name }} | {{ tag }}{% else %}{{ site.description }}{% endif %}">
-    <link rel="canonical" href="{{ site.url }}{{ page.url }}">
-    {# Open Graph #}
-    <meta property="og:locale" content="id_ID">
-    <meta property="og:type" content="website">
-    <meta property="og:title" content="{% if title %}{{ title }}{% elif tag %}{{ site.name }} | {{ tag | urlencode }}{% else %}{{ site.title }}{% endif %}">
-    <meta property="og:description" content="{% if description %}{{ description }}{% elif tag %}{{ site.name }} | {{ tag }}{% else %}{{ site.description }}{% endif %}">
-    <meta property="og:url" content="{{ site.url }}{{ page.url }}">
-    <meta property="og:site_name" content="{{ site.name }}">
-    <meta property="og:updated_time" content="{{ modified_date }}">
-    <meta property="og:image" content="{{ site.url }}{% if article_image %}{{ article_image }}{% else %}{{ site.logo }}{% endif %}">
-    <meta property="og:image:secure_url" content="{{ site.url }}{% if article_image %}{{ article_image }}{% else %}{{ site.logo }}{% endif %}">
-    <meta property="article:section" content="{% if navtitle %}{{ navtitle }}{% else %}{{ section }}{% endif %}">
-    <meta property="article:published_time" content="{{ date }}">
-    <meta property="article:modified_time" content="{{ modified_date }}">
-    {% if keywords %}
-        {% for tag in keywords %}
-                <meta property="article:tag" content="{{ tag }}">
-        {% endfor %}
-    {% endif %}
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>{% if title %}{{ title }}{% elif tag %}{{ site.name}} | {{ tag }}{% else %}{{ site.title }}{% endif %}</title>
+  <link rel="profile" href="https://gmpg.org/xfn/11">
+  <meta name="description" content="{% if description %}{{ description }}{% elif tag %}{{ site.name }} | {{ tag }}{% else %}{{ site.description }}{% endif %}">
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+  {# Open Graph #}
+  <meta property="og:locale" content="id_ID">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="{% if title %}{{ title }}{% elif tag %} {{site.name}}{{ tag }}{% else %}{{ site.title }}{% endif %}">
+  <meta property="og:description" content="{% if description %}{{ description }}{% elif tag %}{{ site.name }} | {{ tag }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:url" content="{{ site.url }}{{ page.url }}">
+  <meta property="og:site_name" content="{{ site.name }}">
+  <meta property="og:updated_time" content="{{ modified_date }}">
+  <meta property="og:image" content="{{ site.url }}{% if article_image %}{{ article_image }}{% else %}{{ site.logo }}{% endif %}">
+  <meta property="og:image:secure_url" content="{{ site.url }}{% if article_image %}{{ article_image }}{% else %}{{ site.logo }}{% endif %}">
+  <meta property="article:section" content="{% if navtitle %}{{ navtitle }}{% else %}{{ section }}{% endif %}">
+  <meta property="article:published_time" content="{{ date }}">
+  <meta property="article:modified_time" content="{{ modified_date }}">
+  {% if keywords %}
+      {% for tag in keywords %}
+            <meta property="article:tag" content="{{ tag }}">
+      {% endfor %}
+  {% endif %}
 
-    {# Twitter #}
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:title" content="{% if title %}{{ title }}{% elif tag %}{{ site.name }} | {{ tag | urlencode }}{% else %}{{ site.title }}{% endif %}">
-    <meta name="twitter:description" content="{% if description %}{{ description }}{% elif tag %}{{ site.name }} | {{ tag }}{% else %}{{ site.description }}{% endif %}">
-    <meta name="twitter:image" content="{{ site.url }}{% if article_image %}{{ article_image }}{% else %}{{ site.logo }}{% endif %}">
-    <meta name="twitter:site" content="{{ site.name }}">
-    <meta name="twitter:creator" content="{{ author.twitter.name }}">
-    <meta name="twitter:image:src" content="{{ site.url }}{% if article_image %}{{ article_image }}{% else %}{{ site.logo }}{% endif %}">
-    <meta name="google-site-verification" content="FD6MXulZMvF-XEhwUcubemcZeQH7YIqT6GsMLgP-Wu0" />
-    {% include "components/favicon.njk" %}
-
+  {# Twitter #}
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="{% if title %}{{ title }}{% elif tag %}{{site.name}} | {{ tag }}{% else %}{{ site.title }}{% endif %}">
+  <meta name="twitter:description" content="{% if description %}{{ description }}{% elif tag %}{{ site.name }} | {{ tag }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="twitter:image" content="{{ site.url }}{% if article_image %}{{ article_image }}{% else %}{{ site.logo }}{% endif %}">
+  <meta name="twitter:site" content="{{ site.name }}">
+  <meta name="twitter:creator" content="{{ author.twitter.name }}">
+  <meta name="twitter:image:src" content="{{ site.url }}{% if article_image %}{{ article_image }}{% else %}{{ site.logo }}{% endif %}">
+  <meta name="google-site-verification" content="FD6MXulZMvF-XEhwUcubemcZeQH7YIqT6GsMLgP-Wu0" />
+  {% include "components/favicon.njk" %}
     <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
-    {% set css %}
-        {% include "assets/css/inline.css" %}
-    {% endset %}
+  {% set css %}
+    {% include "assets/css/inline.css" %}
+  {% endset %}
 
-    <style>{{ css | cssmin | safe }}</style>
-    {% set js %}
-        {% include "assets/js/inline.js" %} 
-        {% include "assets/js/responsiveslides.js" %} 
-    {% endset %}
-    <script>{{ js | jsmin | safe }}</script>
+  <style>{{ css | cssmin | safe }}</style>
+  {% set js %}
+    {% include "assets/js/inline.js" %} 
+    {% include "assets/js/responsiveslides.js" %} 
+  {% endset %}
+  <script>{{ js | jsmin | safe }}</script>
 
 </head>
 

@@ -14,10 +14,7 @@
 
 	{% include "components/mfooter.njk" %}
 	{% include "components/footer.njk" %}
-
-
-    <script src="{{ '/' | url }}_includes/assets/js/menu.js"></script>
-
+	{% include "components/menujs.njk" %}
 	{% if (analytics.google) %}
     {% include "components/googleanalytics.njk" %}
     {% endif %}

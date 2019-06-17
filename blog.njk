@@ -1,0 +1,82 @@
+---
+layout: layouts/base.njk
+pagination:
+  data: collections.blogd
+  size: 40
+  reverse: true
+  alias: entries
+permalink: /blog/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber }}/{% endif %}
+title: DuniaMalam88.com | Halaman Blog
+description: DuniaMalam88.com | Halaman Blog menyediakan berbagai tips dan informasi seputar dunia malam, dj, venue, diskotik, bar, cafe di negara-negara Asia dan sekitarnya
+---
+<img class="b-content" src="{{ '/' | url }}static/img/banner-content.jpg" alt="Galeri Dunia Malam 88">
+<div  class="main-blok">
+    <div class="wrapper">
+        <h1>{{ title }} {% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}{% endif %}</h1>
+
+{% set semua = ['blog','artikel','profil','galeri','posts','post','video'] %}
+{% set bukan = ['artikel','galeri','profil','posts','post'] %}
+{% set iya = ['blog'] %}
+<article class="row" role="contentinfo" aria-label="Blog Dunia Malam">
+	{% for post in entries %}
+	<!--
+		{% if post.data.tags %}
+			{% for tag in post.data.tags %}
+				{% if tag in iya %}
+				-->
+					<section aria-label="{{ post.data.title }}" class="gallery">
+					<!-- <article{% if post.url == url %} data-current="current item"{% endif %} class="gallery"> -->
+						<a href="{{ post.url | url }}">	
+							{% if post.data.thumbnail %}
+								<img  src="{{ url }}{{ post.data.thumbnail }}" alt="thumbnail">
+							{% else %}
+								<img  src="{{ '/' | url }}static/img/no-image.png" alt="thumbnail">
+							{% endif %}						
+							<div class="listgalery">						
+
+								<h2>								
+										{% if post.data.title %}								
+											{{ post.data.title }}
+										{% else %}
+											Untitled
+										{% endif %}								
+								</h2>
+								{% if post.data.description %}
+									<p class="summ">
+										{{ post.data.description }}
+									</p>
+								{% endif %}
+								<p class="meta-entry">
+									<time datetime="{{ post.date | machineDate }}">
+											<span class="post-date">                    
+												{{ post.date | readableDate }}
+											</span>
+									</time>
+									<span class="author">
+											by <strong>{{ metadata.author.name }}</strong>
+									</span>
+									
+								</p>
+							</div>
+						</a>
+					<!-- </article> -->
+					</section>
+					<!--
+				{%- endif -%}
+			{% endfor %}
+		{% endif %}
+		-->
+	{% endfor %}
+</article>
+    </div>
+	<div class="halaman">
+		{% set halUrl %}/blog/{% endset %}
+		<a href="{{ halUrl }}">1</a>
+		{% set counter = 0 %}
+		{% for counter in range(0, 1) %}
+			{% set counter = counter + 1 %}
+			{% set halUrl %}/blog/{{ counter }}/{% endset %}
+			<a href="{{ halUrl | url }}">{{ counter + 1 }}</a>
+		{% endfor %}
+	</div>
+</div>

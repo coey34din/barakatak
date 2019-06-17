@@ -9,15 +9,15 @@ excludeFromSitemap: true
     <subtitle>{{ site.description }}</subtitle>
     <link href="{{ site.feed | url | absoluteUrl(site.url) }}" rel="self" type="application/atom+xml" />
     <link href="{{ site.url }}" rel="alternate" type="text/html"/>
-    {% if collections.posts and collections.posts.length > 0 %}
-    <updated>{{ collections.posts | rssLastUpdatedDate }}</updated>
+    {% if collections.blogd and collections.blogd.length > 0 %}
+    <updated>{{ collections.blogd | rssLastUpdatedDate }}</updated>
     {% endif %}
     <id>{{ site.url }}</id>
     <author>
         <name>{{ author.name }}</name>
         <email>{{ author.email }}</email>
     </author>
-    {%- for post in collections.posts | reverse -%}
+    {%- for post in collections.blogd | reverse -%}
     {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(site.url) }}{% endset %}
         <entry>
             <title>{{ post.data.title }}</title>

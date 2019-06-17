@@ -1,7 +1,7 @@
 {% set semua = ['blog','artikel','profil','galeri','posts','post'] %}
 {% set bukan = ['artikel','blog','profil','posts','post'] %}
 {% set iya = ['galeri','profil'] %}
-<div class="row">
+<article class="row" role="contentinfo" aria-label="Galeri Dunia Malam">
 	{% for post in galeryslist | reverse %}
 		{% if post.data.tags %}
 			{% for tag in post.data.tags %}
@@ -11,18 +11,18 @@
 						<a href="{{ post.url | url }}">	
 							{% if post.data.thumbnail %}
 								<img  src="{{ url }}{{ post.data.thumbnail }}" alt="thumbnail">
-								{% else %}
-									<img  src="{{ '/' | url }}static/img/no-image.png" alt="thumbnail">
+							{% else %}
+								<img  src="{{ '/' | url }}static/img/no-image.png" alt="thumbnail">
 							{% endif %}						
 							<div class="listgalery">						
 
-								<h3>								
+								<h2>								
 										{% if post.data.title %}								
 											{{ post.data.title }}
 										{% else %}
 											Untitled
 										{% endif %}								
-								</h3>
+								</h2>
 								{% if post.data.description %}
 									<p class="summ">
 										{{ post.data.description }}
@@ -47,4 +47,4 @@
 			{% endfor %}
 		{% endif %}
 	{% endfor %}
-</div>
+</article>
