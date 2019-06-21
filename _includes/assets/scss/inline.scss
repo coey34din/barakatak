@@ -1491,7 +1491,7 @@ a[rel="tag"]:last-child {
             background: url(/static/img/search.png) no-repeat;
             position: absolute;
             top: 11px;
-            right: 10px;
+            right: 15px;
             z-index: 2000;
             width: 24px;
             height: 24px;
@@ -1507,6 +1507,7 @@ a[rel="tag"]:last-child {
         background-color: #1A001C;
         border: 1px solid #490157ce;
         color: #ffd1d2;
+        padding-right: 45px;
     }
     .search-box{
        display: table; 
