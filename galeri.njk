@@ -12,6 +12,7 @@ description: DuniaMalam88.com | Halaman Galeri menyediakan berbagai foto dan vid
 <div class="b-content post"></div>
 <div  class="main-blok">
     <div class="wrapper">
+		{% include "components/search.njk" %}
         <h1>{{ title }} {% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}{% endif %}</h1>
 
 {% set semua = ['blog','artikel','profil','galeri','posts','post','video'] %}
