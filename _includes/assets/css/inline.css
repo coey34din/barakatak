@@ -1453,6 +1453,8 @@ a[rel="tag"]:last-child {
 #filter-records {
   border-bottom: #22011b;
   padding-bottom: 10px;
+  display: table;
+  width: 100%;
 }
 
 .search {
@@ -1468,8 +1470,11 @@ a[rel="tag"]:last-child {
 .search .form-group .icon-search {
   background: url(/static/img/search.png) no-repeat;
   position: absolute;
-  top: 0;
-  right: 0;
+  top: 11px;
+  right: 10px;
+  z-index: 2000;
+  width: 24px;
+  height: 24px;
 }
 
 .search .input-lg {
