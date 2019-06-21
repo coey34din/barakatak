@@ -1474,9 +1474,13 @@ a[rel="tag"]:last-child {
     width: 100%;
     display: table;
     margin: 5px 0;
-    input{
-        width: 100%;
-        border-radius: 4px;
-        margin: 0;
+    .input-lg {
+        height: 46px;
+        padding: 10px 16px;
+        font-size: 18px;
+        line-height: 1.3333333;
+        border-radius: 6px;
+        background-color: #1A001C;
+        border: 1px solid #490157ce;
     }
 }
