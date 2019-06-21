@@ -1453,3 +1453,10 @@ a[rel="tag"]:last-child {
   background-color: #d166cf;
   color: #000;
 }
+
+.search {
+  width: 100%;
+  display: table;
+  margin: 15px 0;
+  background: red;
+}
