@@ -1052,18 +1052,18 @@ $('#txt-search').keyup(function(){
 	}
 	
 	var regex = new RegExp(searchField, "i");
-	var output = '<div class="row tess">';
+	var output = '<div class="tess">';
 	var count = 1;
 		$.each(data, function(key, val){
 				if ((val.index.search(regex) != -1) || (val.title.search(regex) != -1)) {
-				output += '<div class="col-md-4 well">';
+				output += '<div class="gallery">';
 				output += '<div class="col-md-3">'+val.url+'</div>';
 				output += '<div class="col-md-7">';
 				output += '<h5>' + val.title + '</h5>';				
 				output += '</div>';
 				output += '</div>';
 				if(count%2 == 0){
-					output += '</div><div class="row tess2">'
+					output += '</div><div class="tess2">'
 				}
 				count++;
 			}
