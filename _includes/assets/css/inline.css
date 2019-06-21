@@ -1461,6 +1461,17 @@ a[rel="tag"]:last-child {
   margin: 5px 0;
 }
 
+.search .form-group {
+  position: relative;
+}
+
+.search .form-group .icon-search {
+  background: url(/static/img/search.png) no-repeat;
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
 .search .input-lg {
   height: 46px;
   padding: 10px 16px;

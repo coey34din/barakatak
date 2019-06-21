@@ -1483,6 +1483,16 @@ a[rel="tag"]:last-child {
     width: 100%;
     display: table;
     margin: 5px 0;
+    .form-group{
+        position: relative;
+        .icon-search{
+            background: url(/static/img/search.png) no-repeat;
+            position: absolute;
+            top: 0;
+            right: 0;
+        }
+    }
+    
     .input-lg {
         height: 46px;
         padding: 10px 16px;
