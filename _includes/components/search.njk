@@ -1052,7 +1052,7 @@ $('#txt-search').keyup(function(){
 	}
 	
 	var regex = new RegExp(searchField, "i");
-	var output = '<div class="row">';
+	var output = '<div class="row tess">';
 	var count = 1;
 		$.each(data, function(key, val){
 				if ((val.index.search(regex) != -1) || (val.title.search(regex) != -1)) {
