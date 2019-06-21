@@ -36,6 +36,7 @@
   <meta name="google-site-verification" content="FD6MXulZMvF-XEhwUcubemcZeQH7YIqT6GsMLgP-Wu0" />
   {% include "components/favicon.njk" %}
   {% set css %}
+  {% include "assets/css/bootstrap.min.css" %}
     {% include "assets/css/inline.css" %}
   {% endset %}
   <style>{{ css | cssmin | safe }}</style>

@@ -1462,4 +1462,5 @@ a[rel="tag"]:last-child {
 
 .search input {
   width: 100%;
+  border-radius: 4px;
 }

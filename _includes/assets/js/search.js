@@ -1,19 +1,3 @@
-<div class="search">
-    <div class="wrapper">
-        <div class="container" style="padding:50px 250px;">
-            <div id="header"></div>
-            <form role="form">
-                <div class="form-group">
-                    <input type="input" class="form-control input-lg" id="txt-search" placeholder="Type your search character">
-                </div>
-            </form>
-            <div id="filter-records"></div>
-        </div>
-    </div>
-</div>
-
-
-<script type="text/javascript">
 $(document).ready(function(){
     var data = [
   {
@@ -1077,4 +1061,3 @@ $('#txt-search').keyup(function(){
 		$('#filter-records').html(output);
 	});
 });
-</script>
