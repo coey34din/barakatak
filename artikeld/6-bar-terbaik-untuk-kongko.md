@@ -2,12 +2,12 @@
 title: 6 Bar Terbaik Untuk Kongko
 date: 2019-05-06T00:46:48.097Z
 modified_date: 2019-05-06T00:46:48.243Z
-description: Bar terbaik untuk kongko ada banyak yang bisa dipilih di ibu kota. Tentu saja ini menjadi sesuatu yang penting ketika kamu ingin menemukan hiburan yang tepat.
+description: Bar terbaik untuk kongko ada banyak yang bisa dipilih di ibu kota Jakarta. Tentu saja ini menjadi sesuatu yang penting ketika kamu ingin menemukan hiburan yang tepat.
 category:
   - Artikel
 tags:
   - artikel
-  - clubbing
+  - jakarta
 keywords:
   - clubbing jakarta
   - pub jakarta

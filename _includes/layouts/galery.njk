@@ -8,7 +8,6 @@ permalink: /galeri/index.html
     <div class="wrapper">
         <h1>{{ title }}</h1>
         {{ layoutContent | safe }}
-
         {% set galeryslist = collections.posts %}
         {% include "components/galeryslist.njk" %}
     </div>

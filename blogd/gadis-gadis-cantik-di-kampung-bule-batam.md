@@ -2,15 +2,16 @@
 title: Gadis-Gadis Cantik Di Kampung Bule Batam
 date: 2019-05-10T12:20:02.957Z
 modified_date: 2019-05-10T12:20:03.527Z
-description: Kampung Bule Batam menyuguhkan hiburan yang real bagi para pecinta dunia malam. Hingar binger yang ada di pusat kota dekat Kampung Bule Batam.
+description: Kampung Bule Batam menyuguhkan hiburan yang real bagi para pecinta dunia malam. Hingar bingar wanita penghibur yang ada di pusat kota dekat Kampung Bule Batam.
 category:
   - Blog
 tags:
   - blog
+  - wanita penghibur
 keywords:
   - kampung bule batam
   - gadis cantik kampung
-  - dunia malam kampung  
+  - wanita penghibur
 article_image: /images/uploads/gadis-gadis-cantik-di-kampung-bule-batam-1.jpg
 thumbnail: /images/uploads/gadis-gadis-cantik-di-kampung-bule-batam-1-008.jpg
 ---

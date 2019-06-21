@@ -5,8 +5,13 @@
         "@context": "http://schema.org",
         {% if isPost -%}
         "@type": "BlogPosting",
+        "headline":"{{title}}",
+        "description": "{{description}}",
+        "mainEntityOfPage": "True",
         {% else -%}
         "@type":"WebSite",
+        "headline":"{{ site.title }}",
+        "description": "{{site.description}}",
         {% endif -%}
         "url":"{{ absolutePageUrl }}",
         {% if thumbnail -%}
@@ -14,17 +19,14 @@
         {% else -%}
         "image": "{{ site.logo }}"
         {% endif -%}
-        "headline":"{{title or site.title}}",
-        "description": "{{description or site.description}}",
+        {% if isPost -%}
+        "datePublished": "{{ date | htmlDateString }}",
+        "dateModified":"{{ modified_date | htmlDateString }}",
+        "publisher":"{{author.name}}",
         "author": {
             "@type": "Person",
-            "name": "{{ author.name }}",
-            "sameAs":[
-                "{{ author.twitter.url }}",
-                "{{ author.instagram.url }}",
-                "{{ author.linkedin.url }}",
-                "{{ author.github.url }}"
-            ]
+            "name": "DuniaMalam88"
         }
-    }
-    </script>
+        {% endif -%}
+}
+</script>

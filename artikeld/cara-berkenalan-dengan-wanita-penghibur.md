@@ -7,6 +7,7 @@ category:
   - Artikel
 tags:
   - artikel
+  - tips
 keywords:
   - wanita penghibur
   - cari wanita penghibur

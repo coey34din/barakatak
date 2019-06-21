@@ -9,7 +9,7 @@ permalink: /galeri/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber }}
 title: DuniaMalam88.com | Halaman Galeri
 description: DuniaMalam88.com | Halaman Galeri menyediakan berbagai foto dan video yang berkaitan dengan dunia malam, dj, venue, diskotik, bar, cafe di negara-negara Asia dan sekitarnya
 ---
-<img class="b-content" src="{{ '/' | url }}static/img/banner-content.jpg" alt="Galeri Dunia Malam 88">
+<div class="b-content post"></div>
 <div  class="main-blok">
     <div class="wrapper">
         <h1>{{ title }} {% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}{% endif %}</h1>
@@ -73,7 +73,7 @@ description: DuniaMalam88.com | Halaman Galeri menyediakan berbagai foto dan vid
 		{% set halUrl %}/galeri/{% endset %}
 		<a href="{{ halUrl }}">1</a>
 		{% set counter = 0 %}
-		{% for counter in range(0, 0) %}
+		{% for counter in range(0, 1) %}
 			{% set counter = counter + 1 %}
 			{% set halUrl %}/galeri/{{ counter }}/{% endset %}
 			<a href="{{ halUrl | url }}">{{ counter + 1 }}</a>

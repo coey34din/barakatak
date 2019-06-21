@@ -7,7 +7,7 @@ category:
   - Artikel
 tags:
   - artikel
-  - clubbing
+  - jakarta
 keywords:
   - clubbing jakarta
   - dunia malam jakarta

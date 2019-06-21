@@ -9,6 +9,7 @@ category:
   - Artikel
 tags:
   - artikel
+  - tips
 keywords:
   - dunia malam
 article_image: /images/uploads/cara-bersenang-senang-di-club-malam-bagi-pemula-1.jpg

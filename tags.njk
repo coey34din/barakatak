@@ -13,14 +13,20 @@ pagination:
     - blog
     - video
     - galeri
+    - galery
     - profil
     - tagList
+    - galerid
+    - blogd
+    - videos
+    - catList
+    - artikeld
 permalink: /tags/{{ tag | urlencode }}/
 layout: layouts/base.njk
 renderData:
-  title: "Tagged “{{ tag | urlencode }}”"
+  title: "Tagged “{{ tag }}”"
 ---
-<img class="b-content" src="{{ '/' | url }}static/img/banner-content.jpg" alt="Dunia Malam Header Logo">
+<div class="b-content post"></div>
 <div  class="main-blok">
     <div class="wrapper">
         <h1>Tagged “{{ tag }}”</h1>

@@ -2,7 +2,7 @@
 title: 5 Tempat Nongkrong Di Yogyakarta Dengan WIFI Kencang
 date: 2019-05-13T11:56:23.875Z
 modified_date: 2019-05-13T11:56:24.194Z
-description: Tempat nongkrong di Yogyakarta sangatlah banyak dan tidak perlu susah dalam mencarinya. Sebagaimana yang kamu ketahui bahwa di tempat wisata.
+description: Tempat nongkrong di Yogyakarta sangatlah banyak dan tidak perlu susah dalam mencarinya. Sebagaimana yang kamu ketahui bahwa di tempat wisata, kamu akan bisa melihat aneka hiburan menarik yang ada di dalamnya.
 category:
   - Artikel
 tags:
@@ -11,7 +11,6 @@ tags:
 keywords:
   - indoclubbing yogyakarta
   - indoclubbing jogyakarta
-  - wifi kencang jogyakarta
   - wifi kencang yogyakarta
 article_image: /images/uploads/5-tempat-nongkrong-di-yogyakarta-dengan-wifi-kencang-3.jpg
 thumbnail: /images/uploads/5-tempat-nongkrong-di-yogyakarta-dengan-wifi-kencang-3-020.jpg

@@ -512,7 +512,7 @@ header {
         border-top: 1px solid #480157;
     }
     .summ{
-        height: 65px;
+        height: 66px;
         overflow: hidden;
         border-bottom: 1px solid #4f034e;
         margin: 0;
@@ -850,9 +850,20 @@ footer{
 
 .b-content{
     margin: 0 auto;
-    margin-top: 151px;
+    margin-top: 114px;
     display: table;
-    width: 100%;
+    width: 100%;   
+    height: 170px;
+    background-color:#0e0011; 
+    background-repeat: no-repeat;
+    &.post{
+        background-image: url("/static/img/banner-content.jpg");
+        background-position: center;
+    }
+    &.blog{
+        background-image: url("/static/img/banner-content1.jpg");
+        background-position: center;
+    }
 }
 
 .main-cont-left{
@@ -953,6 +964,16 @@ small{
     .wrapper{
         width:980px;
     }
+    .b-content{
+        margin-top: 115px;
+        height: 153px;
+        &.post{
+            background-size:100%;
+        }
+        &.blog{
+            background-size:100%;
+        }
+    }
     .box-iklan {
     width: 23.48964%;
     }
@@ -967,9 +988,6 @@ small{
     }
     .box-footer {
         width: 30.3333%;
-    }
-    .b-content{
-        width: 100%;
     }
     .gallery {
         width: 30.996964%;
@@ -1000,10 +1018,18 @@ small{
         display: none;
     }
     .b-content{
-        margin: 0 auto;
-        margin-top: 64px!important;
-        display: table;
-        width: 100%;
+        margin-top:64px;
+        height: 155px;
+        &.post{
+            background-image: url("/static/img/banner-content850-1.jpg");
+            background-position: center;
+            background-size:100%;
+        }
+        &.blog{
+            background-image: url("/static/img/banner-content850-2.jpg");
+            background-position: center;
+            background-size:100%;
+        }
     }
     
     .box-iklan{
@@ -1035,10 +1061,31 @@ small{
         text-align: center;
     }
 }
+@media screen and (max-width:768px) {
+.gallery img{
+    height: 190px;
+    }
+}
+@media screen and (max-width:670px) {
 
+    .b-content{
+        margin-top:64px;
+        height: 134px;
+    }
+}
 @media screen and (max-width:568px) {
     .box-footer{
         width: 50%;
+    }
+    .b-content{
+        margin-top:64px;
+        height: 77px;
+    }
+    .listgalery {
+        .summ{
+            font-size: 16px;
+            height: 76px;
+        }
     }
 }
 
@@ -1065,6 +1112,10 @@ small{
     }
     p img{
         width: 100%;
+    }
+    .b-content{
+        margin-top:64px;
+        height: 75px;
     }
     
 }

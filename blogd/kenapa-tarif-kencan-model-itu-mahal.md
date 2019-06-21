@@ -2,14 +2,14 @@
 title: Kenapa Tarif Kencan Model Itu Mahal?
 date: 2019-06-05T00:33:23.867Z
 modified_date: 2019-06-05T00:33:24.700Z
-description: >-
-  Tarif kencan model bisa dikatakan memiliki nominalnya tersendiri dibandingkan
-  mereka yang biasa-biasa saja.
+description: Tarif kencan model bisa dikatakan memiliki nominalnya tersendiri dibandingkan mereka yang biasa-biasa saja.
 category:
   - Blog
 tags:
   - blog
+  - wanita penghibur
 keywords:
+  - wanita penghibur
   - dunia malam
 article_image: /images/uploads/kenapa-tarif-kencan-model-itu-mahal-2.jpg
 thumbnail: /images/uploads/kenapa-tarif-kencan-model-itu-mahal-1-012.jpg

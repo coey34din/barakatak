@@ -10,7 +10,7 @@ tags:
   - pramunikmat
 keywords:
   - tempat lokalisasi indonesia
-  - dunia malam
+  - wanita penghibur
   - pramunikmat
 article_image: /images/uploads/seperti-apa-prosedur-kerja-tempat-lokalisasi-3.jpg
 thumbnail: /images/uploads/seperti-apa-prosedur-kerja-tempat-lokalisasi-1-009.jpg

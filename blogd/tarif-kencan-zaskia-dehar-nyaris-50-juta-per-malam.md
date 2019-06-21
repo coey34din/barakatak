@@ -10,7 +10,7 @@ tags:
   - dj cantik
 keywords:
   - dj zaskia dehar
-  - dj cantik indonesia
+  - wanita penghibur
   - indoclubbing jakarta
 article_image: /images/uploads/tarif-kencan-zaskia-dehar-nyaris-50-juta-per-malam-3.jpg
 thumbnail: /images/uploads/tarif-kencan-zaskia-dehar-nyaris-50-juta-per-malam-1-014.jpg

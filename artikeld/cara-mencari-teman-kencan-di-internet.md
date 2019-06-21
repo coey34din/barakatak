@@ -7,6 +7,7 @@ category:
   - Artikel
 tags:
   - artikel
+  - tips
 keywords:
   - teman kencan internet
   - mencari teman kencan

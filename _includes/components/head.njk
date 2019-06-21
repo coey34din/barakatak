@@ -5,6 +5,7 @@
   <link rel="profile" href="https://gmpg.org/xfn/11">
   <meta name="description" content="{% if description %}{{ description }}{% elif tag %}{{ site.name }} | {{ tag }}{% else %}{{ site.description }}{% endif %}">
   <link rel="canonical" href="{{ site.url }}{{ page.url }}">
+  {% include "components/jsonld.njk" %}
   {# Open Graph #}
   <meta property="og:locale" content="id_ID">
   <meta property="og:type" content="website">
@@ -34,17 +35,15 @@
   <meta name="twitter:image:src" content="{{ site.url }}{% if article_image %}{{ article_image }}{% else %}{{ site.logo }}{% endif %}">
   <meta name="google-site-verification" content="FD6MXulZMvF-XEhwUcubemcZeQH7YIqT6GsMLgP-Wu0" />
   {% include "components/favicon.njk" %}
-    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
   {% set css %}
     {% include "assets/css/inline.css" %}
   {% endset %}
-
   <style>{{ css | cssmin | safe }}</style>
   {% set js %}
+    {% include "assets/js/jquery.min.js" %} 
     {% include "assets/js/inline.js" %} 
     {% include "assets/js/responsiveslides.js" %} 
   {% endset %}
   <script>{{ js | jsmin | safe }}</script>
-
 </head>
 
