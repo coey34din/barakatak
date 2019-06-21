@@ -1485,7 +1485,11 @@ a[rel="tag"]:last-child {
   line-height: 1.3333333;
   border-radius: 6px;
   background-color: #1A001C;
-  border: 1px solid #490157ce;
+  border: 1px;
+  border-style: solid;
+  border-top: 1px;
+  border-bottom-color: #490157ce;
+  border-right-color: #490157ce;
   color: #ffd1d2;
   padding-right: 45px;
 }
