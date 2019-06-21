@@ -484,6 +484,12 @@ header {
   background: transparent;
 }
 
+.gambar {
+  padding: 10px;
+  font-weight: 400;
+  padding-top: 0;
+}
+
 .listgalery {
   padding: 10px;
   font-size: 14px;
