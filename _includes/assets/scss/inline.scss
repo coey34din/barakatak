@@ -506,7 +506,6 @@ header {
 .gambar{
     padding: 10px;
     font-weight: 400;
-    padding-top: 0; 
     font-size: 13px;
 }
 .listgalery {
@@ -1475,6 +1474,10 @@ a[rel="tag"]:last-child {
             color: #000;
         }
     }
+}
+#filter-records{
+    border-bottom: #22011b;
+    padding-bottom: 10px;
 }
 .search{
     width: 100%;

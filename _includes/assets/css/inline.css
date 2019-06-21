@@ -487,7 +487,6 @@ header {
 .gambar {
   padding: 10px;
   font-weight: 400;
-  padding-top: 0;
   font-size: 13px;
 }
 
@@ -1449,6 +1448,11 @@ a[rel="tag"]:last-child {
 .halaman a:hover {
   background-color: #d166cf;
   color: #000;
+}
+
+#filter-records {
+  border-bottom: #22011b;
+  padding-bottom: 10px;
 }
 
 .search {
