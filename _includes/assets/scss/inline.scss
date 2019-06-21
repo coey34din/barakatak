@@ -1509,6 +1509,9 @@ a[rel="tag"]:last-child {
         border: 1px solid #490157ce;
         color: #ffd1d2;
         padding-right: 45px;
+        &:active{
+            background: #660e66;
+        }
     }
     .search-box{
        display: table; 

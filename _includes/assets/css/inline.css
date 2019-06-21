@@ -1490,6 +1490,10 @@ a[rel="tag"]:last-child {
   padding-right: 45px;
 }
 
+.search .input-lg:active {
+  background: #660e66;
+}
+
 .search .search-box {
   display: table;
 }
