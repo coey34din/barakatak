@@ -1057,8 +1057,8 @@ $('#txt-search').keyup(function(){
 		$.each(data, function(key, val){
 				if ((val.index.search(regex) != -1) || (val.title.search(regex) != -1)) {
 				output += '<div class="gallery">';
-				output += '<div class="col-md-3">'+val.url+'</div>';
-				output += '<div class="col-md-7">';
+				output += '<div class="curl">'+val.url+'</div>';
+				output += '<div class="listgalery">';
 				output += '<h5>' + val.title + '</h5>';				
 				output += '</div>';
 				output += '</div>';
