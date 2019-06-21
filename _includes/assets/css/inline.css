@@ -1457,6 +1457,9 @@ a[rel="tag"]:last-child {
 .search {
   width: 100%;
   display: table;
-  margin: 15px 0;
-  background: red;
+  margin: 5px 0;
+}
+
+.search input {
+  width: 100%;
 }
