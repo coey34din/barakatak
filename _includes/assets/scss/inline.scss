@@ -1552,7 +1552,9 @@ a[rel="tag"]:last-child {
 .tips{
     margin: 20px 0;
     .post-list-tips{
+        width: 45%;
         margin-bottom: 15px;
+        display: flex;
         img{
             float: left;
             margin-right: 10px;
@@ -1564,7 +1566,7 @@ a[rel="tag"]:last-child {
             font-size: 14px;
             height: 32px;
             overflow: hidden;
-            color:$c-white;
+            color:#fff;
         }
         .meta-entry{
             margin: 5px 0;
