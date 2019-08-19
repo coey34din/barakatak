@@ -1538,3 +1538,30 @@ a[rel="tag"]:last-child {
 .search .search-box {
   display: table;
 }
+
+.tips {
+  margin: 20px 0;
+}
+
+.tips .post-list-tips {
+  margin-bottom: 15px;
+}
+
+.tips .post-list-tips img {
+  float: left;
+  margin-right: 10px;
+  width: 100px;
+}
+
+.tips .post-list-tips h2 {
+  margin-top: 0;
+  margin-bottom: 3px;
+  font-size: 14px;
+  height: 32px;
+  overflow: hidden;
+  color: #fff;
+}
+
+.tips .post-list-tips .meta-entry {
+  margin: 5px 0;
+}
