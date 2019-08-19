@@ -22,7 +22,7 @@ Selain aktif sebagai DJ di berbagai tempat hiburan malam, dia juga memiliki kema
 
 ![DJ Jade Rasif Penuh Bakat Dan Gaya Menggoda](/images/uploads/dj-3.jpg)
 
-![DJ Jade Rasif Penuh Bakat Dan Gaya Menggoda](/images/uploads/dj-4.jpeg)
+![DJ Jade Rasif Penuh Bakat Dan Gaya Menggoda](/images/uploads/dj-4.jpg)
 
 ![DJ Jade Rasif Penuh Bakat Dan Gaya Menggoda](/images/uploads/dj-2.jpg)
 

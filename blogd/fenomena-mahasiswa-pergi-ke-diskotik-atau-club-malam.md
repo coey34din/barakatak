@@ -8,8 +8,6 @@ category:
 tags:
   - blog
 keywords:
-  - dunia malam
-  - kehidupan malam mahasiswa
 article_image: /images/uploads/fenomena-mahasiswa-pergi-ke-diskotik-atau-club-malam-1.jpg
 thumbnail: /images/uploads/fenomena-mahasiswa-pergi-ke-diskotik-atau-club-malam-3-010.jpg
 ---

@@ -2,23 +2,28 @@
 layout: layouts/base.njk
 pagination:
   data: collections.blogd
-  size: 40
+  size: 24
   reverse: true
   alias: entries
 permalink: /blog/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber }}/{% endif %}
 title: DuniaMalam88.com | Halaman Blog
 description: DuniaMalam88.com | Halaman Blog menyediakan berbagai tips dan informasi seputar dunia malam, dj, venue, diskotik, bar, cafe di negara-negara Asia dan sekitarnya
+keywords:
+  - hiburan malam
+  - dunia malam
+  - wisata malam
+  - wanita penghibur
 ---
 <div class="b-content post"></div>
 <div  class="main-blok">
     <div class="wrapper">
-		{% include "components/search.njk" %}
+	{% include "components/search.njk" %}
         <h1>{{ title }} {% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}{% endif %}</h1>
 
 {% set semua = ['blog','artikel','profil','galeri','posts','post','video'] %}
 {% set bukan = ['artikel','galeri','profil','posts','post'] %}
 {% set iya = ['blog'] %}
-<article class="row" role="contentinfo" aria-label="Blog Dunia Malam">
+<article class="row" aria-label="Blog Dunia Malam">
 	{% for post in entries %}
 	<!--
 		{% if post.data.tags %}
@@ -54,7 +59,7 @@ description: DuniaMalam88.com | Halaman Blog menyediakan berbagai tips dan infor
 											</span>
 									</time>
 									<span class="author">
-											by <strong>{{ metadata.author.name }}</strong>
+											by <strong>{{ author.name }}</strong>
 									</span>
 									
 								</p>
@@ -74,7 +79,7 @@ description: DuniaMalam88.com | Halaman Blog menyediakan berbagai tips dan infor
 		{% set halUrl %}/blog/{% endset %}
 		<a href="{{ halUrl }}">1</a>
 		{% set counter = 0 %}
-		{% for counter in range(0, 1) %}
+		{% for counter in range(0, 7) %}
 			{% set counter = counter + 1 %}
 			{% set halUrl %}/blog/{{ counter }}/{% endset %}
 			<a href="{{ halUrl | url }}">{{ counter + 1 }}</a>

@@ -2,23 +2,28 @@
 layout: layouts/base.njk
 pagination:
   data: collections.galerid
-  size: 40
+  size: 24
   reverse: true
   alias: entries
 permalink: /galeri/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber }}/{% endif %}
 title: DuniaMalam88.com | Halaman Galeri
-description: DuniaMalam88.com | Halaman Galeri menyediakan berbagai foto dan video yang berkaitan dengan dunia malam, dj, venue, diskotik, bar, cafe di negara-negara Asia dan sekitarnya
+description: DuniaMalam88.com | Galeri menyediakan berbagai foto dan video yang berkaitan dengan dunia malam, dj, diskotik, bar, cafe di negara-negara Asia dan sekitarnya
+keywords:
+  - dj cantik indonesia
+  - galeri dunia malam
+  - wisata malam
+  - wanita penghibur
 ---
 <div class="b-content post"></div>
 <div  class="main-blok">
     <div class="wrapper">
-		{% include "components/search.njk" %}
-        <h1>{{ title }} {% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}{% endif %}</h1>
+	{% include "components/search.njk" %}
+    <h1>{{ title }} {% if pagination.pageNumber > 0 %}{{ pagination.pageNumber + 1 }}{% endif %}</h1>
 
 {% set semua = ['blog','artikel','profil','galeri','posts','post','video'] %}
 {% set bukan = ['artikel','blog','profil','posts','post'] %}
 {% set iya = ['galeri','profil'] %}
-<article class="row" role="contentinfo" aria-label="Galeri Dunia Malam">
+<article class="row" aria-label="Galeri Dunia Malam">
 	{% for post in entries %}
 	<!--
 		{% if post.data.tags %}
@@ -54,7 +59,7 @@ description: DuniaMalam88.com | Halaman Galeri menyediakan berbagai foto dan vid
 											</span>
 									</time>
 									<span class="author">
-											by <strong>{{ metadata.author.name }}</strong>
+											by <strong>{{ author.name }}</strong>
 									</span>
 									
 								</p>
@@ -74,7 +79,7 @@ description: DuniaMalam88.com | Halaman Galeri menyediakan berbagai foto dan vid
 		{% set halUrl %}/galeri/{% endset %}
 		<a href="{{ halUrl }}">1</a>
 		{% set counter = 0 %}
-		{% for counter in range(0, 1) %}
+		{% for counter in range(0, 3) %}
 			{% set counter = counter + 1 %}
 			{% set halUrl %}/galeri/{{ counter }}/{% endset %}
 			<a href="{{ halUrl | url }}">{{ counter + 1 }}</a>

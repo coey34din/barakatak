@@ -1,5 +1,5 @@
 ---
-title: 'DJ Kiran Kartika, Ratunya Disc Jockey Yang Penuh Pesona'
+title: DJ Kiran Kartika, Ratunya Disc Jockey Yang Penuh Pesona
 date: 2019-05-06T00:46:55.211Z
 modified_date: 2019-05-06T00:46:55.297Z
 description: Kiran Kartika merupaakan seorang Disc Jocket (DJ) yang terkenal asal Belitung. Perempuan kelahiran Belitung 8 Mei 1995 ini begitu piawai dalam memainkan aneka musik.
@@ -9,11 +9,8 @@ tags:
   - galeri
   - dj cantik
 keywords:
-  - dj cantik indonesia
-  - dj kiran kartika
-  - clubbing belitung
-article_image: /images/uploads/dj-kiran-kartika-2-real.jpeg
-thumbnail: /images/uploads/dj-kiran-kartika-2.jpeg
+article_image: /images/uploads/dj-kiran-kartika-2-real.jpg
+thumbnail: /images/uploads/dj-kiran-kartika-2.jpg
 ---
 Kiran Kartika merupaakan seorang Disc Jocket (DJ) yang terkenal asal Belitung. Perempuan kelahiran Belitung 8 Mei 1995 ini begitu piawai dalam memainkan aneka music bergenre RnB Hip Hop dan juga Electro Dance Music. Dengan rate show sekitar 1.5 juta sampai 4 juta, dia mampu menciptakan suasana yang dibutuhkan para penikmat dunia malam. Lantunan musik yang berdentum indah membuat semua orang berdansa dan lupa diri.
 
@@ -25,6 +22,6 @@ Kiran Kartika suka bernyanyi, traveling, dan bermain musik sejak lama. Impiannya
 
 ![DJ Kiran Kartika, Ratunya Disc Jockey Yang Penuh Pesona](/images/uploads/dj-kiran-kartika-4-real.jpg)
 
-![DJ Kiran Kartika, Ratunya Disc Jockey Yang Penuh Pesona](/images/uploads/dj-kiran-kartika-2-real.jpeg)
+![DJ Kiran Kartika, Ratunya Disc Jockey Yang Penuh Pesona](/images/uploads/dj-kiran-kartika-2-real.jpg)
 
 ![DJ Kiran Kartika, Ratunya Disc Jockey Yang Penuh Pesona](/images/uploads/dj-kiran-kartika-1.jpg)

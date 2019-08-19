@@ -10,8 +10,6 @@ category:
 tags:
   - blog
 keywords:
-  - dunia malam 88
-  - dunia malam bali
 article_image: /images/uploads/apa-itu-dunia-malam-2.jpg
 thumbnail: /images/uploads/apa-itu-dunia-malam-3-thumb.jpg
 ---

@@ -9,8 +9,6 @@ tags:
   - video
   - singapura
 keywords:
-  - dunia malam singapura
-  - garden by the bar
 article_image: /images/uploads/dunia-malam-singapura-garden-by-the-bar-full-show-3.jpg
 thumbnail: /images/uploads/dunia-malam-singapura-garden-by-the-bar-full-show-2-011.jpg
 ---

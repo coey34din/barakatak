@@ -10,8 +10,8 @@ tags:
 keywords:
 - dunia malam indonesia
 - dunia malam anak muda
-article_image: /images/uploads/dunia-malam-dan-pengaruhnya-terhadap-anak-muda-2.png
-thumbnail: /images/uploads/dunia-malam-dan-pengaruhnya-terhadap-anak-muda-2-thumb.png
+article_image: /images/uploads/dunia-malam-dan-pengaruhnya-terhadap-anak-muda-2.jpg
+thumbnail: /images/uploads/dunia-malam-dan-pengaruhnya-terhadap-anak-muda-2-thumb.jpg
 ---
 Dunia Malam Dan Pengaruhnya Di Mata Anak Muda
 
@@ -41,6 +41,6 @@ Ditambah lagi dengan sejumlah dancer dan para musisi yang ada di tempat dunia ma
 
 ## Jadikan Dunia Malam Sebagai Hiburan, Bukan Kebutuhan
 
-![Dunia Malam Dan Pengaruhnya Di Mata Anak Muda](/images/uploads/dunia-malam-dan-pengaruhnya-terhadap-anak-muda-2.png)
+![Dunia Malam Dan Pengaruhnya Di Mata Anak Muda](/images/uploads/dunia-malam-dan-pengaruhnya-terhadap-anak-muda-2.jpg)
 
 Mungkin yang perlu ditekankan di sini adalah menjadikan dunia malam sebagai hiburan semata, bukan kebutuhan. Karena pada dasarnya jika semua karena kebutuhan, maka akan berpotensi membuat kamu bergerak di luar kendali. Dengan memiliki mindset bahwa ini adalah hiburan semata, tentu akan menjaga individu tersebut dari hal-hal yang tidak diinginkan.

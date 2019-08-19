@@ -9,11 +9,6 @@ tags:
   - blog
   - clubbing
 keywords:
-  - clubbing bali
-  - clubbing indonesia
-  - clubbing jakarta
-  - dunia malam
-  - dunia clubbing
 article_image: /images/uploads/5-hal-yang-wajib-disiapkan-sebelum-berangkat-ke-club-3.jpg
 thumbnail: /images/uploads/5-hal-yang-wajib-disiapkan-sebelum-berangkat-ke-club-3-thumb.jpg
 ---

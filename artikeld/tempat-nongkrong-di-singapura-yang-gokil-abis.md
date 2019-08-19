@@ -9,8 +9,6 @@ tags:
   - artikel
   - singapura
 keywords:
-  - dunia malam singapura
-  - tempat nongkrong singapura
 article_image: /images/uploads/tempat-nongkrong-di-singapura-yang-gokil-abis-3.jpg
 thumbnail: /images/uploads/tempat-nongkrong-di-singapura-yang-gokil-abis-3-016.jpg
 ---

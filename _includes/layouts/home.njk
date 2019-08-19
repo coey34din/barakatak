@@ -5,13 +5,26 @@ section: home
 <div class="slider">
     {% include "components/slider.njk" %}	
 </div>
-<div  class="main-blok">    
+<div  class="main-blok">
     <div class="wrapper">
-        {% include "components/search.njk" %}
         {% include "components/iklan.njk" %}	
-        
+        {% include "components/search.njk" %}
         <div class="main-cont-left">
-            {{ layoutContent | safe }}
+            <div class="cont-home">
+                {{ layoutContent | safe }}
+            </div>
+            <div class="row">
+                <div class="left-promo">
+                    <a href="https://www.jokerdewa.com/" rel="nofollow noreferrer" target="_blank">
+                        <img src="{{ '/' | url }}static/img/jokerdewa.jpg" alt="JokerDewa - Situs Poker Games Online" >
+                    </a>
+                </div>
+                    <div class="left-promo">
+                    <a href="https://www.indoprofile.com/" rel="nofollow noreferrer" target="_blank">
+                        <img src="{{ '/' | url }}static/img/e-sports.gif" alt="IndoProfile.com - Situs E-Sports Indonesia" >
+                    </a>
+                </div>
+            </div>
         </div>
         <div class="main-cont-right">
             {% include "components/contentright.njk" %}            

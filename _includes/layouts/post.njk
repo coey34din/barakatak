@@ -5,7 +5,7 @@ section: post
 <div class="b-content blog"></div>
 <div  class="main-blok">
     <div class="wrapper">
-        {% include "components/search.njk" %}
+    {% include "components/search.njk" %}
         <article>
         <h1>{{ title }}</h1>
         <p class="meta-entry">
@@ -15,18 +15,18 @@ section: post
             </span>
         </time>            
             <span class="author">
-                by <strong>{{ metadata.author.name }}</strong>
+                by <strong>{{ author.name }}</strong>
             </span>                  
     </p>
 
         {{ layoutContent | safe }}
 
-        {% set bukan = ['artikel','blog','profil','galeri','posts','post'] %}
+        {% set bukan = ['artikel','blog','profil','galeri','posts','post','video'] %}
         {% if tags %}
             <p>
             {% for tag in tags %}
                 {% if tag not in bukan %}
-                {% set tagUrl %}/tags/{{ tag | urlencode }}/{% endset %}
+                {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
                 <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
                 {%- endif -%}
             {% endfor %}
@@ -56,7 +56,7 @@ section: post
             {% if tags %}
                 {% for tag in tags %}
                     {% if tag in bukan %}
-                        <a href="{{ site.url }}/{{ tag }}/">← {{ tag }} index</a>
+                        <a href="{{ site.url }}/{{ tag | slug }}/">← {{ tag }} index</a>
                     {%- endif -%}
                 {% endfor %}
             {% endif %}

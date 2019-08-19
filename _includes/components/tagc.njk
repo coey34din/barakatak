@@ -1,7 +1,7 @@
 <div class="tagc">
     <h3>TAGS</h3>
     {% for tag in collections.tagList %}
-    {% set tagUrl %}/tags/{{ tag | urlencode }}/{% endset %}
+    {% set tagUrl %}/tags/{{ tag | slug }}/{% endset %}
     <a href="{{ tagUrl | url }}" rel="tag">{{ tag }}</a>
     {% endfor %}
 </div>

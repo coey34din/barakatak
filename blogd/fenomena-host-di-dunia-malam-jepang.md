@@ -9,10 +9,6 @@ tags:
   - blog
   - jepang
 keywords:
-  - dunia malam jepang
-  - host jepang
-  - indoclubbing jepang
-  - clubbing jepang
 article_image: /images/uploads/fenomena-host-di-dunia-malam-jepang-1.jpg
 thumbnail: /images/uploads/fenomena-host-di-dunia-malam-jepang-1-008.jpg
 ---

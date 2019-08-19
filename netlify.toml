@@ -2,14 +2,6 @@
   publish = "_site"
   command = "eleventy"
 
-[[redirects]]
-  from = "/video-kehidupan-malam-di-bali-night-party/"
-  to = "/video-kehidupan-malam-di-lxxy-kuta-legian-bali/"
-  
-[[redirects]]
-  from = "/tags/video/"
-  to = "/video/"
-  
 # REDIRECT and HEADERS examples
 
 # Redirect rule example

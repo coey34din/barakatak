@@ -9,9 +9,6 @@ tags:
   - blog
   - prostitusi
 keywords:
-  - dunia ayam kampus
-  - fenomena ayam kampus
-  - dunia malam kampus
 article_image: /images/uploads/fenomena-ayam-kampus-seperti-apa-dunia-mereka-3.jpg
 thumbnail: /images/uploads/fenomena-ayam-kampus-seperti-apa-dunia-mereka-3-thumb.jpg
 ---

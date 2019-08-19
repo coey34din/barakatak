@@ -9,9 +9,6 @@ tags:
   - blog
   - pramunikmat
 keywords:
-  - pramunikmat hotel
-  - pramunikmat indonesia
-  - dunia malam
 article_image: /images/uploads/bisnis-pramunikmati-hotel-di-kota-kota-besar-3.jpg
 thumbnail: /images/uploads/bisnis-pramunikmati-hotel-di-kota-kota-besar-2-004.jpg
 ---

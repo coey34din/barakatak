@@ -21,7 +21,7 @@ pagination:
     - videos
     - catList
     - artikeld
-permalink: /tags/{{ tag | urlencode }}/
+permalink: /tags/{{ tag | slug }}/
 layout: layouts/base.njk
 renderData:
   title: "Tagged “{{ tag }}”"
@@ -29,8 +29,7 @@ renderData:
 <div class="b-content post"></div>
 <div  class="main-blok">
     <div class="wrapper">
-        <h1>Tagged “{{ tag }}”</h1>
-
+        <h1>Artikel Blog Galeri Video Tagged “{{ tag }}”</h1>
         {% set postslist = collections[ tag ] %}
         {% include "components/tagslist.njk" %}
     </div>

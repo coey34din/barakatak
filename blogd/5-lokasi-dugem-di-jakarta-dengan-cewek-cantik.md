@@ -7,9 +7,8 @@ category:
   - Blog
 tags:
   - blog
+  - jakarta
 keywords:
-  - dugem jakarta
-  - dunia malam jakarta
 article_image: /images/uploads/5-lokasi-dugem-di-jakarta-dengan-cewek-cantik-2.jpg
 thumbnail: /images/uploads/5-lokasi-dugem-di-jakarta-dengan-cewek-cantik-1-016.jpg
 ---

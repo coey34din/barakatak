@@ -9,8 +9,6 @@ tags:
   - galeri
   - dj cantik
 keywords:
-  - dunia malam jakarta
-  - dj cantik indonesia
 article_image: /images/uploads/dj-lisa-kensington-tampil-memukau-dan-penuh-aksi-5.jpg
 thumbnail: /images/uploads/dj-lisa-kensington-tampil-memukau-dan-penuh-aksi-2-002.jpg
 ---

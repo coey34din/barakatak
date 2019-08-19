@@ -9,7 +9,6 @@ tags:
   - video
   - filipina
 keywords:
-  - dunia malam
 article_image: /images/uploads/dunia-malam-di-filipina-cove-manila-1.jpg
 thumbnail: /images/uploads/dunia-malam-di-filipina-cove-manila-3-008.jpg
 ---

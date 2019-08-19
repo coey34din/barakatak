@@ -7,10 +7,8 @@ category:
   - Blog
 tags:
   - blog
+  - clubbing
 keywords:
-  - dunia malam
-  - first time clubbing
-  - indoclubbing bali
 article_image: /images/uploads/apa-itu-first-time-clubbing-3.jpg
 thumbnail: /images/uploads/apa-itu-first-time-clubbing-3-009.jpg
 ---

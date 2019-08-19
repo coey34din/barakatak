@@ -9,9 +9,6 @@ tags:
   - artikel
   - pattaya
 keywords:
-  - dunia malam pattaya
-  - hiburan malam pattaya
-  - wisata malam pattaya
 article_image: /images/uploads/hiburan-malam-pattaya-bermodus-panti-pijat-3.jpg
 thumbnail: /images/uploads/hiburan-malam-pattaya-bermodus-panti-pijat-1-009.jpg
 ---

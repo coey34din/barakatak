@@ -1,16 +1,16 @@
 <div class="wrapper"> 
      {% include "components/tagc.njk" %}
      <div class="footer-site-map">
-               {% set postslist = collections.blog %}
-               {% set articleslist = collections.artikel %} 
-               {% set galeryslist = collections.galeri %} 
+               {% set postslist = collections.blog | head(-3) %}
+               {% set articleslist = collections.artikel | head(-3) %} 
+               {% set galeryslist = collections.galeri | head(-3) %} 
                <div class="site-map-group"> 
                     <input id="group-satu" type="checkbox">               
                     <label class="site-map-group-title" for="group-satu">BLOG TERBARU</label>
                     <ul class="site-map-group-list">  
                     {% set a = 0 %}
                     {% for post in postslist | reverse %}
-                         {% if a < 6 %}
+                         {% if a < 4 %}
                          {%set a = a + 1 %}
                          <li {% if post.url == url %} data-current="current item"{% endif %}  class="site-map-group-item">
                                    <a class="site-map-link"  href="{{ post.url | url }}">
@@ -27,7 +27,7 @@
                                         </span>
                                    </time>
                                    <span class="author">
-                                        by <strong>{{ metadata.author.name }}</strong>
+                                        by <strong>{{ author.name }}</strong>
                                    </span>
                               </p>
                          </li>
@@ -43,7 +43,7 @@
                     <ul class="site-map-group-list">         
                     {% set b = 0 %}             
                     {% for post in articleslist | reverse %}
-                         {% if b < 6 %}
+                         {% if b < 4 %}
                          {%set b = b + 1 %}                     
                               <li {% if post.url == url %} data-current="current item"{% endif %}  class="site-map-group-item">
                                         <a class="site-map-link"  href="{{ post.url | url }}">
@@ -60,7 +60,7 @@
                                              </span>
                                         </time>
                                         <span class="author">
-                                             by <strong>{{ metadata.author.name }}</strong>
+                                             by <strong>{{ author.name }}</strong>
                                         </span>
                                    </p>
                               </li>                    
@@ -74,7 +74,7 @@
                     <ul class="site-map-group-list">  
                     {% set c = 0 %}            
                     {% for post in galeryslist | reverse %}
-                         {% if c < 6 %}
+                         {% if c < 4 %}
                          {%set c = c + 1 %}
                          <li {% if post.url == url %} data-current="current item"{% endif %}  class="site-map-group-item">
                                    <a class="site-map-link" href="{{ post.url | url }}">
@@ -91,7 +91,7 @@
                                         </span>
                                    </time>
                                    <span class="author">
-                                        by <strong>{{ metadata.author.name }}</strong>
+                                        by <strong>{{ author.name }}</strong>
                                    </span>
                               </p>
                          </li>

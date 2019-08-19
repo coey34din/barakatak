@@ -9,10 +9,6 @@ tags:
   - blog
   - clubbing
 keywords:
-  - clubbing indonesia
-  - club malam indonesia
-  - dunia malam
-  - wisata malam
 article_image: /images/uploads/bolehkah-membawa-pasangan-di-club-malam-3.jpg
 thumbnail: /images/uploads/bolehkah-membawa-pasangan-di-club-malam-3-001.jpg
 ---

@@ -2,23 +2,23 @@
 layout: layouts/base.njk
 pagination:
   data: collections.videos
-  size: 40
+  size: 24
   reverse: true
   alias: entries
 permalink: /video/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber }}/{% endif %}
 title: DuniaMalam88.com | Galeri Video
-description: DuniaMalam88.com | Halaman Video menyediakan berbagai video khusus seputar dunia malam, dj, venue, diskotik, bar, cafe di Indonesia dan negara Asia sekitarnya
+description: DuniaMalam88.com | Halaman Video menyediakan berbagai video khusus seputar wisata, kuliner,  dj, venue, diskotik, bar, cafe di Indonesia dan negara Asia sekitarnya
 ---
 <div class="b-content post"></div>
 <div  class="main-blok">
     <div class="wrapper">
-		{% include "components/search.njk" %}
+	{% include "components/search.njk" %}
         <h1>{{ title }}</h1>
        
 {% set semua = ['blog','artikel','profil','galeri','posts','post','video'] %}
 {% set bukan = ['artikel','galeri','profil','posts','post'] %}
 {% set iya = ['video'] %}
-<article class="row" role="contentinfo" aria-label="Blog Dunia Malam">
+<article class="row" aria-label="Blog Dunia Malam">
 	{% for post in entries %}
 	<!--
 		{% if post.data.tags %}
@@ -54,7 +54,7 @@ description: DuniaMalam88.com | Halaman Video menyediakan berbagai video khusus 
 											</span>
 									</time>
 									<span class="author">
-											by <strong>{{ metadata.author.name }}</strong>
+											by <strong>{{ author.name }}</strong>
 									</span>
 									
 								</p>

@@ -9,9 +9,6 @@ tags:
   - blog
   - tips
 keywords:
-  - dunia malam
-  - klub malam
-  - indoclubbing
 article_image: /images/uploads/belajar-bersosialisasi-dari-klub-malam-3.jpg
 thumbnail: /images/uploads/belajar-bersosialisasi-dari-klub-malam-3-008.jpg
 ---

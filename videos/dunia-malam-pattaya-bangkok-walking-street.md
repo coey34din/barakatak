@@ -9,9 +9,6 @@ tags:
   - video
   - pattaya
 keywords:
-  - dunia malam pattaya
-  - bangkok walking street
-  - dunia malam bangkok
 article_image: /images/uploads/dunia-malam-pattaya-bangkok-walking-street-2.jpg
 thumbnail: /images/uploads/dunia-malam-pattaya-bangkok-walking-street-2-007.jpg
 ---

@@ -9,8 +9,6 @@ tags:
   - video
   - hongkong
 keywords:
-  - dunia malam hongkong
-  - lan kwai fong
 article_image: /images/uploads/dunia-malam-hongkong-nightlife-lan-kwai-fong-2.jpg
 thumbnail: /images/uploads/dunia-malam-hongkong-nightlife-lan-kwai-fong-2-008.jpg
 ---

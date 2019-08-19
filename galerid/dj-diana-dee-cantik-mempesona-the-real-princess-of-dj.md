@@ -15,7 +15,7 @@ keywords:
 article_image: /images/uploads/dj-diana-dee-cantik-mempesona-the-real-princess-of-dj-3.jpg
 thumbnail:  /images/uploads/dj-diana-dee-cantik-mempesona-the-real-princess-of-dj-2-009.jpg
 ---
-Siapa yang tak kenal dengan keindahan performa dari DJ Diana Dee? Dia adalah sosok DJ yang sangat elegan dan berkharisma. Penampilannya yang simple dipadu fashionable membuat hangatnya dunia malam semakin kental. Siapapun yang melihat performanya bak tersihir. Entah karena kecantikan wajahnya, atau karena keseksianya.
+Siapa yang tak kenal dengan keindahan performa dari DJ Diana Dee? Dia adalah sosok DJ yang sangat elegan dan berkharisma. Penampilannya yang simple dipadu fashionable membuat hangatnya suasana malam semakin kental. Siapapun yang melihat performanya bak tersihir. Entah karena kecantikan wajahnya, atau karena keseksianya.
 
 Dalam hal mengkolaborasikan music dengan menggunakan Disk Jockey, kemampuannya sudah tak diragukan lagi. Benar-Benar sosok DJ idaman yang punya banyak sekali fans. Setiap performanya di malam-malam penuh germelap selalu dinantikan. Mau tahu seperti apa kecantikan DJ Diana Dee? Berikut foto-fotonya: 
 

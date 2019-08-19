@@ -1,40 +1,35 @@
 <div class="row">
-{% set semua = ['artikel','blog','profil','galeri','posts','post','video'] %}
-{% for post in postslist | reverse %}
-<!--
-	{% for tag in post.data.tags %}
-        {% if tag not in semua %}
--->
-            <section aria-label="{{ title }}" class="gallery">
-			<a href="{{ post.url | url }}">	
-			{% if post.data.thumbnail %}
-				<img src="{{ url }}{{ post.data.thumbnail }}" alt="thumbnail">
-			{% else %}
-				<img src="{{ '/' | url }}static/img/no-image.png" alt="thumbnail">
-			{% endif %}						
-			<div class="listgalery">
+    {% set semua = ['artikel','blog','profil','galeri','posts','post','video'] %}
+    {% set counter = 0 %}
+    {% for post in postslist | reverse %}
+        {% if (loop.index < 24) %}
+        <section aria-label="{{ title }}" class="gallery">
+            <a href="{{ post.url | url }}">	
+            {% if post.data.thumbnail %}
+                <img src="{{ url }}{{ post.data.thumbnail }}" alt="thumbnail">
+            {% else %}
+                <img src="{{ '/' | url }}static/img/no-image.png" alt="thumbnail">
+            {% endif %}						
+            <div class="listgalery">
                 <h2>
-                {% if post.data.title %}								
+                    {% if post.data.title %}								
                     {{ post.data.title }}
-                {% else %}
-                    Untitled
+                    {% else %}
+                        Untitled
                     {% endif %}
                 </h2>
                 {% if post.data.description %}
                     <p class="summ">{{ post.data.description }}</p>
                 {% endif %}
                 <p class="meta-entry">
-                    <time datetime="{{ post.date | machineDate }}">
-                    <span class="post-date">{{ post.date | readableDate }}</span>
-                    </time>
-                    <span class="author">by <strong>{{ metadata.author.name }}</strong></span>
+                <time datetime="{{ post.date | machineDate }}">
+                <span class="post-date">{{ post.date | readableDate }}</span>
+                </time>
+                <span class="author">by <strong>{{ author.name }}</strong></span>
                 </p>
-			</div>
-			</a>
-            </section>
-<!--        
+            </div>
+            </a>
+        </section>
         {% endif %}
-	{% endfor %}
--->    
-{% endfor %}
+    {% endfor %}
 </div>

@@ -9,9 +9,6 @@ tags:
   - blog
   - pramunikmat
 keywords:
-  - dunia malam
-  - pramunikmat
-  - wanita penghibur
 article_image: /images/uploads/alasan-menjadi-wanita-penghibur-3.jpg
 thumbnail: /images/uploads/alasan-menjadi-wanita-penghibur-3-009.jpg
 ---

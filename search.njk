@@ -1,0 +1,15 @@
+---
+permalink: search.json
+---
+[
+{%- for page in collections.all -%}
+  {%- if page.data.layout %}
+  {
+    "url": "{{ page.url }}",
+    "title": "{{ page.data.title }}",
+    "thumbnail": "{{ page.data.thumbnail }}",
+    "index": "{{ page.data.description | squash }}"
+  }{% if not loop.last %},{% endif %}
+  {%- endif -%}
+{%- endfor -%}
+]

@@ -14,6 +14,7 @@ eleventyConfig.addFilter("dateDisplay", require("./_includes/filters/dates.js"))
 
 // Add a HTML timestamp formatter filter to Nunjucks
 eleventyConfig.addFilter("htmlDateDisplay", require("./_includes/filters/timestamp.js"))
+eleventyConfig.addFilter("squash", require("./_includes/filters/squash.js") );
 
 eleventyConfig.addCollection("tagList", require("./_includes/helpers/getTagList.js"));
 eleventyConfig.addCollection("catList", require("./_includes/helpers/getCatList.js"));
@@ -31,7 +32,13 @@ eleventyConfig.addCollection("catList", require("./_includes/helpers/getCatList.
   eleventyConfig.addFilter('htmlDateString', (dateObj) => {
     return DateTime.fromJSDate(dateObj, {zone: 'utc'}).toFormat('yyyy-LL-dd');
   });
-
+  // Get the first `n` elements of a collection.
+  eleventyConfig.addFilter("head", (array, n) => {
+    if( n < 0 ) {
+      return array.slice(n);
+    }
+    return array.slice(0, n);
+  });
   // Minify CSS
   eleventyConfig.addFilter("cssmin", function(code) {
     return new CleanCSS({}).minify(code).styles;

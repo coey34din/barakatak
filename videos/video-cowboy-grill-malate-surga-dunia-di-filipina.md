@@ -19,7 +19,7 @@ Cowboy Grill Malate terkenal dengan surga dunianya Filipina. Di sini para pengun
 
 ![Video: Cowboy Grill Malate Surga Dunia Di Filipina](/images/uploads/video-cowboy-grill-malate-surga-dunia-di-Filipina-3.jpg)
 
-Tak hanya itu saja, di sini juga tersedia berbagai macam hiburan dari dancer yang ada didalamnya. Germelap dunia malam itu sendiri menambah nuansa yang kental dan bikin betah berlama-lama di tempat ini sampai pagi.
+Tak hanya itu saja, di sini juga tersedia berbagai macam hiburan dari dancer yang selalu tampil menemani anda yang akan menambah nuansa yang kental dan bikin betah berlama-lama di tempat ini sampai pagi.
 
 ![Video: Cowboy Grill Malate Surga Dunia Di Filipina](/images/uploads/video-cowboy-grill-malate-surga-dunia-di-Filipina-2.jpg)
 

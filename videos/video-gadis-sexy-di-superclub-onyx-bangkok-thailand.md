@@ -9,6 +9,7 @@ tags:
   - video
   - bangkok
 keywords:
+  - dunia malam bangkok
   - onyx superclub bangkok
   - onyx superclub thailand
   - clubbing thailand
@@ -20,7 +21,7 @@ thumbnail: /images/uploads/video-gadis-sexy-di-superclub-onyx-bangkok-thailand-0
 
 ## Sekilas tentang Onyx Superclub Bangkok
 
-Onyx merupakan tempat wisata dunia malam dengan venue superclub terkenal di Bangkok Thailand. Untuk para clubbers mancanegara, club ini sudah tidak asing lagi untuk acara kunjungan mereka.
+Onyx merupakan tempat wisata malam dengan venue superclub terkenal di Bangkok Thailand. Untuk para clubbers mancanegara, club ini sudah tidak asing lagi untuk acara kunjungan mereka.
 
 ![Live Gadis Sexy di Onyx Bangkok Thailand](/images/uploads/video-gadis-sexy-di-superclub-onyx-bangkok-thailand-2.jpg)
 
