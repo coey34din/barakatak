@@ -2,6 +2,11 @@
   publish = "_site"
   command = "eleventy"
 
+[[redirects]]
+from = "/tags/tips"
+to = "/tips/"
+
+
 # REDIRECT and HEADERS examples
 
 # Redirect rule example

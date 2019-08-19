@@ -28,6 +28,24 @@ collections:
       - { label: "Featured/Thumbnail", name: "thumbnail", widget: "image", required: false}
       - { label: "Body", name: "body", widget: "markdown" } 
 
+   # Our tips posts
+  - name: "tips" # Used in routes, e.g., /admin/collections/blog
+    label: "Tips" # Used in the UI
+    folder: "tipsd" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Publish Date", name: "date", widget: "datetime" }
+      - { label: "Modified Date", name: "modified_date", widget: "datetime" }
+      - { label: "Description/Summary", name: "description", widget: "text" }
+      - { label: "Category", name: "category", widget: "select", multiple: true, options: ["Artikel","Blog","Galeri", "Tips","Video"], default: ["Tips"] }      
+      - { label: "Tags", name: "tags", widget: "list", default: ["tips"] }
+      - { label: "Keywords", name: "keywords", widget: "list", default: ["dunia malam"] }
+      - { label: "Article Image", name: "article_image", widget: "image" , required: false}
+      - { label: "Featured/Thumbnail", name: "thumbnail", widget: "image", required: false}
+      - { label: "Body", name: "body", widget: "markdown" } 
+
   # Our artikel posts
   - name: "artikel" # Used in routes, e.g., /admin/collections/blog
     label: "Artikel" # Used in the UI
@@ -39,7 +57,7 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Modified Date", name: "modified_date", widget: "datetime" }
       - { label: "Description/Summary", name: "description", widget: "text" }
-      - { label: "Category", name: "category", widget: "select", multiple: true, options: ["Artikel","Blog","Galeri","Video"], default: ["Artikel"] }      
+      - { label: "Category", name: "category", widget: "select", multiple: true, options: ["Artikel","Blog","Galeri","Tips","Video"], default: ["Artikel"] }      
       - { label: "Tags", name: "tags", widget: "list", default: ["artikel"] }
       - { label: "Keywords", name: "keywords", widget: "list", default: ["dunia malam"] }
       - { label: "Article Image", name: "article_image", widget: "image" , required: false}
@@ -58,7 +76,7 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Modified Date", name: "modified_date", widget: "datetime" }
       - { label: "Description/Summary", name: "description", widget: "text" }
-      - { label: "Category", name: "category", widget: "select", multiple: true, options: ["Artikel","Blog","Galeri","Video"], default: ["Galeri"] }      
+      - { label: "Category", name: "category", widget: "select", multiple: true, options: ["Artikel","Blog","Galeri","Tips","Video"], default: ["Galeri"] }      
       - { label: "Tags", name: "tags", widget: "list", default: ["galeri"] }
       - { label: "Keywords", name: "keywords", widget: "list", default: ["dunia malam"] }
       - { label: "Article Image", name: "article_image", widget: "image" , required: false}
@@ -76,7 +94,7 @@ collections:
       - { label: "Publish Date", name: "date", widget: "datetime" }
       - { label: "Modified Date", name: "modified_date", widget: "datetime" }
       - { label: "Description/Summary", name: "description", widget: "text" }
-      - { label: "Category", name: "category", widget: "select", multiple: true, options: ["Artikel","Blog","Galeri","Video"], default: ["Video"] }      
+      - { label: "Category", name: "category", widget: "select", multiple: true, options: ["Artikel","Blog","Galeri","TIps","Video"], default: ["Video"] }      
       - { label: "Tags", name: "tags", widget: "list", default: ["video"] }
       - { label: "Keywords", name: "keywords", widget: "list", default: ["dunia malam"] }
       - { label: "Article Image", name: "article_image", widget: "image" , required: false}

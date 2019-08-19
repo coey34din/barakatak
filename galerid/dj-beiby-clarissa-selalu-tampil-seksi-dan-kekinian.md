@@ -7,11 +7,7 @@ category:
   - Galeri
 tags:
   - galeri
-  - dj cantik
 keywords:
-  - dj cantik indonesia
-  - dj biby clarissa
-  - dj seksi indonesia
 article_image: /images/uploads/dj-beiby-clarissa-selalu-tampil-seksi-dan-kekinian-5.jpg
 thumbnail: /images/uploads/dj-beiby-clarissa-selalu-tampil-seksi-dan-kekinian-3-005.jpg
 ---
