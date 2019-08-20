@@ -3,8 +3,8 @@
      <div class="footer-site-map">
                {% set postslist = collections.blog | head(-3) %}
                {% set articleslist = collections.artikel | head(-3) %} 
-               {% set galeryslist = collections.galeri | head(-3) %} 
                {% set tipslist = collections.tips | head(-3) %} 
+               {% set galeryslist = collections.galeri | head(-3) %} 
                <div class="site-map-group"> 
                     <input id="group-satu" type="checkbox">               
                     <label class="site-map-group-title" for="group-satu">BLOG TERBARU</label>
@@ -71,10 +71,10 @@
                </div>
                <div class="site-map-group">
                     <input id="group-tiga" type="checkbox">  
-                    <label class="site-map-group-title" for="group-tiga">GALERI TERBARU</label>  
+                    <label class="site-map-group-title" for="group-tiga">TIPS TERBARU</label>  
                     <ul class="site-map-group-list">  
                     {% set c = 0 %}            
-                    {% for post in galeryslist | reverse %}
+                    {% for post in tipslist | reverse %}
                          {% if c < 4 %}
                          {%set c = c + 1 %}
                          <li {% if post.url == url %} data-current="current item"{% endif %}  class="site-map-group-item">
@@ -102,10 +102,10 @@
                </div>  
                <div class="site-map-group">
                     <input id="group-empat" type="checkbox">  
-                    <label class="site-map-group-title" for="group-empat">TIPS</label>  
+                    <label class="site-map-group-title" for="group-empat">GALERI TERBARU</label>  
                     <ul class="site-map-group-list">  
                     {% set c = 0 %}            
-                    {% for post in tipslist | reverse %}
+                    {% for post in galeryslist | reverse %}
                          {% if c < 4 %}
                          {%set c = c + 1 %}
                          <li {% if post.url == url %} data-current="current item"{% endif %}  class="site-map-group-item">

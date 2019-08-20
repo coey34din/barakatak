@@ -6,7 +6,7 @@ pagination:
   reverse: true
   alias: entries
 permalink: /tips/{% if pagination.pageNumber > 0 %}{{ pagination.pageNumber }}/{% endif %}
-title: DuniaMalam88.com | Halaman Tips
+title: DuniaMalam88.com | Halaman Tips Dunia Malam
 description: DuniaMalam88.com | Halaman Tips menyediakan berbagai tips dan informasi seputar dunia malam, dj, venue, diskotik, bar, cafe di negara-negara Asia dan sekitarnya
 keywords:
   - hiburan malam
@@ -23,7 +23,7 @@ keywords:
 {% set semua = ['blog','artikel','profil','galeri','posts','post','video','tips'] %}
 {% set bukan = ['artikel','galeri','profil','posts','post','tips'] %}
 {% set iya = ['tips'] %}
-<article class="row" aria-label="Blog Dunia Malam">
+<article class="row" aria-label="Tips Dunia Malam">
 	{% for post in entries %}
 	<!--
 		{% if post.data.tags %}
@@ -76,12 +76,12 @@ keywords:
 </article>
     </div>
 	<div class="halaman">
-		{% set halUrl %}/blog/{% endset %}
+		{% set halUrl %}/tips/{% endset %}
 		<a href="{{ halUrl }}">1</a>
 		{% set counter = 0 %}
-		{% for counter in range(0, 7) %}
+		{% for counter in range(0, 1) %}
 			{% set counter = counter + 1 %}
-			{% set halUrl %}/blog/{{ counter }}/{% endset %}
+			{% set halUrl %}/tips/{{ counter }}/{% endset %}
 			<a href="{{ halUrl | url }}">{{ counter + 1 }}</a>
 		{% endfor %}
 	</div>

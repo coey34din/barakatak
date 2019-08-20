@@ -1,11 +1,13 @@
 ---
 layout: layouts/home.njk
 title: DuniaMalam88.com - Kanal lengkap Tentang Dunia Malam
+description: DuniaMalam88.com | ⚤ Situs referensi terlengkap menyuguhkan informasi wisata, kuliner, kenikmatan dan meriahnya dunia malam
 date: 2016-01-01T00:00:00.000Z
 permalink: /
 navtitle: Home
 tags:
   - nav
+thumbnail: /static/img/logo.png
 --- 
 # Situs Hiburan Wisata Dunia Malam
 

@@ -15,7 +15,7 @@ module.exports = function(collection) {
           case "posts":
           case "artikel":
           case "blog":
-          case "profile":
+          case "tips":
           case "video":
           case "galeri":
             return false;

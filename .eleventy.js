@@ -92,6 +92,11 @@ eleventyConfig.addCollection("catList", require("./_includes/helpers/getCatList.
     });
   });
 
+  eleventyConfig.addCollection("tipsd", function(collection) {
+    return collection.getAllSorted().filter(function(item) {
+      return item.inputPath.match(/^\.\/tipsd\//) !== null;
+    });
+  });
 
   eleventyConfig.addLiquidFilter("makeUppercase", function(value) { 
     return value.toUpperCase();
