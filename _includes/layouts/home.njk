@@ -13,44 +13,17 @@ section: home
             <div class="cont-home">
                 {{ layoutContent | safe }}
             </div>
-            <div class="tips row">
-
-{% set postslist = collections.tips %}
-{% set a = 0 %}     
-{% for post in postslist | reverse %}
-    {% if a < 8 %}
-        {%set a = a + 1 %}                    
-            <div {% if post.url == url %} data-current="current item"{% endif %} class="post-list-tips">
-            <a href="{{ post.url | url }}">
-                {% if post.data.thumbnail %}
-                    <img src="{{ url }}{{ post.data.thumbnail }}" alt="post.data.title">
-                    {% else %}
-                        <img src="{{ '/' | url }}static/img/no-image.png" alt="thumbnails">
-                {% endif %}	
-                <div class="list-detail">
-                    <h2>								
-                            {% if post.data.title %}								
-                                {{ post.data.title }}
-                            {% else %}
-                                Untitled
-                            {% endif %}								
-                    </h2> 
-                    <p class="meta-entry">
-                        <time datetime="{{ post.date | machineDate }}">
-                            <span class="post-date">                    
-                                {{ post.date | readableDate }}
-                            </span>
-                        </time> 
-                    </p>                              
+            <div class="row">
+                <div class="left-promo">
+                    <a href="https://www.jokerdewa.com/" rel="nofollow noreferrer" target="_blank">
+                        <img src="{{ '/' | url }}static/img/jokerdewa.jpg" alt="JokerDewa - Situs Poker Games Online" >
+                    </a>
                 </div>
-            </a>
-        </div>      
-    {% endif %}
-{% endfor %}
-
-
-
-
+                    <div class="left-promo">
+                    <a href="https://www.indoprofile.com/" rel="nofollow noreferrer" target="_blank">
+                        <img src="{{ '/' | url }}static/img/e-sports.gif" alt="IndoProfile.com - Situs E-Sports Indonesia" >
+                    </a>
+                </div>
             </div>
         </div>
         <div class="main-cont-right">
