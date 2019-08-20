@@ -4,6 +4,7 @@
                {% set postslist = collections.blog | head(-3) %}
                {% set articleslist = collections.artikel | head(-3) %} 
                {% set galeryslist = collections.galeri | head(-3) %} 
+               {% set galeryslist = collections.tips | head(-3) %} 
                <div class="site-map-group"> 
                     <input id="group-satu" type="checkbox">               
                     <label class="site-map-group-title" for="group-satu">BLOG TERBARU</label>
@@ -98,6 +99,37 @@
                          {%endif%}
                     {% endfor %}       
                     </ul>           
-               </div>               
+               </div>  
+               <div class="site-map-group">
+                    <input id="group-tiga" type="checkbox">  
+                    <label class="site-map-group-title" for="group-tiga">TIPS</label>  
+                    <ul class="site-map-group-list">  
+                    {% set c = 0 %}            
+                    {% for post in tagList | reverse %}
+                         {% if c < 4 %}
+                         {%set c = c + 1 %}
+                         <li {% if post.url == url %} data-current="current item"{% endif %}  class="site-map-group-item">
+                                   <a class="site-map-link" href="{{ post.url | url }}">
+                                        {% if post.data.title %}                                             	
+                                             {{ post.data.title }}
+                                        {% else %}
+                                             Untitled
+                                        {% endif %}
+                                   </a>
+                              <p class="meta-entry">
+                                   <time datetime="{{ post.date | machineDate }}">
+                                        <span class="post-date">                    
+                                             {{ post.date | readableDate }}
+                                        </span>
+                                   </time>
+                                   <span class="author">
+                                        by <strong>{{ author.name }}</strong>
+                                   </span>
+                              </p>
+                         </li>
+                         {%endif%}
+                    {% endfor %}       
+                    </ul>           
+               </div>             
      </div>
 </div>
