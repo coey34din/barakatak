@@ -39,6 +39,4 @@ Amerika pun juga tidak mau kalah. Di tempat yang satu ini, tersedia layanan yang
 
 ## 5.  Singapura, Ada Layanan Senilai 25 Ribu Dolar
 
-![T Tarif Prostitusi Indonesia](/images/uploads/af.jpg)
-
 Tarif protitusi di berbagai negara di dunia memang terkadang ada yang cukup mengagetkan. Sebagaimana yang ada di negara yang satu ini. Dimana tarif yang harus dibayarkan oleh sang klien cukup luar biasa besarnya. Untuk layanan yang melibatkan model sangat cantik dan dengan durasi waktu 3 hari, jumlah yang harus dibayarkan nantinya adalah sekitar 25 ribu Dolar atau setara dengan Rp 329 juta. Tentu ini juga tergantung secantik apa modelnya, dan berapa lama durasinya.

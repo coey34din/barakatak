@@ -18,12 +18,12 @@ Wilona Asheera merupakan salah satu model yang terkenal di tanah air. Bahkan nam
 
 Perempuan bertubuh tinggi ini juga memiliki akun instagram dengan jumlah followers yang tak terhitung jumlahnya. Sejumlah channel video di internet juga banyak yang mengabadikan prestasi dan performa apiknya, salah satunya Popular Magazine Indonesia. Hal ini jelas dikarenakan Wilona Asheera mampu menunjukan sosok perempuan yang elegan, ideal dan berkelas dalam dirinya. Simak kecantikan dari Wilona di bawah ini: 
 
-![Wilona Asheera Model Majalah Pria Dewasa Yang Aduhai](/images/uploads/wilona-asheera-model-majalah-pria-dewasa-yang-aduhai-4.jpg)
+![Wilona Asheera Model Majalah Pria Dewasa Yang Aduhai](https://res.cloudinary.com/kodai/image/upload/v1566385083/dm/w/wilona-asheera-model-majalah-pria-dewasa-yang-aduhai-4.jpg)
 
-![Wilona Asheera Model Majalah Pria Dewasa Yang Aduhai](/images/uploads/wilona-asheera-model-majalah-pria-dewasa-yang-aduhai-3.jpg)
+![Wilona Asheera Model Majalah Pria Dewasa Yang Aduhai](https://res.cloudinary.com/kodai/image/upload/v1566385083/dm/w/wilona-asheera-model-majalah-pria-dewasa-yang-aduhai-3.jpg)
 
-![Wilona Asheera Model Majalah Pria Dewasa Yang Aduhai](/images/uploads/wilona-asheera-model-majalah-pria-dewasa-yang-aduhai-5.jpg)
+![Wilona Asheera Model Majalah Pria Dewasa Yang Aduhai](https://res.cloudinary.com/kodai/image/upload/v1566385083/dm/w/wilona-asheera-model-majalah-pria-dewasa-yang-aduhai-5.jpg)
 
-![Wilona Asheera Model Majalah Pria Dewasa Yang Aduhai](/images/uploads/wilona-asheera-model-majalah-pria-dewasa-yang-aduhai-2.jpg)
+![Wilona Asheera Model Majalah Pria Dewasa Yang Aduhai](https://res.cloudinary.com/kodai/image/upload/v1566385083/dm/w/wilona-asheera-model-majalah-pria-dewasa-yang-aduhai-2.jpg)
 
-![Wilona Asheera Model Majalah Pria Dewasa Yang Aduhai](/images/uploads/wilona-asheera-model-majalah-pria-dewasa-yang-aduhai-1.jpg)
+![Wilona Asheera Model Majalah Pria Dewasa Yang Aduhai](https://res.cloudinary.com/kodai/image/upload/v1566385083/dm/w/wilona-asheera-model-majalah-pria-dewasa-yang-aduhai-1.jpg)

@@ -1041,14 +1041,26 @@ small{
         margin-top:64px;
         height: 155px;
         &.post{
-            background-image: url("/static/img/banner-content.gif");
+            background: none;
+        }
+        &.blog{
+           background: none;
+        }
+        &.joker{
+            background-image: url("https://res.cloudinary.com/kodai/image/upload/v1566545042/dm/joker.gif");
             background-position: center;
             background-size:100%;
         }
-        &.blog{
-            background-image: url("/static/img/banner-content.gif");
+        &.srbet{
+            background-image: url("https://res.cloudinary.com/kodai/image/upload/v1566545042/dm/srbet.gif");
             background-position: center;
             background-size:100%;
+        }
+        &.qq88pro{
+            background-image: url("https://res.cloudinary.com/kodai/image/upload/v1566545042/dm/qq88.gif");
+            background-position: center;
+            background-size:100%;
+            display: block;
         }
     }
     

@@ -20,12 +20,12 @@ Rhani Ryanti tak pernah berhenti membuat siapapun berdecak kagum melihat penampi
 
 Perempuan bertubuh seksi dan ideal ini juga suka mengenakan gaun berwarna putih di setiap perform yang dilakoninya. Rambutnya yang panjang terurai ditambah aksesoris di kepala membuat dirinya menjadi sosok yang sangat dikagumi. Tak hanya kecantikan saja yang menjadi modal perempuan ini, tapi juga skill yang mumpuni untuk menciptakan mood terbaik. Simak pesonanya berikut ini:
 
-![Rhani Ryanti, DJ Bertubuh Seksi Bak Malaikat](/images/uploads/rhani-ryanti-dj-bertubuh-seksi-bak-malaikat-5.jpg)
+![Rhani Ryanti, DJ Bertubuh Seksi Bak Malaikat](https://res.cloudinary.com/kodai/image/upload/v1566039995/dm/dj/rhani-ryanti-dj-bertubuh-seksi-bak-malaikat-5.jpg)
 
-![Rhani Ryanti, DJ Bertubuh Seksi Bak Malaikat](/images/uploads/rhani-ryanti-dj-bertubuh-seksi-bak-malaikat-4.jpg)
+![Rhani Ryanti, DJ Bertubuh Seksi Bak Malaikat](https://res.cloudinary.com/kodai/image/upload/v1566039995/dm/dj/rhani-ryanti-dj-bertubuh-seksi-bak-malaikat-4.jpg)
 
-![Rhani Ryanti, DJ Bertubuh Seksi Bak Malaikat](/images/uploads/rhani-ryanti-dj-bertubuh-seksi-bak-malaikat-3.jpg)
+![Rhani Ryanti, DJ Bertubuh Seksi Bak Malaikat](https://res.cloudinary.com/kodai/image/upload/v1566039995/dm/dj/rhani-ryanti-dj-bertubuh-seksi-bak-malaikat-3.jpg)
 
-![Rhani Ryanti, DJ Bertubuh Seksi Bak Malaikat](/images/uploads/rhani-ryanti-dj-bertubuh-seksi-bak-malaikat-2.jpg)
+![Rhani Ryanti, DJ Bertubuh Seksi Bak Malaikat](https://res.cloudinary.com/kodai/image/upload/v1566039995/dm/dj/rhani-ryanti-dj-bertubuh-seksi-bak-malaikat-2.jpg)
 
-![Rhani Ryanti, DJ Bertubuh Seksi Bak Malaikat](/images/uploads/rhani-ryanti-dj-bertubuh-seksi-bak-malaikat-1.jpg)
+![Rhani Ryanti, DJ Bertubuh Seksi Bak Malaikat](https://res.cloudinary.com/kodai/image/upload/v1566039995/dm/dj/rhani-ryanti-dj-bertubuh-seksi-bak-malaikat-1.jpg)

@@ -18,12 +18,12 @@ Tesla Dara Puspita merupakan seorang DJ yang kerap disapa dengan Arra Tesla. Sel
 
 Dengan tinggi badan 158 cm dan kulitnya yang putih, dia juga telah menyambangi satu per satu club di ibu kota. Meski anggota keluarganya khawatir dengan klub malam yang digeluti dalam profesinya saat ini, Arra mampu membuktikan bahwa dia mampu membuahkan prestasi, bukan malah menjerumuskannya ke hal-hal yang negatif. Penasaran dengan kecantikan dari Tesla Dara Puspita? Simak selengkapnya di bawah ini:
 
-![Tesla Dara Puspita, DJ Cantik Yang Gemar Disko](/images/uploads/tesla-dara-puspita-3.jpg)
+![Tesla Dara Puspita, DJ Cantik Yang Gemar Disko](https://res.cloudinary.com/kodai/image/upload/v1566040310/dm/dj/tesla-dara-puspita-3.jpg)
 
-![Tesla Dara Puspita, DJ Cantik Yang Gemar Disko](/images/uploads/tesla-dara-puspita-4.jpg)
+![Tesla Dara Puspita, DJ Cantik Yang Gemar Disko](https://res.cloudinary.com/kodai/image/upload/v1566040310/dm/dj/tesla-dara-puspita-4.jpg)
 
-![Tesla Dara Puspita, DJ Cantik Yang Gemar Disko](/images/uploads/tesla-dara-puspita-5-real.jpg)
+![Tesla Dara Puspita, DJ Cantik Yang Gemar Disko](https://res.cloudinary.com/kodai/image/upload/v1566040315/dm/dj/tesla-dara-puspita-5-real.jpg)
 
-![Tesla Dara Puspita, DJ Cantik Yang Gemar Disko](/images/uploads/tesla-dara-puspita-2.jpg)
+![Tesla Dara Puspita, DJ Cantik Yang Gemar Disko](https://res.cloudinary.com/kodai/image/upload/v1566040310/dm/dj/tesla-dara-puspita-2.jpg)
 
-![Tesla Dara Puspita, DJ Cantik Yang Gemar Disko](/images/uploads/tesla-dara-puspita-1.jpg)
+![Tesla Dara Puspita, DJ Cantik Yang Gemar Disko](https://res.cloudinary.com/kodai/image/upload/v1566040310/dm/dj/tesla-dara-puspita-1.jpg)

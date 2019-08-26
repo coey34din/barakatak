@@ -2,10 +2,7 @@
 title: 5 Wisata Kuliner Malam Pontianak Paling Enak
 date: 2019-08-19T11:48:20.403Z
 modified_date: 2019-08-19T11:48:20.636Z
-description: >-
-  Wisata kuliner malam Pontianak hadirkan banyak pilihan yang akan bisa
-  memberikan kesenangan kepada anda. Banyak sekali pilihan tempat hunting
-  kuliner.
+description: Wisata kuliner malam Pontianak hadirkan banyak pilihan yang akan bisa memberikan kesenangan kepada anda. Banyak sekali pilihan tempat hunting kuliner.
 category:
   - Artikel
 tags:

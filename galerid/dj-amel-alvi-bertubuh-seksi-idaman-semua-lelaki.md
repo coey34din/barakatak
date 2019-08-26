@@ -18,12 +18,12 @@ DJ Amel Alvi menjadi sosok idaman bagi semua lelaki ketika memainkan perannya se
 
 DJ Amel Alvi juga merupakan salah satu artis di film Hantu Budeg dan memiliki album berjudul Speak to The World EP. Dengan tubuh idaman setinggi 1.7 meter, dara manis berusia 26 tahun ini telah memberikan pesonanya yang sangat luar biasa dalam kehidupan dunia malam. Mau tahu seperti apa kiprah dari perempuan kelahiran 28 Juli 1992 ini? Berikut selengkapnya:
 
-![DJ Amel Alvi Bertubuh Seksi Idaman Semua Lelaki](/images/uploads/dj-amel-alvi-bertubuh-seksi-idaman-semua-lelaki-5.jpg)
+![DJ Amel Alvi Bertubuh Seksi Idaman Semua Lelaki](https://res.cloudinary.com/kodai/image/upload/v1566038279/dm/dj/dj-amel-alvi-bertubuh-seksi-idaman-semua-lelaki-5.jpg)
 
-![DJ Amel Alvi Bertubuh Seksi Idaman Semua Lelaki](/images/uploads/dj-amel-alvi-bertubuh-seksi-idaman-semua-lelaki-4.jpg)
+![DJ Amel Alvi Bertubuh Seksi Idaman Semua Lelaki](https://res.cloudinary.com/kodai/image/upload/v1566038279/dm/dj/dj-amel-alvi-bertubuh-seksi-idaman-semua-lelaki-4.jpg)
 
-![DJ Amel Alvi Bertubuh Seksi Idaman Semua Lelaki](/images/uploads/dj-amel-alvi-bertubuh-seksi-idaman-semua-lelaki-3.jpg)
+![DJ Amel Alvi Bertubuh Seksi Idaman Semua Lelaki](https://res.cloudinary.com/kodai/image/upload/v1566038279/dm/dj/dj-amel-alvi-bertubuh-seksi-idaman-semua-lelaki-3.jpg)
 
-![DJ Amel Alvi Bertubuh Seksi Idaman Semua Lelaki](/images/uploads/dj-amel-alvi-bertubuh-seksi-idaman-semua-lelaki-2.jpg)
+![DJ Amel Alvi Bertubuh Seksi Idaman Semua Lelaki](https://res.cloudinary.com/kodai/image/upload/v1566038279/dm/dj/dj-amel-alvi-bertubuh-seksi-idaman-semua-lelaki-2.jpg)
 
-![DJ Amel Alvi Bertubuh Seksi Idaman Semua Lelaki](/images/uploads/dj-amel-alvi-bertubuh-seksi-idaman-semua-lelaki-1.jpg)
+![DJ Amel Alvi Bertubuh Seksi Idaman Semua Lelaki](https://res.cloudinary.com/kodai/image/upload/v1566038279/dm/dj/dj-amel-alvi-bertubuh-seksi-idaman-semua-lelaki-1.jpg)

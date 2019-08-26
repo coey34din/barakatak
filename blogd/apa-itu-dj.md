@@ -19,7 +19,7 @@ Apa itu DJ yang sering dilihat oleh pengunjung di tempat hiburan malam? Anda bis
 
 ## DJ Kepanjangan Dari Disk Jockey
 
-![Apa Itu DJ?](/images/uploads/apa-itu-dj-3.jpg)
+![Apa Itu DJ?](https://res.cloudinary.com/kodai/image/upload/v1566286014/dm/a/apa-itu-dj-3.jpg)
 
 Hal pertama dari apa itu DJ yang perlu anda ketahui adalah kepanjangannya. DJ adalah kepanjangan dari Disk Jockey. Ini adalah sebuah profesi pengolah musik dimana orang yang melakukan hal ini memiliki kemammpuan yang brilian dalam menciptakan Live Music terbaik. Musik biasa yang awalnya memiliki dentuman biasa akan menjadi luar biasa ketika sudah diolah dari sang DJ itu sendiri. Di sinilah profesi tersebut akan bisa benar-benar mendatangkan sesuatu yang sangat berbeda satu sama lain.
 
@@ -29,7 +29,7 @@ Disk Jockey juga harus pandai dan tahu irama dan tempo musik yang akan dimainkan
 
 ## Diperankan Oleh Sosok Yang Keren Dan Terkenal
 
-![Apa Itu DJ?](/images/uploads/apa-itu-dj-2.jpg)
+![Apa Itu DJ?](https://res.cloudinary.com/kodai/image/upload/v1566286014/dm/a/apa-itu-dj-2.jpg)
 
 Jika sudah berbincang mengenai apa itu DJ, maka tentu saja ini juga kembali lagi dari siapa sosok yang berperan didalamnya. Di sini sosok yang berperan itu sendiri bisa dilihat dari bagaimana mereka yang ada didalamnya mampu memberikan sebuah hiburan terbaik dan juga luar biasa. Sosok yang keren dan terkenal ini akan bisa terus menghadirkan sesuatu yang berbeda dan juga pasti akan bisa dinikmati oleh siapa saja.
 
@@ -39,7 +39,7 @@ Selain itu, apa itu DJ juga akan menjadi sebuah hal yang penting ketika sosok ya
 
 ## Terkenal Di Kancah Lokal Dan Internasional
 
-![Apa Itu DJ?](/images/uploads/apa-itu-dj-1.jpg)
+![Apa Itu DJ?](https://res.cloudinary.com/kodai/image/upload/v1566286014/dm/a/apa-itu-dj-1.jpg)
 
 Apa itu DJ jika sudah terkenal dan cukup piawai dalam menciptakan sensasi dan suasana dunia malam yang istimewa? Tentu saja ini akan bisa membuat mereka dikenal dengan baik, entah itu di kancah lokal maupun internasional. Pasalnya performa dan juga kepuasan yang mereka berikan kepada pengunjung pun juga sangat luar biasa. Jadi tak heran jika hal inilah yang membuat sang DJ begitu dikenal oleh semua kalangan.
 

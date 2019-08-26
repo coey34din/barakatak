@@ -18,12 +18,12 @@ DJ Alison Wonderland pasti sudah tak asing lagi di telinga para penikmat suasana
 
 DJ Alison Wonderland juga telah menciptakan banyak sekali lagu istimewa selama berkarir. Selain menjadi DJ, dia juga ternyata adalah seorang penyanyi yang handal. Lagu-lagunya yang terkenal antara lain I Want U, U Don’t Know, dan High. Penampilannya pun juga nomor satu dan menjadi simbol fashion terkeren di era Milenials. Mau tahu seperti apa kiprahnya? Berikut foto-foto DJ Alison Wonderland:
 
-![DJ Alison Wonderland Perempuan Berbakat Yang Hot](/images/uploads/dj-alison-wonderland-5.jpg)
+![DJ Alison Wonderland Perempuan Berbakat Yang Hot](https://res.cloudinary.com/kodai/image/upload/v1566038268/dm/dj/dj-alison-wonderland-5.jpg)
 
-![DJ Alison Wonderland Perempuan Berbakat Yang Hot](/images/uploads/dj-alison-wonderland-4.jpg)
+![DJ Alison Wonderland Perempuan Berbakat Yang Hot](https://res.cloudinary.com/kodai/image/upload/v1566038268/dm/dj/dj-alison-wonderland-4.jpg)
 
-![DJ Alison Wonderland Perempuan Berbakat Yang Hot](/images/uploads/dj-alison-wonderland-1.jpg)
+![DJ Alison Wonderland Perempuan Berbakat Yang Hot](https://res.cloudinary.com/kodai/image/upload/v1566038268/dm/dj/dj-alison-wonderland-3.jpg)
 
-![DJ Alison Wonderland Perempuan Berbakat Yang Hot](/images/uploads/dj-alison-wonderland-3.jpg)
+![DJ Alison Wonderland Perempuan Berbakat Yang Hot](https://res.cloudinary.com/kodai/image/upload/v1566038268/dm/dj/dj-alison-wonderland-2.jpg)
 
-![DJ Alison Wonderland Perempuan Berbakat Yang Hot](/images/uploads/dj-alison-wonderland-2.jpg)
+![DJ Alison Wonderland Perempuan Berbakat Yang Hot](https://res.cloudinary.com/kodai/image/upload/v1566038268/dm/dj/dj-alison-wonderland-1.jpg)

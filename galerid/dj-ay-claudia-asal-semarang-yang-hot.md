@@ -20,12 +20,12 @@ DJ Ay Claudia merupakan sosok Female Disk Jockey yang ternama. Berasal dari Sema
 
 Tak hanya itu saja, DJ Ay Claudia juga mampu menunjukan prestasi yang sangat istimewa. Selain memiliki kecantikan yang sangat luar biasa, perempuan manis ini juga selalu tampil apik di setiap performa yang ditunjukannya. Jadi tak heran jika hal tersebut menjadikannya sebagai sosok DJ yang sangat terkenal dan selalu ditunggu-tunggu performanya. Mau tahu seperti apa kiprah dari DJ yang satu ini? Berikut cuplikannya:
 
-![DJ Ay Claudia Asal Semarang Yang Hot](/images/uploads/dj-ay-claudia-asal-semarang-yang-hot-4.jpg)
+![DJ Ay Claudia Asal Semarang Yang Hot](https://res.cloudinary.com/kodai/image/upload/v1566038297/dm/dj/dj-ay-claudia-asal-semarang-yang-hot-4.jpg)
 
-![DJ Ay Claudia Asal Semarang Yang Hot](/images/uploads/dj-ay-claudia-asal-semarang-yang-hot-5.jpg)
+![DJ Ay Claudia Asal Semarang Yang Hot](https://res.cloudinary.com/kodai/image/upload/v1566038297/dm/dj/dj-ay-claudia-asal-semarang-yang-hot-5.jpg)
 
-![DJ Ay Claudia Asal Semarang Yang Hot](/images/uploads/dj-ay-claudia-asal-semarang-yang-hot-3.jpg)
+![DJ Ay Claudia Asal Semarang Yang Hot](https://res.cloudinary.com/kodai/image/upload/v1566038297/dm/dj/dj-ay-claudia-asal-semarang-yang-hot-3.jpg)
 
-![DJ Ay Claudia Asal Semarang Yang Hot](/images/uploads/dj-ay-claudia-asal-semarang-yang-hot-2.jpg)
+![DJ Ay Claudia Asal Semarang Yang Hot](https://res.cloudinary.com/kodai/image/upload/v1566038297/dm/dj/dj-ay-claudia-asal-semarang-yang-hot-2.jpg)
 
-![DJ Ay Claudia Asal Semarang Yang Hot](/images/uploads/dj-ay-claudia-asal-semarang-yang-hot-1.jpg)
+![DJ Ay Claudia Asal Semarang Yang Hot](https://res.cloudinary.com/kodai/image/upload/v1566038297/dm/dj/dj-ay-claudia-asal-semarang-yang-hot-1.jpg)

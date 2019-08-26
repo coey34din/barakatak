@@ -18,12 +18,12 @@ DJ Angie Vu Ha merupakan sosok DJ yang sudah tidak perlu diragukan lagi talentan
 
 Tak hanya dari segi skill yang hebat dalam mengolah Disk Jockey, dari segi penampilan DJ Angie Vu Ha juga sangat oke punya. Inilah yang membuat penampilannya selalu dinikmati oleh semua penikmat yang ada di dunia malam. Hasilnya, dia pun selalu mampu tampil dengan keceriaan yang dibutuhkan semua pengunjung. Ratunya dunia hiburan memang cocok disematkan sebagai gelar untuk DJ Angie Vu Ha. Berikut pesona kehebatannya:
 
-![DJ Angie Vu Ha Penuh Talenta](/images/uploads/dj-angie-vu-ha-ratunya-dunia-malam-penuh-talenta-4.jpg)
+![DJ Angie Vu Ha Penuh Talenta](https://res.cloudinary.com/kodai/image/upload/v1566038291/dm/dj/dj-angie-vu-ha-ratunya-dunia-malam-penuh-talenta-4.jpg)
 
-![DJ Angie Vu Ha  Penuh Talenta](/images/uploads/dj-angie-vu-ha-ratunya-dunia-malam-penuh-talenta-5.jpg)
+![DJ Angie Vu Ha  Penuh Talenta](https://res.cloudinary.com/kodai/image/upload/v1566038291/dm/dj/dj-angie-vu-ha-ratunya-dunia-malam-penuh-talenta-5.jpg)
 
-![DJ Angie Vu Ha Penuh Talenta](/images/uploads/dj-angie-vu-ha-ratunya-dunia-malam-penuh-talenta-3.jpg)
+![DJ Angie Vu Ha Penuh Talenta](https://res.cloudinary.com/kodai/image/upload/v1566038291/dm/dj/dj-angie-vu-ha-ratunya-dunia-malam-penuh-talenta-3.jpg)
 
-![DJ Angie Vu Ha Penuh Talenta](/images/uploads/dj-angie-vu-ha-ratunya-dunia-malam-penuh-talenta-2.jpg)
+![DJ Angie Vu Ha Penuh Talenta](https://res.cloudinary.com/kodai/image/upload/v1566038291/dm/dj/dj-angie-vu-ha-ratunya-dunia-malam-penuh-talenta-2.jpg)
 
-![DJ Angie Vu Ha Penuh Talenta](/images/uploads/dj-angie-vu-ha-ratunya-dunia-malam-penuh-talenta-1.jpg)
+![DJ Angie Vu Ha Penuh Talenta](https://res.cloudinary.com/kodai/image/upload/v1566038291/dm/dj/dj-angie-vu-ha-ratunya-dunia-malam-penuh-talenta-1.jpg)

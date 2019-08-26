@@ -19,12 +19,12 @@ DJ Alfi Da Lovely mungkin sudah taka sing lagi bagi penikmat Tech House, Techno,
 
 Dia sukses menyabet posisi ke-17 sebagai DJ terbaik kala itu. Di sisi lain, DJ Alfi Da Lovely juga mampu mendapatkan sebuah penghargaan dari Dance Music di Indonesia, yaitu Redma. Kini, DJ Alfi juga kerap kali mengunggah foto dan videonya ketika ber-DJ di club malam melalui social media. Mau tahu kiprahnya seperti apa? Simak berikut ini: 
 
-![DJ Alfi Da Lovely Sang Diva Penakluk Dunia Malam](/images/uploads/dj-alfi-da-lovely-sang-diva-penakluk-dunia-malam-4.jpg)
+![DJ Alfi Da Lovely Sang Diva Penakluk Dunia Malam](https://res.cloudinary.com/kodai/image/upload/v1566038263/dm/dj/dj-alfi-da-lovely-sang-diva-penakluk-dunia-malam-4.jpg)
 
-![DJ Alfi Da Lovely Sang Diva Penakluk Dunia Malam](/images/uploads/dj-alfi-da-lovely-sang-diva-penakluk-dunia-malam-3.jpg)
+![DJ Alfi Da Lovely Sang Diva Penakluk Dunia Malam](https://res.cloudinary.com/kodai/image/upload/v1566038263/dm/dj/dj-alfi-da-lovely-sang-diva-penakluk-dunia-malam-3.jpg)
 
-![DJ Alfi Da Lovely Sang Diva Penakluk Dunia Malam](/images/uploads/dj-alfi-da-lovely-sang-diva-penakluk-dunia-malam-5.jpg)
+![DJ Alfi Da Lovely Sang Diva Penakluk Dunia Malam](https://res.cloudinary.com/kodai/image/upload/v1566038263/dm/dj/dj-alfi-da-lovely-sang-diva-penakluk-dunia-malam-2.jpg)
 
-![DJ Alfi Da Lovely Sang Diva Penakluk Dunia Malam](/images/uploads/dj-alfi-da-lovely-sang-diva-penakluk-dunia-malam-1.jpg)
+![DJ Alfi Da Lovely Sang Diva Penakluk Dunia Malam](https://res.cloudinary.com/kodai/image/upload/v1566038263/dm/dj/dj-alfi-da-lovely-sang-diva-penakluk-dunia-malam-1.jpg)
 
-![DJ Alfi Da Lovely Sang Diva Penakluk Dunia Malam](/images/uploads/dj-alfi-da-lovely-sang-diva-penakluk-dunia-malam-2.jpg)
+![DJ Alfi Da Lovely Sang Diva Penakluk Dunia Malam](https://res.cloudinary.com/kodai/image/upload/v1566038263/dm/dj/dj-alfi-da-lovely-sang-diva-penakluk-dunia-malam-5.jpg)
