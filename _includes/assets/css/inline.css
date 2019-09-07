@@ -845,6 +845,10 @@ footer {
   vertical-align: top;
 }
 
+.main-cont .row-glr {
+  margin: 0 -5px;
+}
+
 .main-cont .main-left {
   width: 65%;
   display: inline-block;
@@ -863,9 +867,9 @@ footer {
 
 .main-cont .main-right .thumb-gallery {
   margin-bottom: 15px;
-  width: 31.5336777%;
+  width: 30.533678%;
   float: left;
-  margin: 0 10px 10px 0;
+  margin: 0 5px 5px 5px;
   border: 1px solid #e0cca9;
   border-radius: 5px;
   overflow: hidden;
@@ -1012,7 +1016,7 @@ small {
     width: 34%;
   }
   .main-cont .main-right .thumb-gallery {
-    width: 30.898%;
+    width: 29.888%;
   }
   .box-footer {
     width: 30.3333%;

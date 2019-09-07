@@ -855,6 +855,9 @@ footer{
     border-bottom: none;
     padding: 0;
     vertical-align: top;
+    .row-glr{
+        margin: 0 -5px;
+    }
     .main-left{
         width: 65%;
         display: inline-block;
@@ -869,13 +872,13 @@ footer{
         border-bottom: none;
         vertical-align: top;
         .thumb-gallery{
-            margin-bottom: 15px;        
-            width: 31.5336777%;
+            margin-bottom: 15px;
+            width: 30.533678%;
             float: left;
-            margin: 0 10px 10px 0;
+            margin: 0 5px 5px 5px;
             border: 1px solid #e0cca9;
             border-radius: 5px;
-            overflow: hidden;        
+            overflow: hidden;      
             a{
                 cursor: pointer;
             }
@@ -1008,7 +1011,7 @@ small{
         .main-right {
             width: 34%;
             .thumb-gallery {           
-                width: 30.898%;
+                width: 29.888%;
             }
         }
     }
