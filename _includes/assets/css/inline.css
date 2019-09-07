@@ -1087,7 +1087,7 @@ small {
     width: 46%;
   }
   .main-cont .main-right .thumb-gallery {
-    width: 30.898%;
+    width: 45.898%;
   }
   .listgalery .summ {
     font-size: 16px;
@@ -1107,6 +1107,9 @@ small {
   }
   .gallery img {
     height: 190px;
+  }
+  .main-cont .main-left .left-promo {
+    width: 45%;
   }
 }
 
@@ -1131,6 +1134,16 @@ small {
   .listgalery .summ {
     font-size: 16px;
     height: 76px;
+  }
+  .main-cont .main-left, .main-cont .main-right {
+    width: 100%;
+    padding: 0;
+  }
+  .main-cont .main-right .thumb-gallery {
+    width: 31.4%;
+  }
+  .main-cont .main-left .left-promo {
+    width: 46.6%;
   }
 }
 
