@@ -888,7 +888,7 @@ footer {
 .main-cont .promo {
   width: 100%;
   border-radius: 5px;
-  margin-top: 15px;
+  margin-top: 10px;
   display: table;
   float: left;
   overflow: hidden;
@@ -1006,14 +1006,17 @@ small {
   .box-iklan {
     width: 23.48964%;
   }
-  .main-cont-left {
+  .main-cont .main-left {
     width: 64%;
   }
-  .main-cont-right {
+  .main-cont .main-left .left-promo {
+    width: 46.8%;
+  }
+  .main-cont .main-right {
     width: 34%;
   }
-  .main-cont-right .thumb-gallery {
-    width: 31.3226777%;
+  .main-cont .main-right .thumb-gallery {
+    width: 30.533678%;
   }
   .left-promo {
     width: 45%;
