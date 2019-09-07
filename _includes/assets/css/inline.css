@@ -1264,6 +1264,7 @@ small {
 
 .footer-site-map .site-map-group {
   position: relative;
+  width: 25%;
 }
 
 .footer-site-map input {

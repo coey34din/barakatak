@@ -79,7 +79,7 @@ keywords:
 		{% set halUrl %}/blog/{% endset %}
 		<a href="{{ halUrl }}">1</a>
 		{% set counter = 0 %}
-		{% for counter in range(0, 7) %}
+		{% for counter in range(0, 8) %}
 			{% set counter = counter + 1 %}
 			{% set halUrl %}/blog/{{ counter }}/{% endset %}
 			<a href="{{ halUrl | url }}">{{ counter + 1 }}</a>

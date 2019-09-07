@@ -3,7 +3,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{% if title %}{{ title }}{% if pagination.pageNumber %} {{ pagination.pageNumber+1 }}{% endif %}{% elif tag %}{{ site.name}} | {{ tag }}{% else %}{{ site.title }}{% endif %}</title>
   <meta name="description" content="{% if description %}{% if pagination.pageNumber %}{{ pagination.pageNumber + 1 }} | {{ description }}{% else %}{{ description }}{% endif %}{% elif tag %}{{ site.name }} | {{ tag }}{% else %}{{ site.description }}{% endif %}">
-    <!--  <link rel="canonical" href="{{ site.url }}{{ page.url }}"> -->
+  <link rel="canonical" href="{{ site.url }}{{ page.url }}">
   {% include "components/jsonld.njk" %}
   {# Open Graph #}
   <meta property="og:locale" content="id_ID">

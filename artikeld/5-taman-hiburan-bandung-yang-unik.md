@@ -2,8 +2,7 @@
 title: 5 Taman Hiburan Bandung Yang Unik
 date: 2019-08-02T11:25:39.314Z
 modified_date: 2019-08-02T11:25:39.982Z
-description: Taman hiburan bandung adalah sebuah pilihan yang tepat dan terbaik bagi anda para pecinta hiburan yang ada di tanah air setiap harinya. Mengenai pilihan,
-  tak perlu cemas.
+description: Taman hiburan bandung adalah sebuah pilihan yang tepat dan terbaik bagi anda para pecinta hiburan yang ada di tanah air setiap harinya.
 category:
   - Artikel
 tags:

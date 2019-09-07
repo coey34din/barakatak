@@ -7,11 +7,11 @@ category:
   - Galeri
 tags:
   - galeri
+  - surabaya
 keywords:
   - dj ariella canesya
   - ariella canesya
   - dj canesya
-  - canesya
 article_image: /images/uploads/dj-ariella-canesya-entertainer-sejati-yang-cantik-jelita-4.jpg
 thumbnail: /images/uploads/dj-ariella-canesya-entertainer-sejati-yang-cantik-jelita-11111.jpg
 ---
