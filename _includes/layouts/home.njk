@@ -9,24 +9,32 @@ section: home
     <div class="wrapper">
         {% include "components/iklan.njk" %}	
         {% include "components/search.njk" %}
-        <div class="main-cont-left">
-            <div class="cont-home">
+        <div class="main-cont">
+            <div class="main-left">
                 {{ layoutContent | safe }}
             </div>
-            <div class="row">
-                <div class="left-promo">
-                    <a href="https://www.jokerdewa.com/" rel="nofollow noreferrer" target="_blank">
-                        <img src="{{ '/' | url }}static/img/jokerdewa.jpg" alt="JokerDewa - Situs Poker Games Online" >
-                    </a>
-                </div>
-                    <div class="left-promo">
-                    <a href="https://www.indoprofile.com/" rel="nofollow noreferrer" target="_blank">
-                        <img src="https://res.cloudinary.com/kodai/image/upload/v1566546806/dm/e-sports.gif" alt="IndoProfile.com - Situs E-Sports Indonesia" >
-                    </a>
-                </div>
+            <div class="main-right">
+                {% set galeryslist = collections.videos %} 
+                <h3>VIDEO TERBARU</h3>
+                {% set a = 0 %}     
+                {% for post in galeryslist | reverse %}
+                    {% if a < 6 %}
+                        {%set a = a + 1 %}
+                        <aside {% if post.url == url %} data-current="current item"{% endif %} class="thumb-gallery">
+                            <a href="{{ post.url | url }}">
+                                {% if post.data.thumbnail %}
+                                    <img  src="{{ url }}{{ post.data.thumbnail }}" alt="post.data.title">
+                                    {% else %}
+                                        <img src="{{ '/' | url }}static/img/no-image.png" alt="thumbnails">
+                                {% endif %}		
+                            </a>
+                        </aside>
+                    {% endif %}
+                {% endfor %}  
+
             </div>
         </div>
-        <div class="main-cont-right">
+        <div class="main-cont">
             {% include "components/contentright.njk" %}            
         </div>
     </div>

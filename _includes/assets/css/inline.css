@@ -527,49 +527,6 @@ header {
   margin-bottom: 3px;
 }
 
-/* banner */
-.promo {
-  width: 100%;
-  border-radius: 5px;
-  margin-top: 15px;
-  display: table;
-  float: left;
-  overflow: hidden;
-  border: 1px solid #e0cca9;
-  line-height: 0;
-}
-
-.promo a {
-  cursor: pointer;
-}
-
-.promo img {
-  width: 100%;
-}
-
-.left-promo {
-  width: 47%;
-  border-radius: 5px;
-  margin: 10px;
-  display: table;
-  float: left;
-  border: 1px solid #e0cca9;
-  line-height: 0;
-  overflow: hidden;
-}
-
-.left-promo a {
-  cursor: pointer;
-}
-
-.left-promo img {
-  width: 100%;
-}
-
-.cont-home {
-  min-height: 191px;
-}
-
 .likright {
   width: 100%;
 }
@@ -880,7 +837,16 @@ footer {
   background-position: center;
 }
 
-.main-cont-left {
+.main-cont {
+  width: 100%;
+  display: inline-block;
+  border-bottom: none;
+  padding-left: 0;
+  padding-right: 20px;
+  vertical-align: top;
+}
+
+.main-cont .main-left {
   width: 65%;
   display: inline-block;
   border-bottom: none;
@@ -889,14 +855,14 @@ footer {
   vertical-align: top;
 }
 
-.main-cont-right {
+.main-cont .main-right {
   width: 35%;
   display: inline-block;
   border-bottom: none;
   vertical-align: top;
 }
 
-.main-cont-right .thumb-gallery {
+.main-cont .main-right .thumb-gallery {
   margin-bottom: 15px;
   width: 31.5336777%;
   float: left;
@@ -906,17 +872,55 @@ footer {
   overflow: hidden;
 }
 
-.main-cont-right .thumb-gallery:nth-child(3n+1) {
+.main-cont .main-right .thumb-gallery:nth-child(3n+1) {
   margin-right: 0;
 }
 
-.main-cont-right .thumb-gallery a {
+.main-cont .main-right .thumb-gallery a {
   cursor: pointer;
 }
 
-.main-cont-right .thumb-gallery img {
+.main-cont .main-right .thumb-gallery img {
   width: 100%;
   display: table;
+}
+
+.main-cont .promo {
+  width: 100%;
+  border-radius: 5px;
+  margin-top: 15px;
+  display: table;
+  float: left;
+  overflow: hidden;
+  border: 1px solid #e0cca9;
+  line-height: 0;
+}
+
+.main-cont .promo a {
+  cursor: pointer;
+}
+
+.main-cont .promo img {
+  width: 100%;
+}
+
+.main-cont .left-promo {
+  width: 47%;
+  border-radius: 5px;
+  margin: 10px;
+  display: table;
+  float: left;
+  border: 1px solid #e0cca9;
+  line-height: 0;
+  overflow: hidden;
+}
+
+.main-cont .left-promo a {
+  cursor: pointer;
+}
+
+.main-cont .left-promo img {
+  width: 100%;
 }
 
 section article .thumbnail2 {

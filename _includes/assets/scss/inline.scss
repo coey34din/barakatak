@@ -542,42 +542,7 @@ header {
     }
 }
 
-/* banner */
-.promo{
-    width: 100%;
-    border-radius: 5px;
-    margin-top: 15px;
-    display: table;
-    float: left;
-    overflow: hidden;
-    border: 1px solid #e0cca9;
-    line-height: 0;
-    a{
-        cursor: pointer;
-    }
-    img{
-        width: 100%;
-    }
-}
-.left-promo{
-    width: 47%;
-    border-radius: 5px;
-    margin: 10px;
-    display: table;
-    float: left;
-    border: 1px solid #e0cca9;
-    line-height: 0;
-    overflow: hidden;
-    a{
-        cursor: pointer;
-    }
-    img{
-        width: 100%;
-    }
-}
-.cont-home{
-    min-height: 191px;
-}
+
 .likright{
     width: 100%;
 }
@@ -883,36 +848,78 @@ footer{
     }
 }
 
-.main-cont-left{
-    width: 65%;
+
+.main-cont{
+    width: 100%;
     display: inline-block;
     border-bottom: none;
     padding-left: 0;
     padding-right:20px;
     vertical-align: top;
-}
-.main-cont-right{
-    width: 35%;
-    display: inline-block;
-    border-bottom: none;
-    vertical-align: top;
-    .thumb-gallery{
-        margin-bottom: 15px;        
-        width: 31.5336777%;
-        float: left;
-        margin: 0 10px 10px 0;
-        border: 1px solid #e0cca9;
-        border-radius: 5px;
-        overflow: hidden;        
-        &:nth-child(3n+1) {       
-            margin-right: 0;
+    .main-left{
+        width: 65%;
+        display: inline-block;
+        border-bottom: none;
+        padding-left: 0;
+        padding-right:20px;
+        vertical-align: top;
+    }
+    .main-right{
+        width: 35%;
+        display: inline-block;
+        border-bottom: none;
+        vertical-align: top;
+        .thumb-gallery{
+            margin-bottom: 15px;        
+            width: 31.5336777%;
+            float: left;
+            margin: 0 10px 10px 0;
+            border: 1px solid #e0cca9;
+            border-radius: 5px;
+            overflow: hidden;        
+            &:nth-child(3n+1) {       
+                margin-right: 0;
+            }
+            a{
+                cursor: pointer;
+            }
+            img{
+                width:100%;
+                display: table;            
+            }
         }
+    }
+    
+    .promo{
+        width: 100%;
+        border-radius: 5px;
+        margin-top: 15px;
+        display: table;
+        float: left;
+        overflow: hidden;
+        border: 1px solid #e0cca9;
+        line-height: 0;
         a{
             cursor: pointer;
         }
         img{
-            width:100%;
-            display: table;            
+            width: 100%;
+        }
+    }
+    .left-promo{
+        width: 47%;
+        border-radius: 5px;
+        margin: 10px;
+        display: table;
+        float: left;
+        border: 1px solid #e0cca9;
+        line-height: 0;
+        overflow: hidden;
+        a{
+            cursor: pointer;
+        }
+        img{
+            width: 100%;
         }
     }
 }
