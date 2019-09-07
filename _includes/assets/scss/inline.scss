@@ -1149,7 +1149,7 @@ small{
             width: 31.4%;
         }
         .main-left .left-promo{
-            width: 46.6%;
+            width: 46.5%;
         }
     }
 }
@@ -1161,11 +1161,7 @@ small{
     .box-iklan {
     width: 46.567676%;
     }
-    .main-cont-right{
-        .thumb-gallery {
-            width: 30.88555%;
-        }
-    }
+    
     .gallery{
         width: 95%;
     }
@@ -1181,6 +1177,14 @@ small{
     .b-content{
         margin-top:64px;
         height: 75px;
+    }
+    .main-cont{
+        .main-right .thumb-gallery{
+            width: 30.4%;
+        }
+        .main-left .left-promo{
+            width: 94%;
+        }
     }
     
 }
