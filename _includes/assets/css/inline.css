@@ -841,8 +841,7 @@ footer {
   width: 100%;
   display: inline-block;
   border-bottom: none;
-  padding-left: 0;
-  padding-right: 20px;
+  padding: 0;
   vertical-align: top;
 }
 
@@ -870,10 +869,6 @@ footer {
   border: 1px solid #e0cca9;
   border-radius: 5px;
   overflow: hidden;
-}
-
-.main-cont .main-right .thumb-gallery:nth-child(3n+1) {
-  margin-right: 0;
 }
 
 .main-cont .main-right .thumb-gallery a {
@@ -1008,6 +1003,7 @@ small {
   }
   .main-cont .main-left {
     width: 64%;
+    font-size: 14px;
   }
   .main-cont .main-left .left-promo {
     width: 46.8%;
@@ -1016,10 +1012,7 @@ small {
     width: 34%;
   }
   .main-cont .main-right .thumb-gallery {
-    width: 30.533678%;
-  }
-  .left-promo {
-    width: 45%;
+    width: 30.898%;
   }
   .box-footer {
     width: 30.3333%;
@@ -1083,15 +1076,14 @@ small {
   .box-iklan:nth-child(2n+0) {
     margin-right: 0;
   }
-  .left-promo {
-    width: 94%;
+  .main-cont .main-left {
+    font-size: 14px;
   }
-  .main-cont-left, .main-cont-right {
-    width: 100%;
-    padding: 0;
+  .main-cont .main-left .left-promo {
+    width: 46%;
   }
-  .main-cont-right .thumb-gallery {
-    width: 31.48555%;
+  .main-cont .main-right .thumb-gallery {
+    width: 30.898%;
   }
   .listgalery .summ {
     font-size: 16px;
