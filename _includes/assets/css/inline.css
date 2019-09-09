@@ -1181,7 +1181,12 @@ small {
   }
 }
 
-/* Back-To-Top */
+@media screen and (max-width: 320px) {
+  .main-cont .main-right .thumb-gallery {
+    width: 29.8%;
+  }
+}
+
 #back-to-top {
   position: fixed;
   bottom: 3.5rem;
